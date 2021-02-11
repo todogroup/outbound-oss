@@ -36,6 +36,7 @@ Launching a new OSS project is comparable to a product introduction and it is, a
 
 When thinking about to start an own OSS project there are several phases you should consider:
 
+![oss-projcet-process](./img/LaunchinOSSProject.PNG)
 
 ## Why to start an OSS project
 The phase “why to start an OSS project” is very important and one shall have a clear picture about the “why” after this phase, because the answer to the “why” influences heavily subsequent decisions - like the license, whether to choose a CLA or DCO or “license-in =  license-out”, etc. [ToDo] add more
