@@ -28,7 +28,24 @@ Authors in employment or service relationships
 source: https://www.gesetze-im-internet.de/englisch_urhg/englisch_urhg.html#p0522
 
 which in the end means that all the software developed in this context is the property of the employer i.e. the company the developer is working for. At least the German copyright act does not limit the proprietorship to code developed during working hours or within the company IT infrastructure, it only scopes the context. 
-Secondly a procedure is required to protect the companies business interests as well as to protect the employee. Last but not least public code is like the business card of a company as well as of the developer who has written the code.
+
+But what to do in case an employee wants to contribute to OSS projects which do not fall under the abpve mentioned context?
+In this case the copyright ownership stays with the developer (assuming he/she is not developing for another entity). In order to provide clarity and avoid confusing the following procedure can be implemented:
+the developer informs his manager about the intention to contribute to a certain project (which is out of scope in regard to section 69b) in case the manager has not objections they draft a small note with at least the following content:
+* date of the meeting
+* project(s) the employee wants to contribute to
+* estimated hours per week
+* approval by the manager
+* signature of the developer
+* singature of the manager
+transferring the note to the HR departement to keep it in the personnel record.
+This procedure provides clarity especially in cases when the developer moves to another departement in the company, and all of a sudden the former "free time activity" is covered by section 69b of the copyright act.
+
+What to do in case the contribution falls under the above mentioned section of the copyright act?
+A procedure is required, which
+* protects the companies business interests of the meployer
+* protects the employee
+Last but not least public code is like the business card of a company as well as of the developer who has written the code.
 
 The more complex the business environment in which the code to publish was developed, the more stakeholders need to be involved. The picture below shows a procedure that involves all functions, even in a complex setup. 
 
