@@ -40,6 +40,7 @@ the developer informs his manager about the intention to contribute to a certain
 * signature of the developer
 * singature of the manager
 transferring the note to the HR departement to keep it in the personnel record.
+
 This procedure provides clarity especially in cases when the developer moves to another departement in the company, and all of a sudden the former "free time activity" is covered by section 69b of the copyright act.
 
 What to do in case the contribution falls under the above mentioned section of the copyright act?
