@@ -7,7 +7,12 @@
 * Contribution process
   * Responsibility (decision rests with unit)
   * General structure and scope of the process (Lean Procedure and boundary conditions)
-  * Process for expressing the company approval for contributions (Why is it needed ? Procedure for contributions to existing projects. Clearing projects for contributions)
+  * Process for expressing the company approval for contributions
+    * Why is it needed?
+    * Clearing projects for contributions
+    * Outbound CLA
+    * Procedure for contributions to existing projects
+    * Spare time contributions
   * Contribution models
     * Small contributions Model or trivial contributions
     * Major to major release model
