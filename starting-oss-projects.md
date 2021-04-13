@@ -65,8 +65,16 @@ In addition, the following aspects should be considered in the planning phase:
 
 * What is the goal of the project and will it solve the problem?
 * Are there enough resources not only to start, but to support the project in the long-term? (You also need to obtain and ensure sponsorship)
+* An appropriate license must be selected. The license should support the project goal.
+* The legal requirements for contributions must be decided (if, for example, contributors must sign a CLA or DCO). Maybe your company has a standard approach for that.
+* Execute additional checks. For example:
+
+  * Make sure, that all license obligations are fulfilled
+  * Export control: Under certain circumstances it might be required that the project must have an [export control classification number (ECCN)](https://en.wikipedia.org/wiki/Export_control), for example.
+  * Check that the publication is not in conflict with existing trademarks.
+
+* The [checklist of the Linux Foundation](https://www.linuxfoundation.org/en/resources/open-source-guides/starting-an-open-source-project/#checklist) contains a comprehensive set of topics you might want to consider
 * Does it make sense to donate the code to a vendor-neutral, non-profit organization (that is, an open source foundation), or retain some control by owning and running the project under the responsibility of your company? Note that this decision depends on the project and may also be taken later in the life cycle. Typically, a project first needs to be published and generate interest in the community before it is handed over to a third-party organization.
-* Launch check list. For example, see the [checklist of the Linux Foundation](https://www.linuxfoundation.org/en/resources/open-source-guides/starting-an-open-source-project/#checklist)
 * Set up an open source project governance. It establishes how to contribute to or maintain a project.
 * Determine the tools and infrastructure the project members will use
 * Carry out a technical review
