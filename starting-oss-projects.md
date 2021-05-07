@@ -190,8 +190,9 @@ Repository linters are tools that check in an automated way if repositories adhe
 * Does the repository have a license that is compliant to the company guidelines?
 * Does the repository contain the required badges (the REUSE badge or the CII badge, for example)?
 * Repository team structure (a certain team structure might be required - at least two administrators, for example)
+* Configuration of the repository (are vulnerability alerts activated?, for example)
 
-To retrieve the necessary data to execute these checks, the APIs of the Git provider (GitHub.com, GitLab.com, Bitbucket.org etc.) is used. The result of the check is typically provided in a UI. Another option is to automatically create issues in the corresponding repository if checks fail. Typical usage scenarios for such a linter include:
+However, which crteria they check is company-specific and thus, they provide normally the possibility to configure rules (as JSON file, for example, as the [repolinter of the TODO Group](https://github.com/todogroup/repolinter) does). To retrieve the necessary data to execute these checks, the APIs of the Git provider (GitHub.com, GitLab.com, Bitbucket.org etc.) is used. The result of the check is typically provided in a UI. Another option is to automatically create issues in the corresponding repository if checks fail. Typical usage scenarios for such a linter include:
 
 * Check for guideline compliance before a repository is published
 * Regular checks after publication
