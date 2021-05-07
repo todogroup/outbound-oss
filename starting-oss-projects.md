@@ -171,7 +171,11 @@ templates, health files, license, readme, contribution guidelines
 
 ### REUSE
 
-### CLA Assistant
+### CLA/DCO Management
+
+If contributors must accept an CLA or DCO before they can submit their contributions, it's benefitial to automate that process as much as possible. The [TODO Group](https://todogroup.org/) provides a [list of tools](https://github.com/todogroup/awesome-ospo#contributor-license-agreements--developer-certificate-of-originis) that support the management and the sign-off of DCOs or CLA documents. As an example, we describe the [CLA Assistant](https://github.com/cla-assistant/cla-assistant) in more detail.
+
+The CLA Assistant implements a workflow that asks contributors to accept / sign-off a document when a contributor submit the first pull request to a certain repository on GitHub.com. Despite the name of the tool ("CLA Assistant"), it can be used for any type of document that companies require contributors to accept before a pull request can be submitted, including CLA's and DCO's. The document text must be provided as gist on GitHub.com. Which document/gist to be used can be configured on organization and on repository level. The CLA Assistant uses a default logic: If for a certain repository no specific document is configured, the document that is configured on organization level is used. When a contributor submits a pull request for a repository for the first time, the CLA Assistant displays the document text and the contributor can only submit the request if he/she accepts the document. The next time, the same contributor submits a pull request, he/she can do so without having to accept the document again. The information that the contributor accepted the document for that repository is stored in the database of the CLA Assistant and can be retrieved later on.
 
 ### Credential scanner
 
