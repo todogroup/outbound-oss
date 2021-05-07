@@ -181,4 +181,19 @@ The CLA Assistant implements a workflow that asks contributors to accept / sign-
 
 ### Quality criteria (CII Badge …)
 
+### Repository Linting
+
+Repository linters are tools that check in an automated way if repositories adhere to the guidelines that a company has defined for its public open source repositories. The [TODO Group](https://todogroup.org/) provides a [list of tools](https://github.com/todogroup/awesome-ospo#project-quality) that can be used for this purpose. Typically, repository linters check criterias such as:
+
+* Do the required files exist in the repository (license file README.md, CONTRIBUTING.md, for example)?
+* Do these files contain the required sections?
+* Does the repository have a license that is compliant to the company guidelines?
+* Does the repository contain the required badges (the REUSE badge or the CII badge, for example)?
+* Repository team structure (a certain team structure might be required - at least two administrators, for example)
+
+To retrieve the necessary data to execute these checks, the APIs of the Git provider (GitHub.com, GitLab.com, Bitbucket.org etc.) is used. The result of the check is typically provided in a UI. Another option is to automatically create issues in the corresponding repository if checks fail. Typical usage scenarios for such a linter include:
+
+* Check for guideline compliance before a repository is published
+* Regular checks after publication
+
 ### Day-2-ops (CI/CD, security, license scanning, …)
