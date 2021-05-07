@@ -169,6 +169,10 @@ Company-based vs. foundation-driven, when to select which approach, leveraging a
 
 templates, health files, license, readme, contribution guidelines
 
+#### Tooling
+
+Creation of repositories can be supported by repository creation tools. These tools create repositories based on some input data via the API's of the Git provider (GitHub.com, GitLab.com, Bitbucket.org etc.). Thus, they can help that repositories are compliant to the company guidelines (contain the required files and team structure, for example). Based on such tools self services for repository creation could be offered that allow development teams creating repositories themselves.
+
 ### REUSE
 
 ### CLA/DCO Management
