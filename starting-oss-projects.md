@@ -6,17 +6,48 @@
 
 ## Which license to select
 
+Choosing the license for a new open source project is an important decision. Without a license the code can't be used by anybody, even if the code is publically available, for example in a GitHub repository. Choosing a license which is not approved by the OSI as an open source license also effectively makes the code proprietary. This will make it harder to get adoption, especially in most corporate setups, where processes are usually build around the well-known standard open source licenses.
+
+Open source licenses vary in the rights and the obligations they give to users. All open source licenses approved by OSI give users the right to use the software without restriction to specific users or use cases. When distributing open source software, and especially when distributing it with modifications, the obligation vary. The spectrum goes from the so-called copyleft licenses such as the GPL, which require to pass on rights given by the license to users, to permissive licenses, such as the Apache or the MIT license, which allow incorporation in proprietary systems.
+
+When choosing a license the following questions have to be considered:
+
+* **What's the goal of the open source project?** When broad adoption is a priority, a permissive license might be a good choice, when the focus is on building a contributor community, more reciprocal licenses, might have advantages.
+* **Is there a license suggested or required by the ecosystem where the project is positioned?** If it's meant to become part of a foundation or an umbrella project then there might be a strong preference for a license, e.g. the Apache license for Apache projects, or the GPL for Linux kernel drivers.
+* **How does the license interact with your business model?** When the software you are going to open source is supporting other parts of your business, a permissive license might accelerate adoption. If you are also selling proprietary version of your software, a copyleft license might be a stronger differentiator.
+* **Are there depencies or other incorporated code which limit the choice of licenses?** For example when incorporating GPL code, the resulting project has to be GPL as well.
+
+Answering these questions can be challenging and opinions will vary. A simple starting point can the the [choosealicense.com](https://choosealicense.com/). There is a lot of comprehensive material available from various sources, e.g. [Open source licenses: What, which, and why](https://arstechnica.com/gadgets/2020/02/how-to-choose-an-open-source-license/).
+
+It's advisable to set up policies for license selection, so that the decision process is simplified when starting new projects.
+
 ## Budget
 
-## ...	
+## ...
 
 ## Legal aspects
 
-## CLA’s, DCO’s 
+## CLA’s, DCO’s
+
+When running an open source project you need to decide how you are going to check code provenance and if you need additional rights from contributors which are not given by the license. There are mainly three ways how to handle that:
+
+* **"Inbound=Outbound"** - Contributions are accepted under the same license as the project distributes its code. There is no additional paperwork. This is a symmetric setup, where contributors, maintainers, and users have the same rights under the chosen license. It has the lowest barrier for contributors. Some things such as changing the license of the projects become difficult, because that needs approval by every contributor.
+
+* **Developer Certificate of Origin (DCO)** - The [DCO](https://developercertificate.org/) was introduced in Linux kernel development and has been adopted by quite some other projects. It's a statement developers give with each commit by including a "Signed-Off-By" statement in the commit message. With this statement developers explictly declare that they have the rights they need to do the contribution and that they agree that the project is using it. This is still a low barrier, but it gives projects more security that code was rightfully contributed. It does not help in cases where the license of the code needs to be changed.
+
+* **Contributor License Agreement (CLA)** - A CLA is an additional agreement between the contributor and the project which gives the project additional rights on top of the rights given by the license. If people contribute on behalf of a company, where the company holds the rights on the work of the contributor, the company has to sign the CLA. There is a variety of different CLAs in use, some mostly confirm the rights already given by the license, some give additional rights such as being able to release the code under a different license, for example when the code is also released under a proprietary license as part of a commercial offering. With a CLA rights are collected at a central place, so changing the license, or rereleasing the code as part of a product with a different license is possible. The assymetry of the agreement, which gives the project more rights than its contributors can impose a bigger barrier for contributions. Requiring a corporate CLA can also be an insurmountable barrier, especially for large corporations, because the effort and legal implications of checking and signing a CLA might outweigh the benefits of contributing.
+
+You should have a policy for which of these way you use when. "Inbound=Outbound" is a pragmatic way which can work for most projects. The DCO is a good way to make the contribution process more explicit, especially for larger projects with diverse contributors. The CLA makes contributions more difficult and requires additional administrational work and tooling.
 
 ## Project governance
 
 ### Code of conduct
+
+Creating a welcoming environment where people are safe from harmful behavior by others is an important part of maintaining a healthy community. It's especially important to support a diverse community, where there is no discrimination of under-represented groups, and explicit or implicit bias gets addressed.
+
+A common element in maintaining a healthy community environment is a code of conduct which makes rules for accepted and unaccepted behavior explicit and defines how unacceptable behavior is dealt with. There are examples and templates which can be used as a base for your code of conduct. One popular reusable code of conduct is the [Contributor Covenant](https://www.contributor-covenant.org/) which is used by projects such as Kubernetes, git, Node.js, and many more.
+
+As a company you need to provide a contact email which can be used to report code of conduct violations. You need to make sure that this address is monitored by people who can react in a timely manner and have the competence and ability to initiate adequate actions to address these issues.
 
 ### Templates (issues, PR’s)
 
@@ -174,7 +205,7 @@ The phase “why to start an OSS project” is very important and one shall have
 Prepare for launching the project
 * Check source code
 * REUSE conformance
-* Define project governance:	
+* Define project governance:
 * charter
 * code of conduct
 * contribution guidelines
