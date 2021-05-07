@@ -1,23 +1,18 @@
-# General Considerations
-* Maturity levels
-  * Mozilla archetypes?
-* Trainings
-  * Legal aspects
-  * Social aspects
-  * Company-internal topics (processes etc.)
-## Setting the scope
+# Introduction
 
-This description of how to contribute to or launching an OSS project aims for a complete and lean process, that can be implemented in large as well as in small and medium sized companies. Of course not all steps of the presented procedure need to be implemented in a small or medium sized company.
+## Goal and target audience
+
+This guide of how to contribute to or launching an OSS project (so-called outbound open source) aims for a complete and lean process, that can be implemented in large as well as in small and medium sized companies. Of course not all steps of the presented procedure need to be implemented in a small or medium sized company.
 
 ## Motivation why to contribute to OSS projects or launching own OSS projects
 
-There are many different reasons for companies to contribute to existing OSS projects, the following list of examples does not claim to be complete, it only provides an impression about different motivations. 
+There are many different reasons for companies to contribute to existing OSS projects, the following list of examples does not claim to be complete, it only provides an impression about different motivations.
 * Build software faster and better
   * Integrating “our” features into upstream projects makes maintenance a lot easier
   * Upstream versions can be directly used in offerings
   * We obtain more features in shorter period of time
   * We achieve higher quality in shorter period of time
-  * Support available from core experts 
+  * Support available from core experts
 * Exercise strategic influence
   * Safeguard free of charge access to certain functionality
   * Gain (co)copyright on OSS packages
@@ -34,3 +29,9 @@ There are many different reasons for companies to contribute to existing OSS pro
   * Improve company's reputation, and with it the standing of developers in their communities
  * Get closer to the customer
     * Establish new ways of collaborating with suppliers and customers
+
+## Maturity levels
+
+TODO: Describe maturity model of engaging with open source, from passive use, over contributions to existing projects, starting own project, to strategic cocreation across company boundaries. See issue #8.
+
+Mozilla archetypes?

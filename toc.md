@@ -1,10 +1,10 @@
 # How to contribute to open source as a corporation
 
-* Introduction
+* [Introduction](Introduction.md)
   * Goal and target audience of the document (managing open source work in corporations)
   * Why to contribute?
   * Maturity levels (archtetypes?)
-* Contribution process
+* [Contribution process](Contributions-to-existing-projects.md)
   * Responsibility (decision rests with unit)
   * General structure and scope of the process (Lean Procedure and boundary conditions)
   * Process for expressing the company approval for contributions
@@ -17,7 +17,8 @@
     * Small contributions Model or trivial contributions
     * Major to major release model
     * Full trust model
-* Starting new open source project
+  * Trainings
+* [Starting new open source project](starting-oss-projects.md)
   * Why to start own projects? Overview of different variants (attract community, transparency, foundation-based)
   * Life cycle
   * Legal and governance considerations
@@ -33,3 +34,4 @@
     * Credential scanner
     * CII Badge
     * Day-2-ops (CI/CD, security, license scanning, …)
+* [References](references.md)
