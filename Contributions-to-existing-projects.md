@@ -29,17 +29,17 @@ The procedure described in the following is designed to ensure that the company 
 ### Why is it needed?
 
 Why is there a need for a certain procedure at all? First of all the copyright law requires it.
-For example the German copyright act states in Section 69b
-Authors in employment or service relationships
-(1) Where a computer program is created by an employee in the execution of his duties or following the instructions of his employer, the employer exclusively shall be entitled to exercise all economic rights in the computer program, unless otherwise agreed.
-source: https://www.gesetze-im-internet.de/englisch_urhg/englisch_urhg.html#p0522
 
-which in the end means that all the software developed in this context is the property of the employer i.e. the company the developer is working for. At least the German copyright act does not limit the proprietorship to code developed during working hours or within the company IT infrastructure, it only scopes the context.
+For example the German copyright act states in Section 69b ([Source](https://www.gesetze-im-internet.de/englisch_urhg/englisch_urhg.html#p0522)):
+
+    Authors in employment or service relationships
+    (1) Where a computer program is created by an employee in the execution of his duties or following the instructions of his employer, the employer exclusively shall be entitled to exercise all economic rights in the computer program, unless otherwise agreed.
+
+This means that all the software developed in this context is the property of the employer i.e. the company the developer is working for. At least the German copyright act does not limit the proprietorship to code developed during working hours or within the company IT infrastructure, it only scopes the context.
+
 Secondly a procedure is required to protect the companies business interests as well as to protect the employee. Last but not least public code is like the business card of a company as well as of the developer who has written the code.
 
 The more complex the business environment in which the code to publish was developed, the more stakeholders need to be involved. The picture below shows a procedure that involves all functions, even in a complex setup.
-
-### Clearing projects for contributions
 
 ### Outbound CLA
 
@@ -47,16 +47,16 @@ TODO: See issue #3.
 
 ### Procedure for contributions to existing projects
 
-### Spare time contributions
-
-TODO: See issue #2.
-
-## Contribution models
+An example for a full process for doing contributions looks like this:
 
 ![contributions](./img/template-contribs.JPG)
 
-The procedure described above is not suited for frequent contributors and/or contributors who are working “upstream” in their daily work. For these developers different procedures need to be established in order to avoid loading them with “unproductive” work.
+The procedure described above is not suited for frequent contributors and/or contributors who are working “upstream” in their daily work. For these developers different procedures need to be established in order to avoid loading them with “unproductive” work. This is described in the section about contribution models.
+
+## Contribution models
+
 The following approaches are suited for such developers:
+
 * small contributions model
 * major to major release model
 * full trust model
@@ -85,6 +85,16 @@ The full trust model can be applied to developers who have already successfully 
 
 The Major to major release model as well as the full trust model shall only be executed by  senior developers, who are specially trained in copyright principles, have a good understanding of the business interests of the company they are working for, practise “an ownership culture” and have already deep experience in the open source ecosystem.
 In order to track all the contributions the developers shall contribute with their official email / github id.
+
+### Clearing projects for contributions
+
+Another model is to provide approval for specific projects. These projects are checked, e.g. by the OSPO, and if everything is in place to allow contributions, they are cleared for contributions by employees. Then there is no individual approval for each specific contribution required, but only if general conditions of the project change, such as license or introdution of a CLA, etc.
+
+Prerequisite for such a model is that contributors are qualified to do contributions autonomously. This can be achieved by making sure contributors have received training and/or tracking and approving who can contribute to which repository.
+
+### Spare time contributions
+
+TODO: See issue #2.
 
 ## Trainings
 

@@ -9,14 +9,13 @@
   * General structure and scope of the process (Lean Procedure and boundary conditions)
   * Process for expressing the company approval for contributions
     * Why is it needed?
-    * Clearing projects for contributions
     * Outbound CLA
     * Procedure for contributions to existing projects
-    * Spare time contributions
   * Contribution models
     * Small contributions Model or trivial contributions
     * Major to major release model
     * Full trust model
+    * Spare time contributions
   * Trainings
 * [Starting new open source project](starting-oss-projects.md)
   * Why to start own projects? Overview of different variants (attract community, transparency, foundation-based)
