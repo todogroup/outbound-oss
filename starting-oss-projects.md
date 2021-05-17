@@ -155,15 +155,21 @@ As a company you need to provide a contact email which can be used to report cod
 
 ### Project governance
 
+See [issue #12](https://github.com/Open-Source-Compliance/outbound-oss/issues/12)
+
 open governance, transparency about governance
 
 Company-based vs. foundation-driven, when to select which approach, leveraging a foundation (such as Eclipse)
 
 ### Community management
 
+See [issue #13](https://github.com/Open-Source-Compliance/outbound-oss/issues/13)
+
 (-> TODO group paper)
 
 ## Technical considerations
+
+TODO: Describe Tooling ([issue #14](https://github.com/Open-Source-Compliance/outbound-oss/issues/14))
 
 ### Setting up a repository
 
