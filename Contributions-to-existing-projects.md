@@ -43,7 +43,7 @@ The more complex the business environment in which the code to publish was devel
 
 ### Outbound CLA
 
-TODO: See issue #3.
+TODO: See [issue #3](https://github.com/Open-Source-Compliance/outbound-oss/issues/3).
 
 ### Procedure for contributions to existing projects
 
@@ -94,11 +94,11 @@ Prerequisite for such a model is that contributors are qualified to do contribut
 
 ### Spare time contributions
 
-TODO: See issue #2.
+TODO: See [issue #2](https://github.com/Open-Source-Compliance/outbound-oss/issues/2).
 
 ## Trainings
 
-TODO: Describe how to qualify people as contributors
+TODO: Describe how to qualify people as contributors ([issue #11](https://github.com/Open-Source-Compliance/outbound-oss/issues/11))
 
 * Legal aspects
 * Social aspects

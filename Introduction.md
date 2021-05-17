@@ -32,6 +32,6 @@ There are many different reasons for companies to contribute to existing OSS pro
 
 ## Maturity levels
 
-TODO: Describe maturity model of engaging with open source, from passive use, over contributions to existing projects, starting own project, to strategic cocreation across company boundaries. See issue #8.
+TODO: Describe maturity model of engaging with open source, from passive use, over contributions to existing projects, starting own project, to strategic cocreation across company boundaries. See [issue #8](https://github.com/Open-Source-Compliance/outbound-oss/issues/8).
 
 Mozilla archetypes?
