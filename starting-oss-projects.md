@@ -133,7 +133,7 @@ Answering these questions can be challenging and opinions will vary. A simple st
 
 It's advisable to set up policies for license selection, so that the decision process is simplified when starting new projects.
 
-## CLA’s, DCO’s
+### CLA’s, DCO’s
 
 When running an open source project you need to decide how you are going to check code provenance and if you need additional rights from contributors which are not given by the license. There are mainly three ways how to handle that:
 
@@ -171,13 +171,49 @@ See [issue #13](https://github.com/Open-Source-Compliance/outbound-oss/issues/13
 
 TODO: Describe Tooling ([issue #14](https://github.com/Open-Source-Compliance/outbound-oss/issues/14))
 
+### User management
+
+Normally, Git providers (GitHub, GitLab, Bitbucket etc.) offer means to define teams of individual users and to define (access) rights on team and on individual level. To be able to use the service of a Git provider, engineers have to create a corresponding account. This account has nothing to to with the company-internal account of an engineer. This imposes some challenges since the access rights of an engineer for an external repository might depend on his/her role in the company or whether he/she is still working for the company (let's assume be that an engineer got comprehensive rights for external repositories when he/she was working for your company and that he/she now left the company - you might want to adjust the access rights). But how to do that since the external account of an engineer at a Git provider is independent from his company-internal user account? Somehow a mapping between both accounts is needed. For GitHub there's the open source tool [opensource-portal](https://github.com/microsoft/opensource-portal) available that can help to create such a mapping. It can also be used to implement a self service for joining of GitHub organizations. As part of the process, the tool creates the mapping between the GitHub.com account and the corresponding company-internal user account. The mapping is stored in a database. Based on this, it's easy to create some tooling that regularly checks if all users that are contained in that database are still employeed by your company and trigger some activity if that's not the case.
+
 ### Setting up a repository
 
-templates, health files, license, readme, contribution guidelines
+It is good practice that a repository contains a certain set of files (the *health files*). These files contain the basic information about the repository such as description, code of conduct, license, contribution guidelines etc. These files are often provided in [markdown format](https://en.wikipedia.org/wiki/Markdown), but could - depending on the Git provider - be provided in different formats such as [Asciidoc](https://en.wikipedia.org/wiki/AsciiDoc). Here, we assume the default format (which is markdown) and thus use the file suffix *md*.
 
-#### Tooling
+* *README.md*
 
-Creation of repositories can be supported by repository creation tools. These tools create repositories based on some input data via the API's of the Git provider (GitHub.com, GitLab.com, Bitbucket.org etc.). Thus, they can help that repositories are compliant to the company guidelines (contain the required files and team structure, for example). Based on such tools self services for repository creation could be offered that allow development teams creating repositories themselves.
+  This file is displayed as the *homepage* of the repository. It typically contains information such as repository description, dependencies as well as download, installation and configuration instructions.
+
+* *LICENSE* or *LICENSE.txt*
+
+  Contains the license text for the repository
+
+* *CONTRIBUTING.md*
+
+  Contains information and instruction about how contributions can be made.
+
+* *CODE-OF-CONDUCT.md*
+
+  Contains the code of conduct for the repository.
+
+* *GOVERNANCE.md*
+
+  Contains information about project governance.
+
+* *SECURITY.md*
+
+  Contains instructions about how to report security vulnerabilities for the repository.
+
+* *SUPPORT.md*
+
+  Contains information about how to receive support in case of problems.
+
+The *README.md* and the license text file should be there for all repositories. The other files can be considered as optional and only be created if they are required (if, for example, no contributions are accepted, this information could be put into the *README.md* and a *CONTRIBUTING.md* is not necessary).
+
+To make sure that a certain set of health files is always created, there are different possibilities:
+
+* One possibility is to us template repositories. These are repositories that contain the required set of initial health files. A new repositories can be created/copied from this template repository and thus it contains already the required set of health files. Some Git provider (GitHub, for example) provide [specific means](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file) to created the required healthe files per default.
+
+* Another possibility is to create repositories with a tool. Such tools create repositories based on some input data via the API's of the Git provider (GitHub.com, GitLab.com, Bitbucket.org etc.). Thus, they can help that repositories are compliant to the company guidelines (contain the required health files **and** team structure, for example). Based on such tools self services for repository creation could be offered that allow development teams creating repositories themselves. Often, companies develop such tools for their specific needs. We (the authors of this document) do not know generic repository creation tools.
 
 ### REUSE
 
@@ -185,7 +221,7 @@ Creation of repositories can be supported by repository creation tools. These to
 
 If contributors must accept an CLA or DCO before they can submit their contributions, it's benefitial to automate that process as much as possible. The [TODO Group](https://todogroup.org/) provides a [list of tools](https://github.com/todogroup/awesome-ospo#contributor-license-agreements--developer-certificate-of-originis) that support the management and the sign-off of DCOs or CLA documents. As an example, we describe the [CLA Assistant](https://github.com/cla-assistant/cla-assistant) in more detail.
 
-The CLA Assistant implements a workflow that asks contributors to accept / sign-off a document when a contributor submit the first pull request to a certain repository on GitHub.com. Despite the name of the tool ("CLA Assistant"), it can be used for any type of document that companies require contributors to accept before a pull request can be submitted, including CLA's and DCO's. The document text must be provided as gist on GitHub.com. Which document/gist to be used can be configured on organization and on repository level. The CLA Assistant uses a default logic: If for a certain repository no specific document is configured, the document that is configured on organization level is used. When a contributor submits a pull request for a repository for the first time, the CLA Assistant displays the document text and the contributor can only submit the request if he/she accepts the document. The next time, the same contributor submits a pull request, he/she can do so without having to accept the document again. The information that the contributor accepted the document for that repository is stored in the database of the CLA Assistant and can be retrieved later on.
+The CLA Assistant implements a workflow that asks contributors to accept / sign-off a document when a contributor submit the first pull request to a certain repository on GitHub.com. Despite the name of the tool ("CLA Assistant"), it can be used for any type of document that companies require contributors to accept before a pull request can be submitted, including CLA's and DCO's. The document text must be provided as gist on GitHub.com. Which document/gist to be used can be configured on organization and on repository level. The CLA Assistant uses a default logic: If for a certain repository no specific document is configured, the document that is configured on organization level is used. When a contributor submits a pull request for a repository for the first time, the CLA Assistant displays the document text and the contributor can only submit the request if he/she accepts the document. The next time, the same contributor submits a pull request, he/she can do so without having to accept the document again. The information that the contributor accepted the document for that repository is stored in the database of the CLA Assistant and can be retrieved later on. The CLA Assistant is available as hosted offering on https://cla-assistant.io/ or can be self-hosted.
 
 ### Credential scanner
 
@@ -193,7 +229,7 @@ The CLA Assistant implements a workflow that asks contributors to accept / sign-
 
 ### Repository Linting
 
-Repository linters are tools that check in an automated way if repositories adhere to the guidelines that a company has defined for its public open source repositories. The [TODO Group](https://todogroup.org/) provides a [list of tools](https://github.com/todogroup/awesome-ospo#project-quality) that can be used for this purpose. Typically, repository linters check criterias such as:
+Repository linters are tools that check in an automated way if repositories adhere to the guidelines that a company has defined for its public open source repositories. The [TODO Group](https://todogroup.org/) provides a [list of tools](https://github.com/todogroup/awesome-ospo#project-quality) that can be used for this purpose. Typically, repository linters check criteria such as:
 
 * Do the required files exist in the repository (license file README.md, CONTRIBUTING.md, for example)?
 * Do these files contain the required sections?
@@ -202,7 +238,7 @@ Repository linters are tools that check in an automated way if repositories adhe
 * Repository team structure (a certain team structure might be required - at least two administrators, for example)
 * Configuration of the repository (are vulnerability alerts activated?, for example)
 
-However, which crteria they check is company-specific and thus, they provide normally the possibility to configure rules (as JSON file, for example, as the [repolinter of the TODO Group](https://github.com/todogroup/repolinter) does). To retrieve the necessary data to execute these checks, the APIs of the Git provider (GitHub.com, GitLab.com, Bitbucket.org etc.) is used. The result of the check is typically provided in a UI. Another option is to automatically create issues in the corresponding repository if checks fail. Typical usage scenarios for such a linter include:
+However, which crteria they check is company-specific and thus, they normally provide the possibility to configure rules (as JSON file, for example, as the [repolinter of the TODO Group](https://github.com/todogroup/repolinter) does). To retrieve the necessary data to execute these checks, the APIs of the Git provider (GitHub.com, GitLab.com, Bitbucket.org etc.) is used. The result of the check is typically provided in a UI. Another option is to automatically create issues in the corresponding repository if checks fail. Typical usage scenarios for such a linter include:
 
 * Check for guideline compliance before a repository is published
 * Regular checks after publication
