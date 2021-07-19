@@ -43,7 +43,7 @@ The more complex the business environment in which the code to publish was devel
 
 ### Outbound CLA
 
-TODO: See issue #3.
+TODO: See [issue #3](https://github.com/Open-Source-Compliance/outbound-oss/issues/3).
 
 ### Procedure for contributions to existing projects
 
@@ -88,17 +88,17 @@ In order to track all the contributions the developers shall contribute with the
 
 ### Clearing projects for contributions
 
-Another model is to provide approval for specific projects. These projects are checked, e.g. by the OSPO, and if everything is in place to allow contributions, they are cleared for contributions by employees. Then there is no individual approval for each specific contribution required, but only if general conditions of the project change, such as license or introdution of a CLA, etc.
+Another model is to provide approval for specific projects. These projects are checked, e.g. by the OSPO, and if everything is in place to allow contributions, they are cleared for contributions by employees. Then there is no individual approval for each specific contribution required, but only if general conditions of the project change, such as license or introduction of a CLA, etc.
 
 Prerequisite for such a model is that contributors are qualified to do contributions autonomously. This can be achieved by making sure contributors have received training and/or tracking and approving who can contribute to which repository.
 
 ### Spare time contributions
 
-TODO: See issue #2.
+TODO: See [issue #2](https://github.com/Open-Source-Compliance/outbound-oss/issues/2).
 
 ## Trainings
 
-TODO: Describe how to qualify people as contributors
+TODO: Describe how to qualify people as contributors ([issue #11](https://github.com/Open-Source-Compliance/outbound-oss/issues/11))
 
 * Legal aspects
 * Social aspects
