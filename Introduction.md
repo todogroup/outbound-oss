@@ -32,7 +32,7 @@ There are many different reasons for companies to contribute to existing OSS pro
 
 ## Maturity levels
 
-Corporate adoption of open source can typically be described using a model of maturity levels. These levels characterize how, with growing maturity, open source is used in an increasingly effective fashion to drive value and realize business needs. How outbound open source is handled is a distinguishing factor between the different levels of maturity. A critical factor is the insight that influencing the open source ecosystem is mainly done by participation and doing work as contributions to open source projects.
+Corporate adoption of open source can typically be described using a model of maturity levels. These levels characterize how, with growing maturity, open source is used in an increasingly effective fashion to drive value and realize business needs. How outbound open source is handled is a distinguishing factor between the different levels of maturity. A critical factor is the insight that influencing the open source ecosystem is mainly done by participation and contributing to open source projects.
 
 A typical maturity model of corporate open source adoption will look like this (see for example [Haddad: Open Source Program Offices](https://www.linkedin.com/pulse/open-source-program-offices-primer-organizational-roles-haddad)):
 
@@ -48,6 +48,6 @@ Going from consumption to participation will start with informal engagement and 
 
 Establishing decision making processes and formalizing contribution policies will lead to the next level. A typical step on this level is to establish an Open Source Program Office to support open source engagement and maintain open source strategy and process.
 
-On the leadership level, processes are mature and have to be scaled. Corresponding tooling needs to be made available. Own projects with the goal to create new open source communities will be started. This will typically come with leveraging open source foundation to enable cross-company collaboration to strategically use open source to accelerate creating business value.
+On the leadership level, contribution processes are mature and have to be scaled. Corresponding tooling needs to be made available. Own projects with the goal to create new open source communities will be started. This will typically come with leveraging open source foundation to enable cross-company collaboration to strategically use open source to accelerate creating business value.
 
-The subsequent sections of this document will described how these defining elements on the maturity levels of open source adoption can be shaped in organizations.
+The subsequent sections of this document will describe how the handling of outbound OSS can be shaped in organizations so that it can contribute on the different maturity levels of open source adoption in organizations and help to increase maturity.
