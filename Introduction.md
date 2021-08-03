@@ -50,4 +50,6 @@ Establishing decision making processes and formalizing contribution policies wil
 
 On the leadership level, contribution processes are mature and have to be scaled. Corresponding tooling needs to be made available. Own projects with the goal to create new open source communities will be started. This will typically come with leveraging open source foundation to enable cross-company collaboration to strategically use open source to accelerate creating business value.
 
-The subsequent sections of this document will describe how the handling of outbound OSS can be shaped in organizations so that it can contribute on the different maturity levels of open source adoption in organizations and help to increase maturity.
+A company may decide to not progress to levels which are based on more contributions and it's possible to build mature processes to consume open source software without contributing. In most cases there will be some pressure to contribute back, though. This can arise from practical technical needs, from the expectation to take responsibility in the open source ecosystem, or from the desire to reap the full benefits of the open source model.
+
+The subsequent sections of this document will focus on contributions and describe how the handling of outbound OSS can be shaped in organizations so that it can contribute on the different maturity levels of open source adoption in organizations and help to increase maturity.
