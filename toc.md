@@ -1,26 +1,34 @@
-# How to contribute to open source as a corporation
+# Outbound Open Source: Leveraging open source ecosystems
 
-* [Introduction](Introduction.md)
-  * Goal and target audience of the document (managing open source work in corporations)
-  * Why to contribute?
-  * Maturity levels (archtetypes?)
-* [Contribution process](Contributions-to-existing-projects.md)
-  * Responsibility (decision rests with unit)
-  * General structure and scope of the process (Lean Procedure and boundary conditions)
-  * Process for expressing the company approval for contributions
-    * Why is it needed?
-    * Outbound CLA
-    * Procedure for contributions to existing projects
-  * Contribution models
-    * Small contributions Model or trivial contributions
-    * Major to major release model
-    * Full trust model
-    * Spare time contributions
-  * Trainings
-* [Starting new open source project](starting-oss-projects.md)
-  * Why to start own projects? Overview of different variants (attract community, transparency, foundation-based)
-  * Life cycle
-  * Legal and governance considerations
+---
+
+## [Introduction](Introduction.md)
+
+* Getting involved with open source projects
+   * Defining inbound open source (consuming)
+   * Defining outbound open source (contributing and releasing)
+   * Goal and target audience of the document (managing open source work in corporations)
+ 
+## Contributing to existing open source projects
+
+* Why contribute to OSS projects?
+* How to contribute to OSS projects
+  * Determine the current level of involvement: Maturity levels (archtetypes?)
+  * Define your open source goal and strategy
+  * [Establish open source guiding principles and processes](Contributions-to-existing-projects.md))
+     * Guiding principles
+     * Process for expressing company approval for contributions
+     * Contribution models
+  * Build an OSPO metrics strategy
+     * Goal-question-metric approach
+
+
+## [Releasing new open source projects](starting-oss-projects.md)
+
+* Why to start own OS projects? Overview of different variants (attract community, transparency, foundation-based)
+* Hot to start an OS project?
+  * Managing project life cycle
+  * Work with legal and governance aspects
     * License
     * CLA/DCO
     * Code of conduct
