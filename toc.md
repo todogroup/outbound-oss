@@ -15,9 +15,9 @@
       * Leadership - Strategic involvement with open source to drive business value
 
     * How companies manage open source: OSPOs
-    
+
 * Motivation why to contribute to OSS projects or launching own OSS projects
- 
+
 ## Participation and Contribution Levels
 
 * Why contribute to OSS projects?
@@ -37,14 +37,14 @@
 * Hot to start an OS project?
 
   * Managing project life cycle
-  
+
   * Work with legal and governance aspects
     * License
     * CLA/DCO
     * Code of conduct
     * Governance (open governance, transparency about governance)
     * Community management
-    
+
   * Technical considerations
     * Setting up a repo (templates, health files, license, readme, contribution guidelines)
     * REUSE
@@ -52,8 +52,8 @@
     * Credential scanner
     * CII Badge
     * Day-2-ops (CI/CD, security, license scanning, …)
-    
+
   * Build an open source metrics strategy when releasing to open source projects
      * Goal-question-metric approach
-     
-* [References](references.md)
+
+## [References](references.md)
