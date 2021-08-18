@@ -6,15 +6,14 @@
 
 * Goal and target audience
 * Maturity Levels
+  * Maturity level stages
+  * Denial - No or unconscious use of open source
+  * Consumption - Passive use of open source software
+  * Participation - Engagement with open source community
+  * Contribution - Pragmatic contributions to open source projects
+  * Leadership - Strategic involvement with open source to drive business value
 
-    * Maturity level stages
-      * Denial - No or unconscious use of open source
-      * Consumption - Passive use of open source software
-      * Participation - Engagement with open source community
-      * Contribution - Pragmatic contributions to open source projects
-      * Leadership - Strategic involvement with open source to drive business value
-
-    * How companies manage open source: OSPOs
+* How companies manage open source: OSPOs
 
 * Motivation why to contribute to OSS projects or launching own OSS projects
 
@@ -24,36 +23,42 @@
 * How to contribute to OSS projects
   * Define your open source goal and strategy
   * [Establish open source guiding principles and processes](Contributions-to-existing-projects.md))
-     * Guiding principles
-     * Process for expressing company approval for contributions
-     * Contribution models
+    * Guiding principles
+    * Process for expressing company approval for contributions
+    * Contribution models
   * Build an open source metrics strategy when contributing to open source projects
-     * Goal-question-metric approach
-
+    * Goal-question-metric approach
 
 ## [Leadership Level](starting-oss-projects.md)
 
 * Why to start own OS projects? Overview of different variants (attract community, transparency, foundation-based)
-* Hot to start an OS project?
+* Not to start an OS project?
 
-  * Managing project life cycle
+* Project life cycle
+  * Planning or Concept Phase
+  * Active or Development Phase
+  * Mature or Maintenance Phase
+  * Obsolete or End of Life Phase
 
-  * Work with legal and governance aspects
-    * License
-    * CLA/DCO
-    * Code of conduct
-    * Governance (open governance, transparency about governance)
-    * Community management
+* Legal and governance considerations
+  * Which license to select
+  * Contributor License Agreement (CLA), Developer Certificate of Origin (DCO)
 
-  * Technical considerations
-    * Setting up a repo (templates, health files, license, readme, contribution guidelines)
-    * REUSE
-    * CLA Assistant
-    * Credential scanner
-    * CII Badge
-    * Day-2-ops (CI/CD, security, license scanning, …)
+* Community Management
+  * Governance (open governance, transparency about governance)  
+  * Code of conduct
 
-  * Build an open source metrics strategy when releasing to open source projects
-     * Goal-question-metric approach
+* Build an open source metrics strategy when releasing to open source projects
+  * Goal-question-metric approach
+
+* Technical considerations, tooling and best practices
+  * User management
+  * Setting up a repository
+  * REUSE
+  * CLA/DCO management
+  * Credential scanning
+  * Quality criteria
+  * Repository linting
+  * Day-2-ops (CI/CD, security, license scanning, …)
 
 ## [References](references.md)
