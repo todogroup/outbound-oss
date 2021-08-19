@@ -54,7 +54,7 @@
 * Technical considerations, tooling and best practices
   * User management
   * Setting up a repository
-  * REUSE
+  * Providing license and copyright information
   * CLA/DCO management
   * Credential scanning
   * Quality criteria

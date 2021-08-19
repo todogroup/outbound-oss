@@ -221,7 +221,20 @@ To make sure that a certain set of health files is always created, there are dif
 
 * Another possibility is to create repositories with a tool. Such tools create repositories based on some input data via the API's of the Git provider (GitHub.com, GitLab.com, Bitbucket.org etc.). Thus, they can help that repositories are compliant to the company guidelines (contain the required health files **and** team structure, for example). Based on such tools self services for repository creation could be offered that allow development teams creating repositories themselves. Often, companies develop such tools for their specific needs. We (the authors of this document) do not know generic repository creation tools.
 
-### REUSE
+### Providing license and copyright information
+
+License and copyright information must be declared properly for an open source project. This is relevant ...
+
+* for the parts of the project that you / your company developed
+* but also for external components (i.e. code developed by external parties) that are part of your repositories
+
+The [REUSE tool](https://reuse.software/) from the [Free Software Foundation Europe](https://fsfe.org/) supports the proper declaration of license and copyright information for your project:
+
+* It provides a machine-readable file format for license and copyright information and thus makes it easy for others (scanning tools, for example) to consume that information
+* It provides tooling to ...
+  * add license and copyright information to source code files
+  * download and store license texts
+  * to lint your repositories to make sure that license and copyright information is available for all files
 
 ### CLA/DCO Management
 
