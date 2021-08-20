@@ -32,7 +32,7 @@
 ## [Leadership Level](starting-oss-projects.md)
 
 * Why to start own OS projects? Overview of different variants (attract community, transparency, foundation-based)
-* Not to start an OS project?
+* Now to start an OS project?
 
 * Project life cycle
   * Planning or Concept Phase
@@ -43,9 +43,10 @@
 * Legal and governance considerations
   * Which license to select
   * Contributor License Agreement (CLA), Developer Certificate of Origin (DCO)
+  * Project governance
+  * Different project levels
 
 * Community Management
-  * Governance (open governance, transparency about governance)  
   * Code of conduct
 
 * Build an open source metrics strategy when releasing to open source projects
@@ -57,7 +58,7 @@
   * Providing license and copyright information
   * CLA/DCO management
   * Credential scanning
-  * Quality criteria
+  * Quality criteria / CII Best Practices Badge Program
   * Repository linting
   * Day-2-ops (CI/CD, security, license scanning, …)
 

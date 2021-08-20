@@ -61,16 +61,10 @@ In addition, the following aspects should be considered in the planning phase:
 
   * Ensure coding style is consistent
 
-* Where will the code be published? Typically, it will be in a company-owned organization on a code hosting platform auch as Githuib.com or GitLab.com but, depending on the technology, other potential publishing channels exist (for example, NPM, Maven central, PyPI)
+* Where will the code be published? Typically, it will be in a company-owned organization on a code hosting platform auch as Github.com or GitLab.com but, depending on the technology, other potential publishing channels exist (for example, NPM, Maven central, PyPI)
 * Does it make sense to publish binaries? If yes, where?
 * Define your Web site and communication: What can you do to make your project known? Does it make sense to create a Web site for the project? Are there working groups?
 * Plan your project life cycle
-
-#### Different Project Levels
-
-TBD: Move out of "project lifecycle" chapter?
-
-It can make sense to have different levels for new open source projects ("sandbox", "incubator", "graduated" - these are the different [project levels of CNCF](https://www.cncf.io/projects/), for example). That's a way to classify you open source projects wrt. adoption, maturity and quality criteria that they have to fulfill. The basic idea is that new projects start in a dedicated space (CNCF calls that "sandbox" - at Facebook, that's the ["Incubator"](https://github.com/facebookincubator)). In this space, projects can evolve, and check if they reach the goals that have been defined in terms of adoption and quality. If they do, they can be promoted to the next level. If they don't it might be decided to sunset them.
 
 ### Active or Development Phase
 
@@ -147,12 +141,6 @@ When running an open source project you need to decide how you are going to chec
 
 You should have a policy for which of these way you use when. "Inbound=Outbound" is a pragmatic way which can work for most projects. The DCO is a good way to make the contribution process more explicit, especially for larger projects with diverse contributors. The CLA makes contributions more difficult and requires additional administrational work and tooling.
 
-## Community management
-
-See [issue #13](https://github.com/Open-Source-Compliance/outbound-oss/issues/13)
-
-(-> TODO group paper)
-
 ### Project governance
 
 See [issue #12](https://github.com/Open-Source-Compliance/outbound-oss/issues/12)
@@ -160,6 +148,17 @@ See [issue #12](https://github.com/Open-Source-Compliance/outbound-oss/issues/12
 open governance, transparency about governance
 
 Company-based vs. foundation-driven, when to select which approach, leveraging a foundation (such as Eclipse)
+
+### Different Project Levels
+
+It can make sense to have different levels for new open source projects ("sandbox", "incubator", "graduated" - these are the different [project levels of CNCF](https://www.cncf.io/projects/), for example). That's a way to classify you open source projects wrt. adoption, maturity and quality criteria that they have to fulfill. The basic idea is that new projects start in a dedicated space (CNCF calls that "sandbox" - at Facebook, that's the ["Incubator"](https://github.com/facebookincubator)). In this space, projects can evolve, and check if they reach the goals that have been defined in terms of adoption and quality. If they do, they can be promoted to the next level. If they don't it might be decided to sunset them.
+
+
+## Community management
+
+See [issue #13](https://github.com/Open-Source-Compliance/outbound-oss/issues/13)
+
+(-> TODO group paper)
 
 ### Code of conduct
 
@@ -244,9 +243,9 @@ The CLA Assistant implements a workflow that asks contributors to accept / sign-
 
 ### Credential scanning
 
-### Quality criteria
+### Quality criteria / CII Best Practices Badge Program
 
-TODO: CII Badge etc.
+TODO: [Core Infrastructure Initiative](https://www.coreinfrastructure.org/) (CII), [CII Best Practices Badge Program](https://bestpractices.coreinfrastructure.org/en)
 
 ### Repository Linting
 
