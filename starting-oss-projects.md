@@ -10,7 +10,7 @@ When thinking about to start an own OSS project there are several phases you sho
 
 ![oss-projcet-process](./img/LaunchinOSSProject.PNG)
 
-## Lifecycle mgmt
+## Project Lifecycle
 
 The life cycle of an open source project describes the stages in which the project evolves, from its conception to its retirement or end of life stage. Typically, a project originates to solve a specific problem. It may become obsolete either because the problem does not exist anymore or because other projects are better suited to solve the problem. The figure below shows the different stages an open source project may undergo.
 
@@ -61,14 +61,10 @@ In addition, the following aspects should be considered in the planning phase:
 
   * Ensure coding style is consistent
 
-* Where will the code be published? Typically, it will be in a company-owned organization on a code hosting platform auch as Githuib.com or GitLab.com but, depending on the technology, other potential publishing channels exist (for example, NPM, Maven central, PyPI)
+* Where will the code be published? Typically, it will be in a company-owned organization on a code hosting platform auch as Github.com or GitLab.com but, depending on the technology, other potential publishing channels exist (for example, NPM, Maven central, PyPI)
 * Does it make sense to publish binaries? If yes, where?
 * Define your Web site and communication: What can you do to make your project known? Does it make sense to create a Web site for the project? Are there working groups?
 * Plan your project life cycle
-
-#### Different Project Levels
-
-It can make sense to have different levels for new open source projects ("sandbox", "incubator", "graduated" - these are the different [project levels of CNCF](https://www.cncf.io/projects/), for example). That's a way to classify you open source projects wrt. adoption, maturity and quality criteria that they have to fulfill. The basic idea is that new projects start in a dedicated space (CNCF calls that "sandbox" - at Facebook, that's the ["Incubator"](https://github.com/facebookincubator)). In this space, projects can evolve, and check if they reach the goals that have been defined in terms of adoption and quality. If they do, they can be promoted to the next level. If they don't it might be decided to sunset them.
 
 ### Active or Development Phase
 
@@ -133,7 +129,7 @@ Answering these questions can be challenging and opinions will vary. A simple st
 
 It's advisable to set up policies for license selection, so that the decision process is simplified when starting new projects.
 
-### CLA’s, DCO’s
+### Contributor License Agreement (CLA), Developer Certificate of Origin (DCO)
 
 When running an open source project you need to decide how you are going to check code provenance and if you need additional rights from contributors which are not given by the license. There are mainly three ways how to handle that:
 
@@ -145,14 +141,6 @@ When running an open source project you need to decide how you are going to chec
 
 You should have a policy for which of these way you use when. "Inbound=Outbound" is a pragmatic way which can work for most projects. The DCO is a good way to make the contribution process more explicit, especially for larger projects with diverse contributors. The CLA makes contributions more difficult and requires additional administrational work and tooling.
 
-### Code of conduct
-
-Creating a welcoming environment where people are safe from harmful behavior by others is an important part of maintaining a healthy community. It's especially important to support a diverse community, where there is no discrimination of under-represented groups, and explicit or implicit bias gets addressed.
-
-A common element in maintaining a healthy community environment is a code of conduct which makes rules for accepted and unaccepted behavior explicit and defines how unacceptable behavior is dealt with. There are examples and templates which can be used as a base for your code of conduct. One popular reusable code of conduct is the [Contributor Covenant](https://www.contributor-covenant.org/) which is used by projects such as Kubernetes, git, Node.js, and many more.
-
-As a company you need to provide a contact email which can be used to report code of conduct violations. You need to make sure that this address is monitored by people who can react in a timely manner and have the competence and ability to initiate adequate actions to address these issues.
-
 ### Project governance
 
 See [issue #12](https://github.com/Open-Source-Compliance/outbound-oss/issues/12)
@@ -161,13 +149,30 @@ open governance, transparency about governance
 
 Company-based vs. foundation-driven, when to select which approach, leveraging a foundation (such as Eclipse)
 
-### Community management
+### Different Project Levels
+
+It can make sense to have different levels for new open source projects ("sandbox", "incubator", "graduated" - these are the different [project levels of CNCF](https://www.cncf.io/projects/), for example). That's a way to classify you open source projects wrt. adoption, maturity and quality criteria that they have to fulfill. The basic idea is that new projects start in a dedicated space (CNCF calls that "sandbox" - at Facebook, that's the ["Incubator"](https://github.com/facebookincubator)). In this space, projects can evolve, and check if they reach the goals that have been defined in terms of adoption and quality. If they do, they can be promoted to the next level. If they don't it might be decided to sunset them.
+
+
+## Community management
 
 See [issue #13](https://github.com/Open-Source-Compliance/outbound-oss/issues/13)
 
 (-> TODO group paper)
 
-## Technical considerations
+### Code of conduct
+
+Creating a welcoming environment where people are safe from harmful behavior by others is an important part of maintaining a healthy community. It's especially important to support a diverse community, where there is no discrimination of under-represented groups, and explicit or implicit bias gets addressed.
+
+A common element in maintaining a healthy community environment is a code of conduct which makes rules for accepted and unaccepted behavior explicit and defines how unacceptable behavior is dealt with. There are examples and templates which can be used as a base for your code of conduct. One popular reusable code of conduct is the [Contributor Covenant](https://www.contributor-covenant.org/) which is used by projects such as Kubernetes, git, Node.js, and many more.
+
+As a company you need to provide a contact email which can be used to report code of conduct violations. You need to make sure that this address is monitored by people who can react in a timely manner and have the competence and ability to initiate adequate actions to address these issues.
+
+## Build an open source metrics strategy when releasing to open source projects
+
+### Goal-question-metric approach
+
+## Technical considerations, tooling and best practices
 
 TODO: Describe Tooling ([issue #14](https://github.com/Open-Source-Compliance/outbound-oss/issues/14))
 
@@ -215,7 +220,20 @@ To make sure that a certain set of health files is always created, there are dif
 
 * Another possibility is to create repositories with a tool. Such tools create repositories based on some input data via the API's of the Git provider (GitHub.com, GitLab.com, Bitbucket.org etc.). Thus, they can help that repositories are compliant to the company guidelines (contain the required health files **and** team structure, for example). Based on such tools self services for repository creation could be offered that allow development teams creating repositories themselves. Often, companies develop such tools for their specific needs. We (the authors of this document) do not know generic repository creation tools.
 
-### REUSE
+### Providing license and copyright information
+
+License and copyright information must be declared properly for an open source project. This is relevant ...
+
+* for the parts of the project that you / your company developed
+* but also for external components (i.e. code developed by external parties) that are part of your repositories
+
+The [REUSE tool](https://reuse.software/) from the [Free Software Foundation Europe](https://fsfe.org/) supports the proper declaration of license and copyright information for your project:
+
+* It provides a machine-readable file format for license and copyright information and thus makes it easy for others (scanning tools, for example) to consume that information
+* It provides tooling to ...
+  * add license and copyright information to source code files
+  * download and store license texts
+  * to lint your repositories to make sure that license and copyright information is available for all files
 
 ### CLA/DCO Management
 
@@ -223,9 +241,11 @@ If contributors must accept an CLA or DCO before they can submit their contribut
 
 The CLA Assistant implements a workflow that asks contributors to accept / sign-off a document when a contributor submit the first pull request to a certain repository on GitHub.com. Despite the name of the tool ("CLA Assistant"), it can be used for any type of document that companies require contributors to accept before a pull request can be submitted, including CLA's and DCO's. The document text must be provided as gist on GitHub.com. Which document/gist to be used can be configured on organization and on repository level. The CLA Assistant uses a default logic: If for a certain repository no specific document is configured, the document that is configured on organization level is used. When a contributor submits a pull request for a repository for the first time, the CLA Assistant displays the document text and the contributor can only submit the request if he/she accepts the document. The next time, the same contributor submits a pull request, he/she can do so without having to accept the document again. The information that the contributor accepted the document for that repository is stored in the database of the CLA Assistant and can be retrieved later on. The CLA Assistant is available as hosted offering on https://cla-assistant.io/ or can be self-hosted.
 
-### Credential scanner
+### Credential scanning
 
-### Quality criteria (CII Badge …)
+### Quality criteria / CII Best Practices Badge Program
+
+TODO: [Core Infrastructure Initiative](https://www.coreinfrastructure.org/) (CII), [CII Best Practices Badge Program](https://bestpractices.coreinfrastructure.org/en)
 
 ### Repository Linting
 
