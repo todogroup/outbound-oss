@@ -98,8 +98,15 @@ TODO: See [issue #2](https://github.com/Open-Source-Compliance/outbound-oss/issu
 
 ## Trainings
 
-TODO: Describe how to qualify people as contributors ([issue #11](https://github.com/Open-Source-Compliance/outbound-oss/issues/11))
+Contributors to open source projects will need to act with a certain degree of autonomy to be effective. For some corporate software developers it will also be new to participate in open source communities. For these reasons it's important to support corporate contributors and provide them with training or similar means to develop the understanding and skills to act as good citizens of the open source world on behalf of your company.
 
-* Legal aspects
-* Social aspects
-* Company-internal topics (processes etc.)
+This can be achieved with mentoring, good practice guides, or trainings which cover the following topics:
+
+* Essentials of legal implications of open source, such as copyright, licensing, CLAs, DCOs, trademarks
+* Awareness of your corporate rules and policies for contributing to open source
+* Open source community culture
+* Typical open source development procedures
+* Open source governance in its different forms such as foundations or single-vendor projects
+* Working in public
+* Dealing with conflict of interests between open source project and company
+* Where to get internal support in case of doubt or questions
