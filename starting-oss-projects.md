@@ -245,7 +245,13 @@ The CLA Assistant implements a workflow that asks contributors to accept / sign-
 
 ### Quality criteria / CII Best Practices Badge Program
 
-TODO: [Core Infrastructure Initiative](https://www.coreinfrastructure.org/) (CII), [CII Best Practices Badge Program](https://bestpractices.coreinfrastructure.org/en)
+The [Core Infrastructure Initiative](https://www.coreinfrastructure.org/) (CII) created the [CII Best Practices Badge Program](https://bestpractices.coreinfrastructure.org/en). As part of the program, best practices for open source software is defined and a badge system is implemented. Via a [web app](https://bestpractices.coreinfrastructure.org/en/projects), projects can self-certify that they meet the criteria and show a corresponding badge on their website. As of today (August 2021), more than 2021 project did the assessment.
+
+The CII system consists of three levels (*Passing*, *Silver* and *Gold*). They are building on each other (i.e. the *Silver* level contains all criteria of the *Passing* level plus additional ones). The criteria are structured in clusters such as *Basics*, *Change Control*, *Reporting*, *Quality*, *Security* and *Analytics*. 
+
+The CII Best Practices Badge community is [open for contributions](https://github.com/coreinfrastructure/best-practices-badge/blob/12e4f19b713dbbd4170834dabb3b08a816565bd2/CONTRIBUTING.md) (additional criteria, for example).
+
+Overall, the CII Best Practices Badge Program is a good means to verify own projects against commonly accepted best practices. Via the badge projects can document that they meet this criteria.
 
 ### Repository Linting
 
