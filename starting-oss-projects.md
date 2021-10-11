@@ -153,12 +153,15 @@ Company-based vs. foundation-driven, when to select which approach, leveraging a
 
 It can make sense to have different levels for new open source projects ("sandbox", "incubator", "graduated" - these are the different [project levels of CNCF](https://www.cncf.io/projects/), for example). That's a way to classify you open source projects wrt. adoption, maturity and quality criteria that they have to fulfill. The basic idea is that new projects start in a dedicated space (CNCF calls that "sandbox" - at Facebook, that's the ["Incubator"](https://github.com/facebookincubator)). In this space, projects can evolve, and check if they reach the goals that have been defined in terms of adoption and quality. If they do, they can be promoted to the next level. If they don't it might be decided to sunset them.
 
-
 ## Community management
 
-See [issue #13](https://github.com/Open-Source-Compliance/outbound-oss/issues/13)
+For the majority of open source projects, starting a community around that project and receiving contributions is an important if not the primary goal (however, there are also projects where the primary goal for open sourcing is not the creation of a vivid community  - for example building trust by making the source code visible, in this case receiving contributions might have a lower priority). Such a community does not take off by itself. Starting it and keeping it alive requires planning as well as budget and resources. Initial and ongoing activities comprise:
 
-(-> TODO group paper)
+* Promoting the project on conferences
+* Hosting and sponsor events
+* Moderating the community
+
+It's advisable to assign a community manager to the project who takes care of these tasks. The TODO Group Guide [Starting an open source project](https://todogroup.org/guides/starting/) contains more information in its chapter "Build the community". For further reading, we recommend the TODO Group Guides [Building an inclusive open source community](https://todogroup.org/guides/diversity-inclusion/) and [Building leadership in an open source community](https://todogroup.org/guides/building-leadership/).
 
 ### Code of conduct
 
