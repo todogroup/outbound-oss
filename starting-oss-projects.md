@@ -254,7 +254,7 @@ The CLA Assistant implements a workflow that asks contributors to accept / sign-
 
 ### Credential scanning
 
-
+Even if open source policies and guidelines explicitely require that credentials such as password, access tokens or other secrets have to be removed from code before it's published, it happens from time to time that unintentionally such important and sensitive data is pushed to public repositories. To detect such situations as quickly as possible (and thus to be able to revoke the published secret and remove that data from public repositories), it's advisable to reguarly execute credential scans for such repositories. Luckily, all well-known code hosting platforms (GitHub.com, GitLab.com etc.) provide such scanning services as part of their offering. We strongly recommend to use that services.
 
 ### Quality criteria / CII Best Practices Badge Program
 
