@@ -153,12 +153,23 @@ Company-based vs. foundation-driven, when to select which approach, leveraging a
 
 It can make sense to have different levels for new open source projects ("sandbox", "incubator", "graduated" - these are the different [project levels of CNCF](https://www.cncf.io/projects/), for example). That's a way to classify you open source projects wrt. adoption, maturity and quality criteria that they have to fulfill. The basic idea is that new projects start in a dedicated space (CNCF calls that "sandbox" - at Facebook, that's the ["Incubator"](https://github.com/facebookincubator)). In this space, projects can evolve, and check if they reach the goals that have been defined in terms of adoption and quality. If they do, they can be promoted to the next level. If they don't it might be decided to sunset them.
 
-
 ## Community management
 
-See [issue #13](https://github.com/Open-Source-Compliance/outbound-oss/issues/13)
+For the majority of open source projects, starting a community around that project and receiving contributions is an important if not the primary goal (however, there are also projects where the primary goal for open sourcing is not the creation of a vivid community  - for example building trust by making the source code visible, in this case receiving contributions might have a lower priority). Such a community does not take off by itself. Starting it and keeping it alive requires planning as well as budget and resources. Initial and ongoing activities comprise:
 
-(-> TODO group paper)
+* Promote the project
+
+  This includes presenting at conferences, hosting or sponsor key events, and building new initiatives and programs in your community
+
+* Create a welcoming environment
+
+  This includes creating open-source project policies, guidelines (Basic instructions for maintainers, installation process, instructions for end users) or improve main project communication channels (forums, chat discussions, etc)
+
+* Facilitate collaboration
+  
+  Building mentoring programs, adding project documentation (such as how to contribute, How to write and run tests, how the governing board is elected, etc )
+
+It's advisable to assign a community manager to the project who takes care of these tasks. The TODO Group Guide [Starting an open source project](https://todogroup.org/guides/starting/) contains more information in its chapter "Build the community". For further reading, we recommend the TODO Group Guides [Building an inclusive open source community](https://todogroup.org/guides/diversity-inclusion/) and [Building leadership in an open source community](https://todogroup.org/guides/building-leadership/).
 
 ### Code of conduct
 
@@ -174,7 +185,7 @@ As a company you need to provide a contact email which can be used to report cod
 
 ## Technical considerations, tooling and best practices
 
-TODO: Describe Tooling ([issue #14](https://github.com/Open-Source-Compliance/outbound-oss/issues/14))
+Appropriate tooling can safe a lot of time and help to automate processes significantly. [Curated list of awesome tools to managee open source](https://github.com/todogroup/awesome-ospo) contains a comprehensive list of proven and recommendable tools.
 
 ### User management
 
@@ -243,6 +254,8 @@ The CLA Assistant implements a workflow that asks contributors to accept / sign-
 
 ### Credential scanning
 
+Even if open source policies and guidelines explicitely require that credentials such as password, access tokens or other secrets have to be removed from code before it's published, it happens from time to time that unintentionally such important and sensitive data is pushed to public repositories. To detect such situations as quickly as possible (and thus to be able to revoke the published secret and remove that data from public repositories), it's advisable to reguarly execute credential scans for such repositories. Luckily, all well-known code hosting platforms (GitHub.com, GitLab.com etc.) provide such scanning services as part of their offering. We strongly recommend to use that services.
+
 ### Quality criteria / CII Best Practices Badge Program
 
 The [Core Infrastructure Initiative](https://www.coreinfrastructure.org/) (CII) created the [CII Best Practices Badge Program](https://bestpractices.coreinfrastructure.org/en). As part of the program, best practices for open source software is defined and a badge system is implemented. Via a [web app](https://bestpractices.coreinfrastructure.org/en/projects), projects can self-certify that they meet the criteria and show a corresponding badge on their website. As of today (August 2021), more than 2021 project did the assessment.
@@ -268,5 +281,3 @@ However, which crteria they check is company-specific and thus, they normally pr
 
 * Check for guideline compliance before a repository is published
 * Regular checks after publication
-
-### Day-2-ops (CI/CD, security, license scanning, …)
