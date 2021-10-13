@@ -157,9 +157,17 @@ It can make sense to have different levels for new open source projects ("sandbo
 
 For the majority of open source projects, starting a community around that project and receiving contributions is an important if not the primary goal (however, there are also projects where the primary goal for open sourcing is not the creation of a vivid community  - for example building trust by making the source code visible, in this case receiving contributions might have a lower priority). Such a community does not take off by itself. Starting it and keeping it alive requires planning as well as budget and resources. Initial and ongoing activities comprise:
 
-* Promoting the project on conferences
-* Hosting and sponsor events
-* Moderating the community
+* Promote the project
+
+  This includes presenting at conferences, hosting or sponsor key events, and building new initiatives and programs in your community
+
+* Create a welcoming environment
+
+  This includes creating open-source project policies, guidelines (Basic instructions for maintainers, installation process, instructions for end users) or improve main project communication channels (forums, chat discussions, etc)
+
+* Facilitate collaboration
+  
+  Building mentoring programs, adding project documentation (such as how to contribute, How to write and run tests, how the governing board is elected, etc )
 
 It's advisable to assign a community manager to the project who takes care of these tasks. The TODO Group Guide [Starting an open source project](https://todogroup.org/guides/starting/) contains more information in its chapter "Build the community". For further reading, we recommend the TODO Group Guides [Building an inclusive open source community](https://todogroup.org/guides/diversity-inclusion/) and [Building leadership in an open source community](https://todogroup.org/guides/building-leadership/).
 
@@ -245,6 +253,8 @@ If contributors must accept an CLA or DCO before they can submit their contribut
 The CLA Assistant implements a workflow that asks contributors to accept / sign-off a document when a contributor submit the first pull request to a certain repository on GitHub.com. Despite the name of the tool ("CLA Assistant"), it can be used for any type of document that companies require contributors to accept before a pull request can be submitted, including CLA's and DCO's. The document text must be provided as gist on GitHub.com. Which document/gist to be used can be configured on organization and on repository level. The CLA Assistant uses a default logic: If for a certain repository no specific document is configured, the document that is configured on organization level is used. When a contributor submits a pull request for a repository for the first time, the CLA Assistant displays the document text and the contributor can only submit the request if he/she accepts the document. The next time, the same contributor submits a pull request, he/she can do so without having to accept the document again. The information that the contributor accepted the document for that repository is stored in the database of the CLA Assistant and can be retrieved later on. The CLA Assistant is available as hosted offering on https://cla-assistant.io/ or can be self-hosted.
 
 ### Credential scanning
+
+
 
 ### Quality criteria / CII Best Practices Badge Program
 
