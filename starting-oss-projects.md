@@ -281,5 +281,3 @@ However, which crteria they check is company-specific and thus, they normally pr
 
 * Check for guideline compliance before a repository is published
 * Regular checks after publication
-
-### Day-2-ops (CI/CD, security, license scanning, …)
