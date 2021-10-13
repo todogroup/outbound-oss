@@ -185,7 +185,7 @@ As a company you need to provide a contact email which can be used to report cod
 
 ## Technical considerations, tooling and best practices
 
-TODO: Describe Tooling ([issue #14](https://github.com/Open-Source-Compliance/outbound-oss/issues/14))
+Appropriate tooling can safe a lot of time and help to automate processes significantly. [Curated list of awesome tools to managee open source](https://github.com/todogroup/awesome-ospo) contains a comprehensive list of proven and recommendable tools.
 
 ### User management
 
