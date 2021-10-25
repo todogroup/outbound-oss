@@ -17,17 +17,29 @@
 
 * Motivation why to contribute to OSS projects or launching own OSS projects
 
-## Participation and Contribution Levels
+## Contributing to existing open source projects
 
 * Why contribute to OSS projects?
 * How to contribute to OSS projects
-  * Define your open source goal and strategy
-  * [Establish open source guiding principles and processes](Contributions-to-existing-projects.md))
+  * Governance and contribution models
+    * Small contributions Model or trivial contributions
+    * Major to major release model
+    * Full trust model
+    * Clearing projects for contributions
+  * Trainings
+  * Example: Approval process for contributions to open source projects (Siemens)
     * Guiding principles
+    * Responsibility: decision rests with unit
+    * General structure and scope of the process
+      * Lean procedure
+      * Boundary conditions
     * Process for expressing company approval for contributions
-    * Contribution models
-  * Build an open source metrics strategy when contributing to open source projects
-    * Goal-question-metric approach
+      * Why is it needed?
+      * Outbound CLA
+      * Procedure for contributions to existing projects
+* Build an open source metrics strategy when contributing to open source projects
+  * Goal-question-metric approach
+* Spare time contributions
 
 ## [Leadership Level](starting-oss-projects.md)
 
