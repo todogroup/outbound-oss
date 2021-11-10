@@ -26,16 +26,20 @@ On the leadership level, contribution processes are mature and have to be scaled
 
 A company may decide to not progress to levels which are based on more contributions and it's possible to build mature processes to consume open source software without contributing. In most cases there will be some pressure to contribute back, though. This can arise from practical technical needs, from the expectation to take responsibility in the open source ecosystem, or from the desire to reap the full benefits of the open source model.
 
-## Ways to manage open source: The rise of OSPOs
+## Ways to manage open source: The rise of OSPOs as open soure accelerators
+
+Realising that your organisation is already using open source and find ways to interact with this ecosystem is no longer enough. At this point, more and more companies are launching an OSPO to accelerate this process. 
 
 There is an increasing number of organizations that realize about the complex relationships that the open source ecosystem has and need to deal with when advancing in their open source game. For this reason, many of these organizations invest in OSPOs (AKA Open Source Program Offices, but also called Open Source Technology Centers,Open Source Community Development Team, OS Centers, and more). OSPOs are a designated place where open source is supported, nurtured, shared, explained, and grown inside an organization. With such an office in place, businesses can establish and execute on their open source strategies in clear terms, giving their leaders, developers, marketers, and other staff the tools they need to make open source a success within their operations.
 
 The TODO Group offers a [set of guides](https://todogroup.org/guides/) on how to get started with OSPOs. If you are new to this topic, we encourage to first take a look at [**How to create an open source program**](https://todogroup.org/guides/create-program/)
 
 
-## Motivation why to contribute to OSS projects or launching own OSS projects
+## Motivation: why to contribute to OSS projects or launching own OSS projects
 
-There are many different reasons for companies to contribute to existing OSS projects, the following list of examples does not claim to be complete, it only provides an impression about different motivations.
+
+There are many different reasons for companies to contribute to existing OSS projects, the following list of examples does not claim to be complete, it only provides an impression about different benefits.
+
 * Build software faster and better
   * Integrating “our” features into upstream projects makes maintenance a lot easier
   * Upstream versions can be directly used in offerings
@@ -59,3 +63,8 @@ There are many different reasons for companies to contribute to existing OSS pro
  * Get closer to the customer
     * Establish new ways of collaborating with suppliers and customers
 
+In adition to this list of benefits, contributing to open source projects could brings us some strategic opportunities on the table such as: 
+
+* Grow footprint within mission-critical technologies the organization relies on: When giving back to open source, organizations can drive industry leadership by providing strong influence on the technologies used in its products. This can help commoditize competing products and services as open source replaces critical components of innovation ecosystems.
+
+* Improving talent retention and adquisition: Participating in open source projects gives you an edge in the talent war because [organizations with strong open source R&D attract top software talent](https://opensource.org/strategic).
