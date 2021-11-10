@@ -1,16 +1,3 @@
-# Why contribute to OSS projects?
-
-Using open source can bring to organizations different benefits such as product development acceleration & innovation or R&D cost reduction. However, contributing to open source projects brings us more opportunities on the table: 
-
-**Grow footprint within mission-critical technologies the organization relies on**
-
-When giving back to open source, organizations can drive industry leadership by providing strong influence on the technologies used in its products. This can help commoditize competing products and services as open source replaces critical components of innovation ecosystems.
-
-**Improving talent retention and adquisition**
-
-Moreover, participating in open source projects gives you an edge in the talent war because [organizations with strong open source R&D attract top software talent](https://opensource.org/strategic).
-
-
 # How to contribute to OSS projects 
 
 Building better relationshipts with the open source ecosystem has its own set of challenges, but it becomes easier if you have a clear plan to follow. Here are some guidelines to a number of practices that organizations can can adopt. 
@@ -131,33 +118,3 @@ This can be achieved with mentoring, good practice guides, or trainings which co
 * Working in public
 * Dealing with conflict of interests between open source project and company
 * Where to get internal support in case of doubt or questions
-
-
-## Build an open source metrics strategy when contributing to open source projects
-
-Once you've established the goals, procedures, and tools for your company's outbound open source plan, it's always useful to monitor and track the overall health of open source projects the company engages with as they grow and mature.
-
-Before thinking about which tool should be used to track project health, a good alternative on how to do this is to establish a full metrics strategy following the goal-question-metrics approach. This approach is used in communities focused on community health analytics metrics standards and software, such as [CHAOSS](https://chaoss.community), one of the projects under the Linux Foundation umbrella.
-
-**Defining community health goals**
-
-Sometimes is better to start small and define 2 or 3 main goals first before getting overwhelmed by metrics. If you don't know where to start, CHAOSS offers a set of metrics based on different focus-areas and goals when measuring project health that can help you get started in measuring the health of the open-source projects that matter to your organization:
-
-* Common Metrics
-* Diversity and Inclusion
-* Evolution
-* Risk
-* Value
-* App Ecosystem
-
-**Creating questions and building metrics around**
-
-Metrics should be answering specific questions that are aligned with the previous goals established.
-
-For instance, if one of your company's goals is to understand the community footprint within a project, one good question can be "What’s the presence and influence of organizations within the open source ecosystem?". In order to solve this, one useful metric can be the Elephant Factor (the minimum number of organizations whose employees perform 50% of the total contributions).
-
-There are great tooling to help you measure different community health analytics metrics, for instance, GrimoireLab, LFX, or Augur.
-
-For further information about Tools for tracking project health, check this dedicated section from one of the [TODO Guides](https://todogroup.org/guides/management-tools/#tools-for-tracking-project-health)
-
-
