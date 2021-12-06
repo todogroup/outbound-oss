@@ -38,6 +38,7 @@ Why is there a need for a certain procedure at all? First of all the copyright l
 For example the [German copyright act states in Section 69b](https://www.gesetze-im-internet.de/englisch_urhg/englisch_urhg.html#p0522):
 
 > Authors in employment or service relationships
+>
 > (1) Where a computer program is created by an employee in the execution of his duties or following the instructions of his employer, the employer exclusively shall be entitled to exercise all economic rights in the computer program, unless otherwise agreed.
 
 This means that all the software developed in this context is the property of the employer i.e. the company the developer is working for. At least the German copyright act does not limit the proprietorship to code developed during working hours or within the company IT infrastructure, it only scopes the context.
