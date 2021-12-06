@@ -60,13 +60,16 @@ The price for improved confidence for the OSS project is more overhead in the or
 Why is a CCLA causing additional effort in large organziations, let's briefly look at the CCLA of the Apache Foundation as an example:
 * The CCLA is a contract - in many organizations the "four eyes principle" is implemented - a contract has to be signed by two persons, who have the right to sign contracts in the name of the organization - the required involvement of probably two more stakeholders requires additional effort in briefing them
 * Usually a CCLA covers not only the specific legal entity the contributor is working for, it also covers all affiliates:
+
 	 "For legal entities, the entity making a Contribution and all other entities that control, are controlled by, or are under common control with that entity are considered to be a single Contributor. For the purposes of this definition, "control" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity."
+	 
 * The CCLA includes besides the copyright grant a patent grant. This is fine, nevertheless inside the organization the "IP department" needs to be involved in the evaluation process of the CCLA and for the specific contribution the "IP department" need to sync with all affiliates
 * The CCLA needs to be analysed by the "Legal department" of the organization.
 
 Some CCLA are requiring that the copyright of the contributions are assigned to the OSS project/Foundation. Copyright assignment is a topic which, causes even more effort and might not be accepted at all.
 
 Besides the above mentioned additional effort the CCLA places additional "maintanence effort" to the organization, because it requires that the organziation nominates all entitled contributors by name to the CCLA requiring party.
+
 	 It is your responsibility to notify the Foundation when any change is required to the list of designated employees authorized to submit Contributions on behalf of the Corporation, or to the Corporation's Point of Contact with the Foundation.
 Implementing this requirement is causing quite some organizational effort:
 * The signed CCLA has to made available inside the organization - This can be done via publishing the CCLA on the OSPOs website at a location which can be found easily be the employees (e.g. it might be usefull to have a "top level page" named CCLAs, this page then contains a list of "signed CCLAs", a list of "CCLAs under evaluation", a list of "denied CCLAs".)
