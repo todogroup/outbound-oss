@@ -36,6 +36,7 @@ The procedure described in the following is designed to ensure that the company 
 Why is there a need for a certain procedure at all? First of all the copyright law requires it.
 
 For example the [German copyright act states in Section 69b](https://www.gesetze-im-internet.de/englisch_urhg/englisch_urhg.html#p0522):
+
 	> Authors in employment or service relationships
     (1) Where a computer program is created by an employee in the execution of his duties or following the instructions of his employer, the employer exclusively shall be entitled to exercise all economic rights in the computer program, unless otherwise agreed.
 
