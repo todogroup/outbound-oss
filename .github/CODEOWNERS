@@ -5,7 +5,7 @@
 # the following users/teams will be requested for
 # review when someone opens a pull request.
 # TODO(.github): Individual maintainers should be managed as a team
-* @todogroup/steering-committee @cornelius @misappi @mkurzman
+* @todogroup/steering-committee @cornelius @misappi @mkurzman @OliverFendt
 
 # Enforces admin protections for repo configuration via probot settings app.
 # ref: https://github.com/probot/settings#security-implications
