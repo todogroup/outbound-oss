@@ -1,0 +1,37 @@
+repository:
+  # See https://developer.github.com/v3/repos/#edit for all available settings.
+
+  # The name of the repository. Changing this will rename the repository
+  name: outbound-oss
+
+  # A short description of the repository that will show up on GitHub
+  description: Documentation and guidance for handling outbound open source for organizations
+
+  # A URL with more information about the repository
+  homepage: https://todogroup.org
+
+# See https://docs.github.com/en/rest/reference/teams#add-or-update-team-repository-permissions for available options
+teams:
+  - name: steering-committee
+    # The permission to grant the team. Can be one of:
+    # * `pull` - can pull, but not push to or administer this repository.
+    # * `push` - can pull and push, but not administer this repository.
+    # * `admin` - can pull, push and administer this repository.
+    # * `maintain` - Recommended for project managers who need to manage the repository without access to sensitive or destructive actions.
+    permission: admin
+
+# Collaborators: give specific users access to this repository.
+# See https://docs.github.com/en/rest/reference/collaborators for available options
+collaborators:
+  # maintain
+  - username: misappi
+    permission: maintain
+
+  - username: cornelius
+    permission: maintain
+
+  - username: mkurzman
+    permission: maintain
+
+  - username: OliverFendt
+    permission: maintain
