@@ -17,7 +17,6 @@ There are many ways people can contribute to the content of this repo:
 * Add new content to existing sections
 * Fix inaccuracies or inconsintencies
 * Add new references
-* Translate content into other languages
 
 > To get started, please open an [issue](https://github.com/todogroup/outbound-oss/issues)
 
