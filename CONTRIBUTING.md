@@ -15,10 +15,10 @@ There are many ways people can contribute to the content of this repo:
 
 * Propose new sections
 * Add new content to existing sections
-* Fix inaccuracies or inconsintencies
+* Fix inaccuracies or inconsistencies
 * Add new references
 
-> To get started, please open an [issue](https://github.com/todogroup/outbound-oss/issues)
+> To get started, please open an [issue](https://github.com/todogroup/outbound-oss/issues). you can also open a pull request, if you have concrete changes to suggest.
 
 ## WG Meetings
 
