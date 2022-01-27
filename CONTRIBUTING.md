@@ -9,7 +9,7 @@ The document table of contents are defined in the `toc.md` file and each of the 
 * Starting Open Source projects
 * References
 
-## Types of contirbutions
+## Types of contributions
 
 There are many ways people can contribute to the content of this repo:
 
