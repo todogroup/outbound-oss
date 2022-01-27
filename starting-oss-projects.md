@@ -10,7 +10,7 @@ When thinking about to start an own OSS project there are several phases you sho
 
 ![oss-projcet-process](./img/LaunchinOSSProject.PNG)
 
-## Project Lifecycle
+## Project life cycle
 
 The life cycle of an open source project describes the stages in which the project evolves, from its conception to its retirement or end of life stage. Typically, a project originates to solve a specific problem. It may become obsolete either because the problem does not exist anymore or because other projects are better suited to solve the problem. The figure below shows the different stages an open source project may undergo.
 
@@ -166,7 +166,7 @@ For the majority of open source projects, starting a community around that proje
   This includes creating open-source project policies, guidelines (Basic instructions for maintainers, installation process, instructions for end users) or improve main project communication channels (forums, chat discussions, etc)
 
 * Facilitate collaboration
-  
+
   Building mentoring programs, adding project documentation (such as how to contribute, How to write and run tests, how the governing board is elected, etc )
 
 It's advisable to assign a community manager to the project who takes care of these tasks. The TODO Group Guide [Starting an open source project](https://todogroup.org/guides/starting/) contains more information in its chapter "Build the community". For further reading, we recommend the TODO Group Guides [Building an inclusive open source community](https://todogroup.org/guides/diversity-inclusion/) and [Building leadership in an open source community](https://todogroup.org/guides/building-leadership/).
@@ -260,7 +260,7 @@ Even if open source policies and guidelines explicitely require that credentials
 
 The [Core Infrastructure Initiative](https://www.coreinfrastructure.org/) (CII) created the [CII Best Practices Badge Program](https://bestpractices.coreinfrastructure.org/en). As part of the program, best practices for open source software is defined and a badge system is implemented. Via a [web app](https://bestpractices.coreinfrastructure.org/en/projects), projects can self-certify that they meet the criteria and show a corresponding badge on their website. As of today (August 2021), more than 2021 project did the assessment.
 
-The CII system consists of three levels (*Passing*, *Silver* and *Gold*). They are building on each other (i.e. the *Silver* level contains all criteria of the *Passing* level plus additional ones). The criteria are structured in clusters such as *Basics*, *Change Control*, *Reporting*, *Quality*, *Security* and *Analytics*. 
+The CII system consists of three levels (*Passing*, *Silver* and *Gold*). They are building on each other (i.e. the *Silver* level contains all criteria of the *Passing* level plus additional ones). The criteria are structured in clusters such as *Basics*, *Change Control*, *Reporting*, *Quality*, *Security* and *Analytics*.
 
 The CII Best Practices Badge community is [open for contributions](https://github.com/coreinfrastructure/best-practices-badge/blob/12e4f19b713dbbd4170834dabb3b08a816565bd2/CONTRIBUTING.md) (additional criteria, for example).
 

@@ -26,7 +26,7 @@ On the leadership level, contribution processes are mature and have to be scaled
 
 A company may decide to not progress to levels which are based on more contributions and it's possible to build mature processes to consume open source software without contributing. In most cases there will be some pressure to contribute back, though. This can arise from practical technical needs, from the expectation to take responsibility in the open source ecosystem, or from the desire to reap the full benefits of the open source model.
 
-## Ways to manage open source: The rise of OSPOs
+## How companies manage open source: OSPOs
 
 There is an increasing number of organizations that realize about the complex relationships that the open source ecosystem has and need to deal with when advancing in their open source game. For this reason, many of these organizations invest in OSPOs (AKA Open Source Program Offices, but also called Open Source Technology Centers,Open Source Community Development Team, OS Centers, and more). OSPOs are a designated place where open source is supported, nurtured, shared, explained, and grown inside an organization. With such an office in place, businesses can establish and execute on their open source strategies in clear terms, giving their leaders, developers, marketers, and other staff the tools they need to make open source a success within their operations.
 

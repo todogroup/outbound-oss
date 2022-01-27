@@ -1,6 +1,6 @@
-# How to contribute to OSS projects 
+# How to contribute to OSS projects
 
-Building better relationshipts with the open source ecosystem has its own set of challenges, but it becomes easier if you have a clear plan to follow. Here are some guidelines to a number of practices that organizations can can adopt. 
+Building better relationships with the open source ecosystem has its own set of challenges, but it becomes easier if you have a clear plan to follow. Here are some guidelines to a number of practices that organizations can can adopt.
 
 ## Define your open source goal and strategy
 

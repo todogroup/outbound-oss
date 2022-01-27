@@ -1,3 +1,5 @@
+# References
+
 * [Open Source Archetypes: A Framework for Purposeful Open Source (Mozilla)](https://blog.mozilla.org/wp-content/uploads/2018/05/MZOTS_OS_Archetypes_report_ext_scr.pdf)
 * [Starting an open source project (LF TODO Group)](https://todogroup.org/guides/starting/)
 * [Shutting down an open source project (LF TODO Group)](https://todogroup.org/guides/shutting-down/)
