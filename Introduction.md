@@ -28,33 +28,39 @@ A company may decide to not progress to levels which are based on more contribut
 
 ## How companies manage open source: Open Source Program Offices
 
-An increasing number of organizations realized the tasks of managing open source in an enterprise and complex relationships that are inherent to the open source ecosystem when they are advancing in their engagement in open source. For this reason, many of them invest start Open Source Program Offices (OSPOs), something called differently, for example Open Source Technology Centers, Open Source Community Development Team etc. OSPOs are a designated place where open source is supported, nurtured, shared, explained, and grown inside an organization. With such an office in place, businesses can establish and execute on their open source strategies in clear terms and responsibilities, giving their leaders, developers, marketers, and other staff the processes and tools they need to make open source a success within their operations.
+An increasing number of organizations realized the tasks of managing open source in an enterprise and complex relationships that are inherent to the open source ecosystem when they are advancing in their engagement in open source. For this reason, many of them start Open Source Program Offices (OSPOs), something called differently, for example Open Source Technology Centers, Open Source Community Development Team etc. OSPOs are a designated place where open source is supported, nurtured, shared, explained, and grown inside an organization. With such an office in place, businesses can establish and execute on their open source strategies in clear terms and responsibilities, giving their leaders, developers, marketers, and other staff the processes and tools they need to make open source a success within their operations.
 
 The TODO Group offers a [set of guides](https://todogroup.org/guides/) on how to get started with an OSPO. Companies that are new to this topic, might want to first take a look at [**How to create an open source program**](https://todogroup.org/guides/create-program/)
 
-## Motivation fory to contributing to or starting own open source projects
+## Motivation for open source contribution
 
-There are many different reasons for companies to contribute to existing open source projects. To provide insights into the broad spectrum of motivations, we list some examples below. However, we do not claim to be complete.
+There is a broad spectrum of motivations for contributing to open source projects or starting new projects. Here, we can only list some examples.
 
-* Build software faster and better
-  * Integrating "own" features into upstream projects makes maintenance a lot easier
-  * Upstream versions can be directly used in own products and services
-  * More features are obtained in shorter period of time
-  * Higher quality is achieved in shorter period of time
-  * Support available from core experts
-* Exercise strategic influence
-  * Safeguard free of charge access to certain functionality
-  * Gain (co)copyright on OSS packages
-  * Influence the direction of upstream open source projects
-  * Establish de facto standards
-  * Access to the creativity of everyone interested in software
-  * Keep competitors out of certain market segments
-  * New ways of collaboration with suppliers and customers may be established
-  * Create and maintain ecosystems
-* Attract, grow and retain talents
-  * Increase developer satisfaction
-  * Peer review of each contribution by core experts improves quality and boosts developer skills
-  * Make company visible as an attractive employer
-  * Improve company's reputation, and with it the standing of developers in their communities
-* Get closer to the customer
-  * Establish new ways of collaborating with suppliers and customers
+### Build software faster and better
+
+Consuming open source software typically increases the development speed and decreases development costs since one builds upon existing code and a working and tested functionality. One risk however is that required features or bug fixes are not provided by the community as quickly as needed. To mitigate that risk, it might make sense to build up the required skills and create these bug fixes and/or features yourself. Contributing them back to the upstream projects has important benefits:
+
+* Integrating "own" features into upstream projects makes maintenance a lot easier
+* Upstream versions can be directly used in own products and services
+* More features are obtained in shorter period of time
+* Higher quality is achieved in shorter period of time
+* Support available from core experts
+
+### Exercise strategic influence
+
+Despite the benefits wrt. development velocity and quality mentioned above, contributing to open source projects can also be important from a strategic point of view. In open source projects, reputaion and the ability to influence is typically build up by engaging in the community and by contributing. Thus, contributions to open source projects can help to ...
+
+* influence the direction of upstream open source projects
+* gain (co)copyright on open source software packages
+* access to the creativity of everyone interested in software
+
+Open source communities (particulary those run by the big open source foundations) provide a neutral place for collaboration between companies and other organizations. Thus, an open source approach could offer new ways of collaboration with suppliers, customers and partners may be established, just to mention industry- or domain-specific projects such as [Linux Foundation Energy](https://www.lfenergy.org/) or [Eclipse Tractus-X](https://projects.eclipse.org/proposals/eclipse-tractus-x).Establishing open source communities can also be a powerful means to create and maintain ecosystems and to establish defacto standards.
+
+### Attract, grow and retain talents
+
+Software (and therefore also open source software) becomes more and more ubiqitous in many products and areas. Thus, for many companies (we are not only referring to software or cloud companies, but also to companies from other segments, such as traditional hardware producers who intergated software into their products) it is crucial to have a skilled and motivated software development workforce. An open source strategy including open source contributions and community engagements support this:
+
+* Increase developer satisfaction
+* Peer review of each contribution by core experts improves quality and boosts developer skills
+* Make company visible as an attractive employer
+* Improve company's reputation, and with it the standing of developers in their communities
