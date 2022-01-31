@@ -18,7 +18,7 @@ A typical maturity model of corporate open source adoption looks like this (see 
 
 To advance from one level to another, certain initiatives and structural and organizational elements are required.
 
-Going from consumption to participation, for example, will start with informal engagement and low-effort activities such as reporting bugs in upstream projects, which typically is driven by technical needs. On thet level, decisions about open source contributions will normally be ad-hoc and be taken for individual cases only.
+Going from consumption to participation, for example, will start with informal engagement and low-effort activities such as reporting bugs in upstream projects, which typically is driven by technical needs. On that level, decisions about open source contributions will normally be ad-hoc and be taken for individual cases only.
 
 Establishing dedicated decision making processes and formalizing contribution policies will lead to the next level. A typical step on this level is to establish an Open Source Program Office to support open source engagement and maintain an open source strategy and processes.
 
