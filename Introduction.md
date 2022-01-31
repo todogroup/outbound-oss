@@ -58,7 +58,7 @@ Open source communities (particulary those run by the big open source foundation
 
 ### Attract, grow and retain talents
 
-Software (and therefore also open source software) becomes more and more ubiqitous in many products and areas. Thus, for many companies (we are not only referring to software or cloud companies, but also to companies from other segments, such as traditional hardware producers who intergated software into their products) it is crucial to have a skilled and motivated software development workforce. An open source strategy including open source contributions and community engagements support this:
+Software (and therefore also open source software) becomes more and more ubiqitous in many products and areas. Thus, for many companies (we are not only referring to software or cloud companies, but also to companies from other segments, such as traditional hardware producers who integrate software into their products more and more) it is crucial to have a skilled and motivated software development workforce. An open source strategy including open source contributions and community engagements support this:
 
 * Increase developer satisfaction
 * Peer review of each contribution by core experts improves quality and boosts developer skills
