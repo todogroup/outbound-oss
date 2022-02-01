@@ -48,17 +48,19 @@ Consuming open source software typically increases the development speed and dec
 
 ### Exercise strategic influence
 
-Despite the benefits of open source software wrt. development velocity and quality mentioned above, contributing to open source projects can also be important from a strategic point of view. In open source world, reputation and the ability to influence is typically build up by engaging in the community and by contributing. Thus, contributions to open source projects can help to ...
+In addition the benefits of open source software wrt. development velocity and quality mentioned above, contributing to open source projects can also be important from a strategic point of view. In the open source world, reputation and the ability to influence is typically build up by engaging in the community and by contributing. Thus, contributions to open source projects can help to ...
 
 * influence the direction of upstream open source projects
 * gain (co)copyright on open source software packages
 * access to the creativity of everyone interested in software
 
+Companies sometimes have the tendency to use money to exert influence. With open source projects this is not the most effective method. The currency of influence is contributions, because open source projects are usually much more driven by the work of individuals than the decisions of committees. So contributions work much more directly and effectively than being a member in an organization or paying for support or other services.
+
 Open source communities (particulary those run by the big open source foundations) provide a neutral place for collaboration between companies and other organizations. Thus, an open source approach could offer new ways of collaboration with suppliers, customers, partner and even competitors, just to mention industry- or domain-specific projects such as [Linux Foundation Energy](https://www.lfenergy.org/) or [Eclipse Tractus-X](https://projects.eclipse.org/proposals/eclipse-tractus-x). Establishing open source communities can also be a powerful means to create and maintain ecosystems and to establish defacto standards.
 
 ### Attract, grow and retain talents
 
-Software (and therefore also open source software) becomes more and more ubiqitous in many products and areas. Thus, for many companies (we are not only referring to software or cloud companies, but also to companies from other segments, such as traditional hardware producers who integrate software into their products more and more) it is crucial to have a skilled and motivated software development workforce. An open source strategy including open source contributions and community engagements support this:
+Software (and therefore also open source software) becomes more and more ubiqitous in many products and areas. Thus, for many companies it is crucial to have a skilled and motivated software development workforce. This is not only true for software or cloud companies, but also for companies from other segments, such as traditional hardware producers who integrate software into their products more and more, or any other company which is becoming more dependent on software due to accelerating digital transformation. An open source strategy including open source contributions and community engagements support this:
 
 * Increase developer satisfaction
 * Peer review of each contribution by core experts improves quality and boosts developer skills
