@@ -1,11 +1,11 @@
-# How to contirbute
+# How to contribute
 
 ## Repo structure
 
 The document table of contents are defined in the `toc.md` file and each of the sections show as different `.md` files from the repository:
 
 * Introduction
-* Contirbution to existing projects
+* Contribution to existing projects
 * Starting Open Source projects
 * References
 
