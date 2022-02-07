@@ -5,7 +5,7 @@ import re
 
 base_dir = Path(__file__).resolve().parent.parent
 
-toc_path = base_dir / content / "00-toc.md"
+toc_path = base_dir / "content/00-toc.md"
 
 src_files = [
     "01-introduction.md",
@@ -18,7 +18,7 @@ toc = "# Outbound Open Source: Leveraging open source ecosystems\n\n"
 toc += "---\n"
 
 for src_file in src_files:
-    with (base_dir / content / src_file).open() as f:
+    with (base_dir / "content" / src_file).open() as f:
         for line in f:
             m = re.search("^(#+) (.*)", line)
             if m:
