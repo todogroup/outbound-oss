@@ -2,14 +2,18 @@
 
 ---
 
-## [Introduction](Introduction.md)
+## [Introduction](01-introduction.md)
 
 * Goal and target audience
 * Maturity levels
-* How companies manage open source: OSPOs
-* Motivation why to contribute to OSS projects or launching own OSS projects
+* How companies manage open source: Open Source Program Offices
+* Motivation for open source contribution
+  * Build software faster and better
+  * Exercise strategic influence
+  * Attract, grow and retain talents
+  * Give back and keep open source sustainable
 
-## [How to contribute to OSS projects](Contributions-to-existing-projects.md)
+## [How to contribute to OSS projects](02-contributions-to-existing-projects.md)
 
 * Define your open source goal and strategy
 * Establish open source guiding principles and processes
@@ -19,7 +23,7 @@
   * Process for expressing company approval for contributions
 * Contribution models
 
-## [Starting open source projects](starting-oss-projects.md)
+## [Starting open source projects](03-starting-oss-projects.md)
 
 * Motivation
 * Project life cycle
@@ -46,5 +50,5 @@
   * Repository Linting
 * Build an open source metrics strategy when releasing to open source projects
 
-## [References](references.md)
+## [References](04-references.md)
 
