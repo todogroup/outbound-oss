@@ -8,13 +8,13 @@ Launching a new OSS project is comparable to a product introduction and it is, a
 
 When thinking about to start an own OSS project there are several phases you should consider:
 
-![oss-projcet-process](./img/LaunchinOSSProject.PNG)
+![oss-projcet-process](../img/LaunchinOSSProject.PNG)
 
 ## Project life cycle
 
 The life cycle of an open source project describes the stages in which the project evolves, from its conception to its retirement or end of life stage. Typically, a project originates to solve a specific problem. It may become obsolete either because the problem does not exist anymore or because other projects are better suited to solve the problem. The figure below shows the different stages an open source project may undergo.
 
-![Typical lifecycle of an open source project](./img/OSS-lifecycle.png)
+![Typical lifecycle of an open source project](../img/OSS-lifecycle.png)
 
 ### Planning or Concept Phase
 
