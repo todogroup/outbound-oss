@@ -6,7 +6,7 @@ This repo contains documentation and guidance about how to contribute to and/or 
 
 Please note that the initial contributors from this guide comes from corporate environments. Due to this limited scope, this guide cannot properly be applied for noncorporate entities. We welcome contributors from noncorporate sectors and other areas to expand the scope of the guide in a future via community contributions.
 
-## How can to contribute to this repo?
+## How can people contribute to this repo?
 
 Please read our [contributing guides](https://github.com/todogroup/outbound-oss/blob/main/CONTRIBUTING.md) to learn more.
 
