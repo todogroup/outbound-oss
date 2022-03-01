@@ -30,7 +30,7 @@ Source: https://www.gesetze-im-internet.de/englisch_urhg/englisch_urhg.html#p052
 
 which in the end means that all the software developed in this context is the property of the employer i.e. the company the developer is working for. At least the German copyright act does not limit the proprietorship to code developed during working hours or within the company IT infrastructure, it only scopes the context. 
 
-But what to do in case an employee wants to contribute to OSS projects which do not fall under the above mentioned context?
+** But what to do in case an employee wants to contribute to OSS projects which do not fall under the above mentioned context? - also known as "moonlighting" **
 
 In this case the copyright ownership stays with the developer (assuming he/she is not developing for another entity). In order to provide clarity and avoid confusing the following procedure can be implemented:
 The developer informs his manager about the intention to contribute to a certain project (which is out of scope in regard to section 69b) in case the manager has not objections they draft a small note with at least the following content:
@@ -53,7 +53,7 @@ But what about when the developer decides to move to another department inside t
 The above described procedure provides transparency about the copyright ownership and its change during the time.
 
 
-What to do in case the contribution falls under the above mentioned section of the copyright act?
+** What to do in case the contribution falls under the above mentioned section of the copyright act? **
 
 A procedure is required, which
 * protects the companies business interests of the employer
