@@ -53,7 +53,7 @@ But what about when the developer decides to move to another department inside t
 The above described procedure provides transparency about the copyright ownership and its change during the time.
 
 
-** What to do in case the contribution falls under the above mentioned section of the copyright act? **
+**What to do in case the contribution falls under the above mentioned section of the copyright act?**
 
 A procedure is required, which
 * protects the companies business interests of the employer
