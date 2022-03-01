@@ -62,7 +62,7 @@ Last but not least public code is like the business card of a company as well as
 
 The more complex the business environment in which the code to publish was developed, the more stakeholders need to be involved. The picture below shows a procedure that involves all functions, even in a complex setup. 
 
-![contributions](./img/template-contribs.JPG)
+![contributions](./img/template-contribs.png)
 
 The procedure described above is not suited for frequent contributors and/or contributors who are working “upstream” in their daily work. For these developers different procedures need to be established in order to avoid loading them with “unproductive” work.
 The following approaches are suited for such developers:
@@ -70,7 +70,7 @@ The following approaches are suited for such developers:
 * major to major release model
 * full trust model
 
-![small-contributions](./img/small-contributions.JPG)
+![small-contributions](./img/small-contributions.png)
 
 ## Small contributions Model or trivial contributions
 
@@ -92,5 +92,9 @@ This procedure scopes the release cycle of the OSS project where contributions s
 
 The full trust model can be applied to developers who have already successfully worked under the major to major release model. It is an incentive for the employee and a sign of confidence of the employer towards the employee. Basically it is the allowance for the developer to work “upstream” without any approval procedure. Since this model shall only be applied after the developer worked successfully under the major to major release model, there is no need for an  “initial” contribution with the entire approval procedure, although it makes sense in order to have it documented. 
 
-The Major to major release model as well as the full trust model shall only be executed by  senior developers, who are specially trained in copyright principles, have a good understanding of the business interests of the company they are working for, practise “an ownership culture” and have already deep experience in the open source ecosystem. 
+The Major to major release model as well as the full trust model shall only be executed by  senior developers, who are specially trained in copyright principles, have a good understanding of the business interests of the company they are working for, practice “an ownership culture” and have already deep experience in the open source ecosystem. 
 In order to track all the contributions the developers shall contribute with their official email / github id.
+
+## Other models
+
+Beside the above mentioned models many different can be defined, like "contributions to a defined set of OSS projects are allowed without an approval". No matter whether and which kind of "lightweight" variants will be defined, the proper awareness and education of the contributing developers is key. 
