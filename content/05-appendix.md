@@ -1,4 +1,5 @@
-# Managing work vs personal personas
+# Appendix
+## Managing work vs personal personas
 In the world of open source, folks may have an online identity that pre-dates
 their employment with our current organization. Simultaneously, the organization
 may want contributions done on their behalf to happen with corporate emails.
