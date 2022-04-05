@@ -149,7 +149,7 @@ In existing projects governance often has emerged over time, has gone from infor
 
 When starting a new open source project you have to decide about how its governance will look like. This goes beyond deciding on a license. You will also have to decide about ownership of assets such as trademarks or domains and the rules how they can be used. And you will have to decide about policies of how people can become committers or maintainers, how releases and roadmaps are made, or how transparent the decision making process is.
 
-For a project which is meant to attract a broad set of contributers it is important to set up governance which provides a neutral ground, is open to participation by diverse participancts, and is transparent about its decision making. This can be called [open governance](https://opengovernance.dev/). One way to achieve this is to join one of the existing open source foundations.
+For a project which is meant to attract a broad set of contributors it is important to set up governance which provides a neutral ground, is open to participation by diverse participancts, and is transparent about its decision making. This can be called [open governance](https://opengovernance.dev/). One way to achieve this is to join one of the existing open source foundations.
 
 In other cases a company might want to retain more control about the project. This will limit contributions from others but give more freedom in how to steer a project. It requires that there are enough resources allocated to maintain the project. It still is helpful to implement elements of open governance, such as transparency about planning or a permissive trademark policy to increase adoption of the project.
 
