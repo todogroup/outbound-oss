@@ -143,11 +143,11 @@ You should have a policy for which of these way you use when. "Inbound=Outbound"
 
 ### Project governance
 
-An important factor for the success of an open source project is its governance. That comprises the rules, policies, conventions, and culture governing the collaboration. It determines factors such as how decisions are taken, who is in control, or who can join a project.
+An important factor for the success of an open source project is its governance. That comprises the rules, policies, conventions, and culture of the collaboration. It determines factors such as how decisions are taken, who is in control, or who can join a project.
 
 In existing projects governance often has emerged over time, has gone from informal procedures driven by the practices of the project founders to more formally defined governance documented in contribution guides or ultimately instituted through a foundation as formal organization hosting the project.
 
-When starting a new open source project you can decide about how its governance will look like. This goes beyond deciding on a license. You will also have to decide about ownership of assets such as trademarks or domains and the rules how they can be used. And you will have to decide about policies of how people can become committers or maintainers, how releases and roadmaps are made, or how transparent the decision making process is.
+When starting a new open source project you have to decide about how its governance will look like. This goes beyond deciding on a license. You will also have to decide about ownership of assets such as trademarks or domains and the rules how they can be used. And you will have to decide about policies of how people can become committers or maintainers, how releases and roadmaps are made, or how transparent the decision making process is.
 
 For a project which is meant to attract a broad set of contributers it is important to set up governance which provides a neutral ground, is open to participation by diverse participancts, and is transparent about its decision making. This can be called [open governance](https://opengovernance.dev/). One way to achieve this is to join one of the existing open source foundations.
 
