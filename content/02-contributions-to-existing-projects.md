@@ -1,20 +1,20 @@
 # How to contribute to OSS projects
 
-Building better relationships with the open source ecosystem has its own set of challenges, but it becomes easier if you have a clear plan to follow. Here are some guidelines to a number of practices that organizations can can adopt.
+Building better relationships with the open source ecosystem has its own set of challenges, but it becomes easier if you have a clear plan to follow. Here are some guidelines to a number of practices that organizations can adopt.
 
 ## Define your open source goal and strategy
 
- Your open source strategy connects the plans for managing, participating in, and creating open source software with the business objectives that the plans serve. This can open up many opportunities and catalyze innovation. The TODO GRoup offers a dedicated guide to [Setting an Open Source Strategy](https://todogroup.org/guides/strategy/)
+ Your open source strategy connects the plans for managing, participating in, and creating open source software with the business objectives that the plans serve. This can open up many opportunities and catalyze innovation. The TODO Group offers a dedicated guide to [Setting an Open Source Strategy](https://todogroup.org/guides/strategy/)
 
 ## Establish open source guiding principles and processes
 
 ### Guiding principles
 
-The procedure described in the following is designed to ensure that the company interests and its employees are protected. We also need to make sure that contributions are in line with copyright law, export regulations, data protection regulations and open source development best practices. On the other hand, procedural burden for all to be involved stakeholders should be low and the approval procedure should not take too much time.
+The procedure described in the following is designed to ensure that the company interests and its employees are protected. We also need to make sure that contributions are in line with copyright law, export regulations, data protection regulations and open source development best practices. On the other hand, the procedural burden for all to be involved stakeholders shall be low and the approval procedure should not take too much time.
 
 ### Responsibility: decision rests with unit
 
-* The approval procedure is the responsibility of the organizational unit that paid for the development of the code in question
+* The approval procedure is the responsibility of the organization that financed the development of the code in question
 * If the affected code/IP is used, co-developed or co-financed by other Units, involve them as stakeholders in the release decision
 
 ### General structure and scope of the process
@@ -27,8 +27,8 @@ The procedure described in the following is designed to ensure that the company 
 **Boundary conditions**
 
 * Protect our employees and our business interests
-* Act in compliance with law, internal and external regulations
-* Provide transparency to the decision makers on what and how much of the companies code and IP will be affected by the publication
+* Act in compliance with law as well as with internal and external regulations
+* Provide transparency to the decision makers on what and how much of the companies' code and IP will be affected by the publication
 * All the contributions shall be made with the “company”-email (similar for the github activity) so that all contributions of the company can be identified easily.
 * Respect the rules and customs of the OSS ecosystem and of the target OSS project
 
@@ -36,30 +36,78 @@ The procedure described in the following is designed to ensure that the company 
 
 **Why is it needed?**
 
-Why is there a need for a certain procedure at all? First of all the copyright law requires it.
+Why is there a need for a certain procedure at all? 
 
-For example the German copyright act states in Section 69b ([Source](https://www.gesetze-im-internet.de/englisch_urhg/englisch_urhg.html#p0522)):
+First of all, the copyright law requires it.
 
-    Authors in employment or service relationships
-    (1) Where a computer program is created by an employee in the execution of his duties or following the instructions of his employer, the employer exclusively shall be entitled to exercise all economic rights in the computer program, unless otherwise agreed.
+For example the German copyright act states in Section 69b:
+Authors in employment or service relationships
+> (1) Where a computer program is created by an employee in the execution of his duties or following the instructions of his employer, the employer exclusively shall be entitled to exercise all economic rights in the computer program, unless otherwise agreed.
 
-This means that all the software developed in this context is the property of the employer i.e. the company the developer is working for. At least the German copyright act does not limit the proprietorship to code developed during working hours or within the company IT infrastructure, it only scopes the context.
+Source: [German Copyright Act](https://dejure.org/gesetze/UrhG/69b.html)
 
-Secondly a procedure is required to protect the companies business interests as well as to protect the employee. Last but not least public code is like the business card of a company as well as of the developer who has written the code.
+This means that all the software developed in this context is the property of the employer i.e., the company the developer is working for. At least the German copyright act does not limit the proprietorship to code developed during working hours or within the company IT infrastructure, it only scopes the context. 
 
-The more complex the business environment in which the code to publish was developed, the more stakeholders need to be involved. The picture below shows a procedure that involves all functions, even in a complex setup.
+Secondly a procedure is required to protect the company’s business interests as well as to protect the employee. Finally public code is like the business card of a company as well as of the developer who has written the code.
+
 
 **Outbound CLA**
 
-TODO: See [issue #3](https://github.com/Open-Source-Compliance/outbound-oss/issues/3).
+Some OSS projects as well as some OSS Foundations require a Contributor License Agreement (CLA) before they accept contributions. We know at least two different types of CLAs:
+
+* Corporate Contributor License Agreement (CCLA)
+* Individual Contributor License Agreement (ICLA)
+
+Whether none, one or both are required for contributions is usually described in files like "Contributing.md" in the project repositories. The [CCLA](https://www.apache.org/licenses/cla-corporate.pdf) and the [ICLA](https://www.apache.org/licenses/icla.pdf) authored by the Apache Foundation are the de facto standard of CLAs and many OSS projects have adopted either one or both.
+
+The purpose of a CLA or a Developers Certificate of Origin (DCO) is to provide confidence to the OSS project that the contributor is entitled to submit the contribution. A DCO is a more lightweight approach compared to a CLA.
+
+The price of improved confidence for the OSS project is more overhead in the organization the contributor is working for. Especially in case of large corporations with several affiliates the effort of evaluating, signing and maintaining a CCLA shall not be underestimated.
+
+Why is a CCLA causing additional effort in large organizations, let's briefly look at the CCLA of the Apache Foundation as an example:
+* The CCLA is a contract - in many organizations the "four eyes principle" is implemented - a contract has to be signed by two persons, who have the right to sign contracts in the name of the organization - the required involvement of probably two more stakeholders requires additional effort in briefing them
+* Usually a CCLA covers not only the specific legal entity the contributor is working for, it also covers all affiliates:
+	> For legal entities, the entity making a Contribution and all other entities that control, are controlled by, or are under common control with that entity are considered to be a single Contributor. For the purposes of this definition, "control" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity
+* The CCLA includes besides the copyright grant a patent grant. This is fine, nevertheless inside the organization the "IP department" needs to be involved in the evaluation process of the CCLA and for the specific contribution the "IP department" need to sync with all affiliates
+* The CCLA needs to be analyzed by the "Legal department" of the organization.
+
+Some CCLAs require that the copyright of the contributions are assigned to the OSS project/Foundation. Copyright assignment is a topic which, causes even more effort and might not be accepted at all.
+
+Besides the above-mentioned additional effort the CCLA adds additional "maintenance effort" to the organization, because it requires that the organization nominates all entitled contributors by name to the CCLA requiring party.
+
+> It is your responsibility to notify the Foundation when any change is required to the list of designated employees authorized to submit Contributions on behalf of the Corporation, or to the Corporation's Point of Contact with the Foundation.
+
+* The signed CCLA has to made available inside the organization - This can be done via publishing the CCLA on the OSPOs website at a location which can be found easily be the employees (e.g., it might be useful to have a "top level page" named CCLAs, this page then contains a list of "signed CCLAs", a list of "CCLAs under evaluation", and a list of "denied CCLAs".)
+
+* All affiliates need to be informed and a procedure needs to be defined how the affiliates can nominate/ de-nominate contributors working for them. This becomes even more challenging in case an affiliate has no access to the intranet of the signing entity. In this case the signed CCLA or the information about the signed CCLA needs to be sent to the OSPOs of all affiliates, in case an affiliate has no OSPO set up, the information must be routed to the function, which is in charge of software development. All affiliates need to provide the names of nominated contributors or former contributors, who shall not be entitled anymore to do contributions to the OSPO of the signing entity, which then must inform the Foundation/project about the change of the list of contributors. 
+* Publishing the list of contributors inside the organization and disclosing it to the Foundation/project might also require the approval of the data protection officers of the involved entities
+
+This additional effort may hold organizations off to contribute small bugfixes or patches or even new features to the upstream OSS projects and puts them to risk of private forks and thus a lot of additional development effort in the long run. Thus the decision not to contribute needs to be taken very carefully. 
+
+A DCO in contrast to a CLA is a much more lightweight procedure. It was introduced to enhance the confidence that contributions to the Linux kernel are made "legally correct" by the contributors. The [DCO version 1.1](https://developercertificate.org/) is used by many OSS projects.
+
+The main difference of a DCO compared to a CLA is, that a DCO is not a contract, it is a kind of attest of the specific contributor that he/she is entitled to submit a concrete contribution. All the effort which has to be spend to get a CLA signed and maintained is not needed. The only tasks which have to be carried out are:
+* Evaluation of the DCO by the "Legal department"
+* Evaluation by the "IP department"
+* Evaluation by the specific contributor, whether it is acceptable for him/her
+Since the DCO version 1.1 is the "standard" the "Legal"- and "IP department" only have very little effort to spend.
+
 
 **Procedure for contributions to existing projects**
 
-An example for a full process for doing contributions looks like this:
+The more complex the business environment in which the code to publish was developed, the more stakeholders need to be involved. The picture below shows a procedure that involves all functions, even in a complex setup.
 
-![contributions](./img/template-contribs.JPG)
+![contributions](./img/template-contribs.png)
 
-The procedure described above is not suited for frequent contributors and/or contributors who are working “upstream” in their daily work. For these developers different procedures need to be established in order to avoid loading them with “unproductive” work. This is described in the section about contribution models.
+Abbreviations used:
+
+* CLA = Contributor License Agreement
+* DCO = Developers Certificate of Origin
+* ECC = Export Control and Customs
+* IP  = Intellectual Property
+
+
+The procedure shown above is not suited for frequent contributors and/or contributors who are working “upstream” in their daily work. For these developers different procedures need to be established in order to avoid loading them with “unproductive” work. Different contribution models can be established in an organization to serve different needs.
 
 ## Contribution models
 
@@ -69,40 +117,64 @@ The following approaches are suited for such developers:
 * major to major release model
 * full trust model
 
-![small-contributions](./img/small-contributions.JPG)
+![small-contributions](./img/small-contributions.png)
 
 **Small contributions Model or trivial contributions**
 
-A small or trivial contribution is a rather small and simple change to already existing open source software. Typical cases found in this category are bug fixes and error corrections with no or low Intellectual Property value.
+A small or trivial contribution is a rather small and simple change to already existing open source software. Typical cases found in this category are bug fixes with no or low Intellectual Property value.
+
 A change is not trivial if:
 * Functionality is added or changed.
 * The interface of the open source software component is changed.
 * It is an optimization that more than insignificantly increases performance.
 * It contains a design or an algorithm that wouldn’t be obvious for a software engineer.
 
-This procedure scopes small contributions. It can be followed for small or trivial contributions following the initial contribution to a particular OSS project or component. The initial contribution has to implement the entire procedure described above, because CLAs / DCOs etc. have to be checked  and signed in case the particular project requires them.
+This procedure scopes small contributions. It can be implemented for small or trivial contributions following the initial contribution to a particular OSS project or component. The initial contribution has to undergo the entire procedure described above, because CLAs / DCOs etc. have to be checked  and signed in case the particular project requires them.
 After the initial contribution all subsequent small contributions can be contributed directly to the OSS project without the need to follow the defined process no matter which version of the OSS project.
 
 **Major to major release model**
 
-This procedure scopes the release cycle of the OSS project where contributions shall be made to. It has the same “starting point” like any other contribution - the initial contribution has to implement the entire procedure in order to check CLAs / DCOs and to have the documented permission to contribute to a specific project. After the initial contribution all subsequent contributions during the development of a new major release can be contributed to the OSS project without the need to go through the approval process. There is no size limitation for contributions. The contributions can range from a trivial bug fix to adding new features, changing interfaces, refactoring and so on. After the release of a major version of the project a new approval procedure has to be kicked off for the first contribution after the major release.
+This procedure scopes the release cycle of the OSS project to which contributions shall be made. It has the same “starting point” like any other contribution - the initial contribution must implement the entire procedure in order to check CLAs / DCOs and to have the documented permission to contribute to a specific project. After the initial contribution all subsequent contributions during the development of a new major release can be contributed to the OSS project without the need to go through the approval process. There is no size limitation for contributions. The contributions can range from a trivial bug fix to adding new features, changing interfaces, refactoring and so on. After the release of a major version of the project a new approval procedure has to be kicked off for the first contribution after the major release.
 
 **Full trust model**
 
-The full trust model can be applied to developers who have already successfully worked under the major to major release model. It is an incentive for the employee and a sign of confidence of the employer towards the employee. Basically it is the allowance for the developer to work “upstream” without any approval procedure. Since this model shall only be applied after the developer worked successfully under the major to major release model, there is no need for an  “initial” contribution with the entire approval procedure, although it makes sense in order to have it documented.
+The full trust model can be applied to developers who have already successfully worked under the major to major release model. It is an incentive for the employee and a sign of trust of the employer towards the employee. Basically it is the allowance for the developer to work “upstream” without any approval procedure. Since this model shall only be applied after the developer worked successfully under the major to major release model, there is no need for an  “initial” contribution with the entire approval procedure, although it makes sense in order to have it documented.
 
-The Major to major release model as well as the full trust model shall only be executed by  senior developers, who are specially trained in copyright principles, have a good understanding of the business interests of the company they are working for, practise “an ownership culture” and have already deep experience in the open source ecosystem.
+The Major to major release model as well as the full trust model shall only be executed by  senior developers, who are specially trained in copyright principles, have a good understanding of the business interests of the company they are working for, practice “an ownership culture” and have already deep experience in the open source ecosystem.
+
 In order to track all the contributions the developers shall contribute with their official email / github id.
 
 **Clearing projects for contributions**
 
-Another model is to provide approval for specific projects. These projects are checked, e.g. by the OSPO, and if everything is in place to allow contributions, they are cleared for contributions by employees. Then there is no individual approval for each specific contribution required, but only if general conditions of the project change, such as license or introduction of a CLA, etc.
+Another model is to provide approval for specific projects. These projects are checked, e.g. by the OSPO, and if everything is in place to allow contributions, they are cleared for contributions by employees. Then there is no individual approval for each specific contribution required. But if the general conditions of the project change, such as license or introduction of a CLA, etc. the project needs to be cleared again by the OSPO
 
 Prerequisite for such a model is that contributors are qualified to do contributions autonomously. This can be achieved by making sure contributors have received training and/or tracking and approving who can contribute to which repository.
 
-**Spare time contributions**
 
-TODO: See [issue #2](https://github.com/Open-Source-Compliance/outbound-oss/issues/2).
+**What to do in case an employee wants to contribute to OSS projects which do not fall under the above mentioned context? - also known as "moonlighting"**
+
+In this case the copyright ownership stays with the developer (assuming he/she is not developing for another entity). In order to provide clarity and avoid confusing the following procedure can be implemented:
+
+The developer informs his manager about the intention to contribute to a certain project (which is out of scope of section 69b German Copyright Act) in case the manager has not objections they draft a small note with, at least, the following content:
+* date of the meeting
+* project(s) the employee wants to contribute to
+* estimated hours per week
+* approval by the manager
+* signature of the developer
+* signature of the manager
+
+The note can be send to the HR department to keep it in the personnel record of the employee.
+
+This procedure provides transparency especially in the context of large enterprises, acting in many different software technology areas. 
+
+The example below shall illustrate why such a procedure makes sense:
+
+A developer may, for example, implement Linux kernel drivers according to his duties. Another area of interest of the developer is for example AI and the developer wants to contribute to an AI project during his spare time. 
+Given that the AI project has nothing to do with Linux kernel driver development, the developer holds copyright on his contributions and the copyright ownership is not transferred to the employer. The developer can contribute code without the need of an approval by his employer.
+
+But what about when the developer decides to move to another department inside the company, which develops AI. All of a sudden the former "moonlighting" is now covered by section 69b of the copyright act and the copyright owner now is the employer.
+
+The above described procedure provides transparency about the copyright ownership and its change during the time.
 
 **Trainings**
 
