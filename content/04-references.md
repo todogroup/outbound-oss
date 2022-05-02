@@ -9,3 +9,7 @@
 * [How to measure the health of an open source community](https://opensource.com/article/19/8/measure-project)
 * [Community health files (GitHub.com)](https://docs.github.com/en/github/building-a-strong-community/creating-a-default-community-health-file#about-default-community-health-files)
 * [CII Best Practices Badge (LF Core Infrastructure Initiative)](https://bestpractices.coreinfrastructure.org/en)
+* [DCO version 1.1](https://developercertificate.org/)
+* [ICLA](https://www.apache.org/licenses/icla.pdf)
+* [CCLA](https://www.apache.org/licenses/cla-corporate.pdf) 
+* [German Copyright Act](https://dejure.org/gesetze/UrhG/69b.html)
