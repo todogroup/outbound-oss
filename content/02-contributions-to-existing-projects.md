@@ -74,7 +74,6 @@ Why is a CCLA causing additional effort in large organizations, let's briefly lo
 Some CCLAs require that the copyright of the contributions are assigned to the OSS project/Foundation. Copyright assignment is a topic which, causes even more effort and might not be accepted at all.
 
 Besides the above-mentioned additional effort the CCLA adds additional "maintenance effort" to the organization, because it requires that the organization nominates all entitled contributors by name to the CCLA requiring party.
-
 > It is your responsibility to notify the Foundation when any change is required to the list of designated employees authorized to submit Contributions on behalf of the Corporation, or to the Corporation's Point of Contact with the Foundation.
 
 * The signed CCLA has to made available inside the organization - This can be done via publishing the CCLA on the OSPOs website at a location which can be found easily be the employees (e.g., it might be useful to have a "top level page" named CCLAs, this page then contains a list of "signed CCLAs", a list of "CCLAs under evaluation", and a list of "denied CCLAs".)
@@ -97,7 +96,7 @@ Since the DCO version 1.1 is the "standard" the "Legal"- and "IP department" onl
 
 The more complex the business environment in which the code to publish was developed, the more stakeholders need to be involved. The picture below shows a procedure that involves all functions, even in a complex setup.
 
-![contributions](./img/template-contribs.png)
+![contributions](../img/template-contribs.png)
 
 Abbreviations used:
 
@@ -117,7 +116,7 @@ The following approaches are suited for such developers:
 * major to major release model
 * full trust model
 
-![small-contributions](./img/small-contributions.png)
+![small-contributions](../img/small-contributions.png)
 
 **Small contributions Model or trivial contributions**
 
