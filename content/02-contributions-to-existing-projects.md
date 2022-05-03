@@ -94,7 +94,7 @@ The full trust model can be applied to developers who have already successfully 
 The Major to major release model as well as the full trust model shall only be executed by  senior developers, who are specially trained in copyright principles, have a good understanding of the business interests of the company they are working for, practise “an ownership culture” and have already deep experience in the open source ecosystem.
 In order to track all the contributions the developers shall contribute with their official email / github id.
 
-**Approving projects for contributions**
+**Clearing projects for contributions**
 
 Another model is to provide approval for specific projects. These projects are checked, e.g. by the OSPO, and if everything is in place to allow contributions, they are cleared for contributions by employees. Then there is no individual approval for each specific contribution required, but only if general conditions of the project change, such as license or introduction of a CLA, etc.
 
