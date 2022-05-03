@@ -143,7 +143,7 @@ The Major to major release model as well as the full trust model shall only be e
 
 In order to track all the contributions the developers shall contribute with their official email / github id.
 
-**Clearing projects for contributions**
+**Approving projects for contributions**
 
 Another model is to provide approval for specific projects. These projects are checked, e.g. by the OSPO, and if everything is in place to allow contributions, they are cleared for contributions by employees. Then there is no individual approval for each specific contribution required. But if the general conditions of the project change, such as license or introduction of a CLA, etc. the project needs to be cleared again by the OSPO
 
