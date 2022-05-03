@@ -143,11 +143,19 @@ You should have a policy for which of these way you use when. "Inbound=Outbound"
 
 ### Project governance
 
-See [issue #12](https://github.com/Open-Source-Compliance/outbound-oss/issues/12)
+An important factor for the success of an open source project is its governance. That comprises the rules, policies, conventions, and culture of the collaboration. It determines factors such as how decisions are taken, who is in control, or who can join a project.
 
-open governance, transparency about governance
+In existing projects governance often has emerged over time, has gone from informal procedures driven by the practices of the project founders to more formally defined governance documented in contribution guides or ultimately instituted through a foundation as formal organization hosting the project.
 
-Company-based vs. foundation-driven, when to select which approach, leveraging a foundation (such as Eclipse)
+When starting a new open source project you have to decide about how its governance will look like. This goes beyond deciding on a license. You will also have to decide about ownership of assets such as trademarks or domains and the rules how they can be used. And you will have to decide about policies of how people can become committers or maintainers, how releases and roadmaps are made, or how transparent the decision making process is.
+
+For a project which is meant to attract a broad set of contributors it is important to set up governance which provides a neutral ground, is open to participation by diverse participancts, and is transparent about its decision making. This can be called [open governance](https://opengovernance.dev/). One way to achieve this is to join one of the existing open source foundations. Prominent examples for this are [Kubernetes](https://kubernetes.io/) which is hosted by the [CNCF](https://www.cncf.io/) or the [Eclipse IDE](https://www.eclipse.org/ide/) which is part of the [Eclipse Foundation](https://www.eclipse.org/org/foundation/).
+
+In other cases a company might want to retain more control about the project. This will limit contributions from others but give more freedom in how to steer a project. It requires that there are enough resources allocated to maintain the project. It still is helpful to implement elements of open governance, such as transparency about planning or a permissive trademark policy to increase adoption of the project. Examples for this would be [TensorFlow](https://www.tensorflow.org/) which is run by Google or [Visual Studio Code](https://code.visualstudio.com/) which is run by Microsoft.
+
+For smaller projects, for example technical tools which emerge from work on other projects, a simple and less formal approach to governance can also work. Here the goal is not primarily broad adoption or building a large community, but transparency and ad-hoc collaboration with interested individiuals. Often this kind of project is more driven by technical needs and motivation of developers than by overaching business needs. If such a project is growing its governance can be evolved. This can for example result in a project being transferred to a foundation. Countless examples can be found on [GitHub](https://github.com/explore).
+
+More detailed information and possible starting points for open source governance can be found in the [Minimum Viable Governance](https://github.com/github/MVG) framework or [A Legal Issues Primer for Open Source and Free Software Projects](https://softwarefreedom.org/resources/2008/foss-primer.html).
 
 ### Different Project Levels
 
