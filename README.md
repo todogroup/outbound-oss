@@ -12,7 +12,7 @@ Please read our [contributing guides](https://github.com/todogroup/outbound-oss/
 
 ## How is this repo structured?
 
-Please see the [table of contents](toc.md) for an overview and links to the detailed sections.
+Please see the [table of contents](/content/00-toc.md) for an overview and links to the detailed sections.
 
 ## Acknowledgements
 
