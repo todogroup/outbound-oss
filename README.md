@@ -22,6 +22,8 @@ Thanks to all the participants in this study who generously spent time working o
 * Cornelius Schumacher: @cornelius
 * Oliver Fendt: @oliverfendt
 * Ana Jiménez: @anajsana
+* Josep Prat: @jlprat
+* Justin Abrahms: @justinabrahms
 
 > If you would like to contribute and be acknowledged, please read our [contributing guides](https://github.com/todogroup/outbound-oss/blob/main/CONTRIBUTING.md)
 
