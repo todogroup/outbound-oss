@@ -61,7 +61,7 @@ In addition, the following aspects should be considered in the planning phase:
 
   * Ensure that the coding style is consistent
 
-* Where will the code be published? Typically, it will be in a company-owned organization on a code hosting platform auch as GitHub.com or GitLab.com but, depending on the technology, other potential publishing channels exist (for example, NPM, Maven central, PyPI)
+* Where will the code be published? Typically, it will be in a company-owned organization on a code hosting platform such as GitHub.com or GitLab.com but, depending on the technology, other potential publishing channels exist (for example, NPM, Maven central, PyPI)
 * Does it make sense to publish binaries? If yes, where?
 * Define your Web site and communication: What can you do to make your project known? Does it make sense to create a Web site for the project? Are there working groups?
 * Plan your project life cycle
