@@ -22,7 +22,7 @@ This is the starting point of every open source project. It can also be referred
 
 * The problem that the project intends to solve has been clearly defined
 * There is either no source code available yet or the source code is only internally available. In the first case, the project only exists as idea; in the second case, the project may have been started as an company-internal project and has not been published yet
-* Possibly, the idea has been already shared with the community to get feedback. However, note that this sharing such ideas that so far have only been discussed company-internally requires approval in advance.
+* Possibly, the idea has been already shared with the community to get feedback. However, note that sharing such ideas that have only been discussed company-internally requires approval in advance.
 
 Before starting a project, it is reasonable to get answers to the key questions:
 
@@ -59,16 +59,16 @@ In addition, the following aspects should be considered in the planning phase:
     * Internal comments, references to other internal code, and the like
     * Access tokens and the like
 
-  * Ensure coding style is consistent
+  * Ensure that the coding style is consistent
 
-* Where will the code be published? Typically, it will be in a company-owned organization on a code hosting platform auch as Github.com or GitLab.com but, depending on the technology, other potential publishing channels exist (for example, NPM, Maven central, PyPI)
+* Where will the code be published? Typically, it will be in a company-owned organization on a code hosting platform such as GitHub.com or GitLab.com but, depending on the technology, other potential publishing channels exist (for example, NPM, Maven central, PyPI)
 * Does it make sense to publish binaries? If yes, where?
 * Define your Web site and communication: What can you do to make your project known? Does it make sense to create a Web site for the project? Are there working groups?
 * Plan your project life cycle
 
 ### Active or Development Phase
 
-Once the the project has got an approval for open sourcing and the code is available and published, the project has entered the active development phase. In this phase, the open source project typically has the following characteristics:
+Once the project has got an approval for open sourcing and the code is available and published, the project has entered the active development phase. In this phase, the open source project typically has the following characteristics:
 
 * The source code is publicly visible
 * The project community is actively managed
@@ -81,6 +81,7 @@ During the active phase, the following aspects should be considered:
 
 * Do marketing: Make the project better known (for example, through blog posts, reaching out to potentially interesting parties/companies, talks at conferences)
 * Invest in building and managing the community
+* Care for full transparency, every decision shall be made in the public, even if there is no external community yet. This is very important because interested organizations are able to follow all decisions and to build up trust in the project
 * Carry out a health check of the project and its community (that is, perform a review of the defined KPI’s and goals)
 * Check 3rd party contributions
 * Plan further developments
@@ -91,7 +92,7 @@ During the active phase, the following aspects should be considered:
 At a certain point in time, an open source project becomes mature. This can also be referred to as the "maintenance phase", meaning that only error corrections are made and normally no new functionality is developed. The following aspects characterize this phase:
 
 * The project is being used actively, but from a functional perspective it can be considered as complete or at least no major functional enhancements are necessary
-* Contributions mainly focus on bug fixes. Functional enhancements are only minor and are done only rarely
+* Contributions mainly focus on bug fixes. Functional enhancements are only minor and are done rarely
 * A dedicated team still provides support for the project, but with relatively low efforts
 * The team still has to take care of the community, but normally less effort is required compared to projects that are in active development.
 * It is good practice to clearly communicate that the project is in the maintenance phase and no or only limited further development can be expected
@@ -125,7 +126,7 @@ When choosing a license the following questions have to be considered:
 * **How does the license interact with your business model?** When the software you are going to open source is supporting other parts of your business, a permissive license might accelerate adoption. If you are also selling proprietary version of your software, a copyleft license might be a stronger differentiator.
 * **Are there depencies or other incorporated code which limit the choice of licenses?** For example when incorporating GPL code, the resulting project has to be GPL as well.
 
-Answering these questions can be challenging and opinions will vary. A simple starting point can the the [choosealicense.com](https://choosealicense.com/). There is a lot of comprehensive material available from various sources, e.g. [Open source licenses: What, which, and why](https://arstechnica.com/gadgets/2020/02/how-to-choose-an-open-source-license/).
+Answering these questions can be challenging and opinions will vary. A simple starting point can be the [choosealicense.com](https://choosealicense.com/). There is a lot of comprehensive material available from various sources, e.g. [Open source licenses: What, which, and why](https://arstechnica.com/gadgets/2020/02/how-to-choose-an-open-source-license/).
 
 It's advisable to set up policies for license selection, so that the decision process is simplified when starting new projects.
 
@@ -135,11 +136,11 @@ When running an open source project you need to decide how you are going to chec
 
 * **"Inbound=Outbound"** - Contributions are accepted under the same license as the project distributes its code. There is no additional paperwork. This is a symmetric setup, where contributors, maintainers, and users have the same rights under the chosen license. It has the lowest barrier for contributors. Some things such as changing the license of the projects become difficult, because that needs approval by every contributor.
 
-* **Developer Certificate of Origin (DCO)** - The [DCO](https://developercertificate.org/) was introduced in Linux kernel development and has been adopted by quite some other projects. It's a statement developers give with each commit by including a "Signed-Off-By" statement in the commit message. With this statement developers explictly declare that they have the rights they need to do the contribution and that they agree that the project is using it. This is still a low barrier, but it gives projects more security that code was rightfully contributed. It does not help in cases where the license of the code needs to be changed.
+* **Developer Certificate of Origin (DCO)** - The [DCO](https://developercertificate.org/) was introduced in Linux kernel development and has been adopted by quite some other projects. It's a statement developers give with each commit by including a "Signed-Off-By" statement in the commit message. With this statement developers explictly declare that they have the rights they need to do the contribution and that they agree that the project is using it. This is still a low barrier, but it gives projects more confidence that code was rightfully contributed. It does not help in cases where the license of the code needs to be changed.
 
-* **Contributor License Agreement (CLA)** - A CLA is an additional agreement between the contributor and the project which gives the project additional rights on top of the rights given by the license. If people contribute on behalf of a company, where the company holds the rights on the work of the contributor, the company has to sign the CLA. There is a variety of different CLAs in use, some mostly confirm the rights already given by the license, some give additional rights such as being able to release the code under a different license, for example when the code is also released under a proprietary license as part of a commercial offering. With a CLA rights are collected at a central place, so changing the license, or rereleasing the code as part of a product with a different license is possible. The assymetry of the agreement, which gives the project more rights than its contributors can impose a bigger barrier for contributions. Requiring a corporate CLA can also be an insurmountable barrier, especially for large corporations, because the effort and legal implications of checking and signing a CLA might outweigh the benefits of contributing.
+* **Contributor License Agreement (CLA)** - A CLA is an additional agreement between the contributor and the project which gives the project additional rights on top of the rights given by the license. If people contribute on behalf of a company, where the company holds the rights on the work of the contributor, the company has to sign the CLA. There is a variety of different CLAs in use, some mostly confirm the rights already given by the license, some give additional rights such as being able to release the code under a different license, for example when the code is also released under a proprietary license as part of a commercial offering. With a CLA rights are collected at a central place, so changing the license, or rereleasing the code as part of a product with a different license is possible. The assymetry of the agreement, which gives the project more rights than its contributors can impose a bigger barrier for contributions. Requiring a corporate CLA can also be an insurmountable barrier, especially for large corporations, because the effort and legal implications of checking and signing a CLA might outweigh the benefits of contributing. 
 
-You should have a policy for which of these way you use when. "Inbound=Outbound" is a pragmatic way which can work for most projects. The DCO is a good way to make the contribution process more explicit, especially for larger projects with diverse contributors. The CLA makes contributions more difficult and requires additional administrational work and tooling.
+You should have a policy for which of these way you use when. "Inbound=Outbound" is a pragmatic way which can work for most projects. The DCO is a good way to make the contribution process more explicit, especially for larger projects with diverse contributors. The CLA makes contributions more difficult and requires additional administrational work and tooling. To get an impression about the additional effort and difficulties especially large corporations face you can check [contributions-to-existing-projects](./02-contributions-to-existing-projects.md#process-for-expressing-company-approval-for-contributions)
 
 ### Project governance
 
@@ -159,7 +160,7 @@ More detailed information and possible starting points for open source governanc
 
 ### Different Project Levels
 
-It can make sense to have different levels for new open source projects ("sandbox", "incubator", "graduated" - these are the different [project levels of CNCF](https://www.cncf.io/projects/), for example). That's a way to classify you open source projects wrt. adoption, maturity and quality criteria that they have to fulfill. The basic idea is that new projects start in a dedicated space (CNCF calls that "sandbox" - at Facebook, that's the ["Incubator"](https://github.com/facebookincubator)). In this space, projects can evolve, and check if they reach the goals that have been defined in terms of adoption and quality. If they do, they can be promoted to the next level. If they don't it might be decided to sunset them.
+It can make sense to have different levels for new open source projects ("sandbox", "incubator", "graduated" - these are the different [project levels of CNCF](https://www.cncf.io/projects/), for example). That's a way to classify you open source projects wrt. adoption, maturity and quality criteria that they have to fulfill. The basic idea is that new projects start in a dedicated space (CNCF calls that "sandbox" - at Meta, that's the ["Incubator"](https://github.com/facebookincubator)). In this space, projects can evolve, and check if they reach the goals that have been defined in terms of adoption and quality. If they do, they can be promoted to the next level. If they don't it might be decided to sunset them.
 
 ## Community management
 
@@ -197,7 +198,7 @@ Appropriate tooling can safe a lot of time and help to automate processes signif
 
 ### User management
 
-Normally, Git providers (GitHub, GitLab, Bitbucket etc.) offer means to define teams of individual users and to define (access) rights on team and on individual level. To be able to use the service of a Git provider, engineers have to create a corresponding account. This account has nothing to to with the company-internal account of an engineer. This imposes some challenges since the access rights of an engineer for an external repository might depend on his/her role in the company or whether he/she is still working for the company (let's assume be that an engineer got comprehensive rights for external repositories when he/she was working for your company and that he/she now left the company - you might want to adjust the access rights). But how to do that since the external account of an engineer at a Git provider is independent from his company-internal user account? Somehow a mapping between both accounts is needed. For GitHub there's the open source tool [opensource-portal](https://github.com/microsoft/opensource-portal) available that can help to create such a mapping. It can also be used to implement a self service for joining of GitHub organizations. As part of the process, the tool creates the mapping between the GitHub.com account and the corresponding company-internal user account. The mapping is stored in a database. Based on this, it's easy to create some tooling that regularly checks if all users that are contained in that database are still employeed by your company and trigger some activity if that's not the case.
+Normally, Git providers (GitHub, GitLab, Bitbucket etc.) offer means to define teams of individual users and to define (access) rights on team and on individual level. To be able to use the service of a Git provider, engineers have to create a corresponding account. This account has nothing to do with the company-internal account of an engineer. This imposes some challenges since the access rights of an engineer for an external repository might depend on his/her role in the company or whether he/she is still working for the company (let's assume that an engineer got comprehensive rights for external repositories when he/she was working for your company and that he/she now left the company - you might want to adjust the access rights). But how to do that since the external account of an engineer at a Git provider is independent from his company-internal user account? Somehow a mapping between both accounts is needed. For GitHub there's the open source tool [opensource-portal](https://github.com/microsoft/opensource-portal) available that can help to create such a mapping. It can also be used to implement a self service for joining of GitHub organizations. As part of the process, the tool creates the mapping between the GitHub.com account and the corresponding company-internal user account. The mapping is stored in a database. Based on this, it's easy to create some tooling that regularly checks if all users that are contained in that database are still employed by your company and trigger some activity if that's not the case.
 
 ### Setting up a repository
 
@@ -235,13 +236,13 @@ The *README.md* and the license text file should be there for all repositories. 
 
 To make sure that a certain set of health files is always created, there are different possibilities:
 
-* One possibility is to us template repositories. These are repositories that contain the required set of initial health files. A new repositories can be created/copied from this template repository and thus it contains already the required set of health files. Some Git provider (GitHub, for example) provide [specific means](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file) to created the required healthe files per default.
+* One possibility is to use template repositories. These are repositories that contain the required set of initial health files. A new repositories can be created/copied from this template repository and thus it contains already the required set of health files. Some Git provider (GitHub, for example) provide [specific means](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file) to create the required health files per default.
 
 * Another possibility is to create repositories with a tool. Such tools create repositories based on some input data via the API's of the Git provider (GitHub.com, GitLab.com, Bitbucket.org etc.). Thus, they can help that repositories are compliant to the company guidelines (contain the required health files **and** team structure, for example). Based on such tools self services for repository creation could be offered that allow development teams creating repositories themselves. Often, companies develop such tools for their specific needs. We (the authors of this document) do not know generic repository creation tools.
 
 ### Providing license and copyright information
 
-License and copyright information must be declared properly for an open source project. This is relevant ...
+License and copyright information must be declared properly for an open source project. This is important for consumers of the project as well as for contributors. Furthermore source code often gets copied from one project to another, this makes it mandatory that all files carry license and copyright information (Note that a statement like *For license conditions please check LICENSE.txt* is not suited)
 
 * for the parts of the project that you / your company developed
 * but also for external components (i.e. code developed by external parties) that are part of your repositories
@@ -249,7 +250,7 @@ License and copyright information must be declared properly for an open source p
 The [REUSE tool](https://reuse.software/) from the [Free Software Foundation Europe](https://fsfe.org/) supports the proper declaration of license and copyright information for your project:
 
 * It provides a machine-readable file format for license and copyright information and thus makes it easy for others (scanning tools, for example) to consume that information
-* It provides tooling to ...
+* It provides tooling to:
   * add license and copyright information to source code files
   * download and store license texts
   * to lint your repositories to make sure that license and copyright information is available for all files
@@ -266,7 +267,7 @@ Even if open source policies and guidelines explicitely require that credentials
 
 ### Quality criteria / CII Best Practices Badge Program
 
-The [Core Infrastructure Initiative](https://www.coreinfrastructure.org/) (CII) created the [CII Best Practices Badge Program](https://bestpractices.coreinfrastructure.org/en). As part of the program, best practices for open source software is defined and a badge system is implemented. Via a [web app](https://bestpractices.coreinfrastructure.org/en/projects), projects can self-certify that they meet the criteria and show a corresponding badge on their website. As of today (August 2021), more than 2021 project did the assessment.
+The [Core Infrastructure Initiative](https://www.coreinfrastructure.org/) (CII) created the [CII Best Practices Badge Program](https://bestpractices.coreinfrastructure.org/en). As part of the program, best practices for open source software is defined and a badge system is implemented. Via a [web app](https://bestpractices.coreinfrastructure.org/en/projects), projects can self-certify that they meet the criteria and show a corresponding badge on their website. As of today (May 2022), more than 4724 projects did the assessment.
 
 The CII system consists of three levels (*Passing*, *Silver* and *Gold*). They are building on each other (i.e. the *Silver* level contains all criteria of the *Passing* level plus additional ones). The criteria are structured in clusters such as *Basics*, *Change Control*, *Reporting*, *Quality*, *Security* and *Analytics*.
 
