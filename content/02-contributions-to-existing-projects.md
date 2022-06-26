@@ -148,7 +148,7 @@ Another model is to provide approval for specific projects. These projects are c
 
 Prerequisite for such a model is that contributors are qualified to do contributions autonomously. This can be achieved by making sure contributors have received training and/or tracking and approving who can contribute to which repository.
 
-**What to do in case an employee wants to contribute to OSS projects which do not fall under the above mentioned context? - also known as "moonlighting"**
+**What to do in case an employee wants to contribute to OSS projects in their spare time which do not fall under the corporate context? - also known as "moonlighting"**
 
 In this case the copyright ownership stays with the developer (assuming they are not developing for another entity). In order to provide clarity the following procedure can be implemented:
 
