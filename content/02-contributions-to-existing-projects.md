@@ -140,7 +140,7 @@ The full trust model can be applied to developers who have already successfully 
 
 The major to major release model as well as the full trust model shall only be executed by senior developers, who are specially trained in copyright principles, have a good understanding of the business interests of the company they are working for, practice “an ownership culture” and have already deep experience in the open source ecosystem.
 
-In order to track all the contributions the developers shall contribute with their official email / github id.
+In order to track all the contributions the developers shall contribute with their official email address.
 
 **Approving projects for contributions**
 
