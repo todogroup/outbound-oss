@@ -2,7 +2,7 @@
 
 ## Motivation
 
-* Why to start own projects? Overview of different variants (attract community, transparency, foundation-based)
+There are many good reasons to start own open source projects. See the [introduction](01-introduction.md#motivation-for-open-source-contribution) for some of the motivations for doing this.
 
 Launching a new OSS project is comparable to a product introduction and it is, at first hand, a software development project - there is no difference to an internal software development project concerning planning, budget, staffing, testing etc. - the only difference is that everything happens in the public area. Be aware that publicly available source code is the “business card” of the organization to the software  ecosystem, and it is also the “business card” of its maintainers.
 
