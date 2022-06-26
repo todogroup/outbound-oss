@@ -188,10 +188,6 @@ A common element in maintaining a healthy community environment is a code of con
 
 As a company you need to provide a contact email which can be used to report code of conduct violations. You need to make sure that this address is monitored by people who can react in a timely manner and have the competence and ability to initiate adequate actions to address these issues.
 
-## Build an open source metrics strategy when releasing to open source projects
-
-### Goal-question-metric approach
-
 ## Technical considerations, tooling and best practices
 
 Appropriate tooling can safe a lot of time and help to automate processes significantly. [Curated list of awesome tools to manage open source](https://github.com/todogroup/awesome-ospo) contains a comprehensive list of proven and recommendable tools.
