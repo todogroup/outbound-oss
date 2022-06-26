@@ -61,6 +61,8 @@ Whether none, one or both are required for contributions is usually described in
 
 The purpose of a CLA is to provide confidence to the OSS project that the contributor is entitled to submit the contribution. A Developer Certificate of Origin (DCO) is a an alternative approach and more lightweight compared to a CLA.
 
+Some CLAs also require to transfer additional rights to the project such as the right to release the code under an additional, often proprietary license. This is an asymmetric setup which puts contributors at a disadvantage. Therefore most companies will not contribute to these kind of projects.
+
 The price of improved confidence for the OSS project is more overhead in the organization the contributor is working for. Especially in case of large corporations with several affiliates the effort of evaluating, signing and maintaining a CCLA shall not be underestimated.
 
 Why is a CCLA causing additional effort in large organizations? Let's briefly look at the CCLA of the Apache Foundation as an example:
