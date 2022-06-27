@@ -1,4 +1,31 @@
-# References
+# References and Abbreviations
+
+## Abbreviations
+
+- API = Application Programming Interface
+- CII = Core Infrastructure Initiative
+- CLA = Contributor License Agreement
+- CCLA = Corporate Contributor License Agreement
+- CHAOSS = Community Health Analytics Open Source Software 
+- CNCF = Cloud Native Computing Foundation
+- DCO = Developers Certificate of Origin
+- ECC = Export Control and Customs
+- ECCN = Export Control Classification Number
+- GPL = GNU General Public License
+- ICLA = Individual Contributor License Agreement
+- IDE = Integrated Development Environment
+- IP = Intellectual Property
+- JSON = Java Script Object Notation
+- KPI = Key Performance Indicator
+- LFX = Linux Foundation Collaboration Metrics
+- MIT = Massachusetts Institute of Technology
+- NPM = Node Package Manager
+- OSI = Open Source Initiative
+- OSPO = Open Source Program Office
+- OSS = Open Source Software
+- PyPI = Python Package Index
+
+## References
 
 * [Open Source Archetypes: A Framework for Purposeful Open Source (Mozilla)](https://blog.mozilla.org/wp-content/uploads/2018/05/MZOTS_OS_Archetypes_report_ext_scr.pdf)
 * [Starting an open source project (LF TODO Group)](https://todogroup.org/guides/starting/)
