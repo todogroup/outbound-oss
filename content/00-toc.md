@@ -38,8 +38,6 @@
   * Different Project Levels
 * Community management
   * Code of conduct
-* Build an open source metrics strategy when releasing to open source projects
-  * Goal-question-metric approach
 * Technical considerations, tooling and best practices
   * User management
   * Setting up a repository

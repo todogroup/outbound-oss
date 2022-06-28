@@ -48,7 +48,7 @@ Consuming open source software typically increases the development speed and dec
 
 ### Exercise strategic influence
 
-In addition the benefits of open source software wrt. development velocity and quality mentioned above, contributing to open source projects can also be important from a strategic point of view. In the open source world, reputation and the ability to influence is typically build up by engaging in the community and by contributing. Thus, contributions to open source projects can help to ...
+In addition to the benefits of open source software wrt. development velocity and quality mentioned above, contributing to open source projects can also be important from a strategic point of view. In the open source world, reputation and the ability to influence is typically build up by engaging in the community and by contributing. Thus, contributions to open source projects can help to ...
 
 * influence the direction of upstream open source projects
 * gain (co)copyright on open source software packages
@@ -56,24 +56,23 @@ In addition the benefits of open source software wrt. development velocity and q
 
 Companies sometimes have the tendency to use money to exert influence. With open source projects this is not the most effective method. The currency of influence is contributions, because open source projects are usually much more driven by the work of individuals than the decisions of committees. So contributions work much more directly and effectively than being a member in an organization or paying for support or other services.
 
-Open source communities (particulary those run by the big open source foundations) provide a neutral place for collaboration between companies and other organizations. Thus, an open source approach could offer new ways of collaboration with suppliers, customers, partner and even competitors, just to mention industry- or domain-specific projects such as [Linux Foundation Energy](https://www.lfenergy.org/) or [Eclipse Tractus-X](https://projects.eclipse.org/proposals/eclipse-tractus-x). Establishing open source communities can also be a powerful means to create and maintain ecosystems and to establish defacto standards.
+Open source communities (particularly those run by the big open source foundations) provide a neutral place for collaboration between companies and other organizations. Thus, an open source approach could offer new ways of collaboration with suppliers, customers, partner and even competitors, just to mention industry- or domain-specific projects such as [Linux Foundation Energy](https://www.lfenergy.org/) or [Eclipse Tractus-X](https://projects.eclipse.org/proposals/eclipse-tractus-x). Establishing open source communities can also be a powerful means to create and maintain ecosystems and to establish de facto standards.
 
 ### Attract, grow and retain talents
 
-Software (and therefore also open source software) becomes more and more ubiqitous in many products and areas. Thus, for many companies it is crucial to have a skilled and motivated software development workforce. This is not only true for software or cloud companies, but also for companies from other segments, such as traditional hardware producers who integrate software into their products more and more, or any other company which is becoming more dependent on software due to accelerating digital transformation. An open source strategy including open source contributions and community engagements support this:
+Software (and therefore also open source software) becomes more and more ubiquitous in many products and areas. Thus, for many companies it is crucial to have a skilled and motivated software development workforce. This is not only true for software or cloud companies, but also for companies from other segments, such as traditional hardware producers who integrate software into their products more and more, or any other company which is becoming more dependent on software due to accelerating digital transformation. An open source strategy including open source contributions and community engagements supports this:
 
-* Increase developer satisfaction
-* Peer review of each contribution by core experts improves quality and boosts developer skills
-* Make company visible as an attractive employer
-* Improve company's reputation, and with it the standing of developers in their communities
+* increase developer satisfaction
+* improve quality and boosts developer skills by peer review of each contribution by core experts
+* make company visible as an attractive employer
+* improve company's reputation, and with it the standing of developers in their communities
 
 ### Give back and keep open source sustainable
 
-Open source software development is living from its communities. As mentioned above, the consumption of open source software helps to decrease costs and speed up development, but that's only possible because there is "the community" behind these projects maintaining the software. To keep the open source development model sustainable, each consumer of open source software has therefore the responsibility to think about ways how to support these projects. There are different ways of engagement and support:
+Open source software development is living from its communities. As mentioned above, the consumption of open source software helps to decrease costs and speed up development, but that's only possible because there is the community behind these projects maintaining the software. To keep the open source development model sustainable, each consumer of open source software has therefore the responsibility to think about ways how to support these projects. These are some ways of engagement and support:
 
 * contributions in terms of code, documentation, time (by testing software, for example)
 * monetary support (some important projects are maintained by developers who do this in their spare time and thus can only invest limited time in the project)
-* execute and support hackathons
-* etc. etc.
+* executing and supporting hackathons
 
 It is important to understand that though open source software has no license costs when consuming it, it is not available for free. To keep these projects attractive for its consumers, steady engagement and support is required. That's why it is important to have a strategy for open source contributions in place.
