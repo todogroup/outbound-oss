@@ -28,7 +28,7 @@ A company may decide to not progress to levels which are based on more contribut
 
 ## How companies manage open source: Open Source Program Offices
 
-An increasing number of organizations realized the tasks of managing open source in an enterprise and complex relationships that are inherent to the open source ecosystem when they are advancing in their engagement in open source. For this reason, many of them started Open Source Program Offices (OSPOs), something called differently, for example Open Source Technology Centers, Open Source Community Development Team etc. OSPOs are a designated place where open source is supported, nurtured, shared, explained, and grown inside an organization. With such an office in place, businesses can establish and execute on their open source strategies in clear terms and responsibilities, giving their leaders, developers, marketers, and other staff the processes and tools they need to make open source a success within their operations.
+An increasing number of organizations realized the tasks of managing open source in an enterprise and complex relationships that are inherent to the open source ecosystem when they are advancing in their engagement in open source. For this reason, many of them started Open Source Program Offices (OSPOs), sometimes called differently, for example Open Source Technology Centers, Open Source Community Development Team etc. OSPOs are a designated place where open source is supported, nurtured, shared, explained, and grown inside an organization. With such an office in place, businesses can establish and execute on their open source strategies with clear terms and responsibilities, giving their leaders, developers, marketers, and other staff the processes and tools they need to make open source a success within their operations.
 
 The TODO Group offers a [set of guides](https://todogroup.org/guides/) on how to get started with an OSPO. Companies that are new to this topic, might want to first take a look at [**How to create an open source program**](https://todogroup.org/guides/create-program/)
 
@@ -71,8 +71,11 @@ Software (and therefore also open source software) becomes more and more ubiquit
 
 Open source software development is living from its communities. As mentioned above, the consumption of open source software helps to decrease costs and speed up development, but that's only possible because there is the community behind these projects maintaining the software. To keep the open source development model sustainable, each consumer of open source software has therefore the responsibility to think about ways how to support these projects. These are some ways of engagement and support:
 
-* contributions in terms of code, documentation, time (by testing software, for example)
+* contributions in terms of code, documentation, time, security reviews, testing
+* donating infrastructure resources, e.g. compute resources for CI/CD and testing
+* dedicating a "DevRel" person to the project
+* "marketing support", for instance by featuring a project in company blogs etc.
 * monetary support (some important projects are maintained by developers who do this in their spare time and thus can only invest limited time in the project)
-* executing and supporting hackathons
+* hosting hackathons and local community meet-ups
 
 It is important to understand that though open source software has no license costs when consuming it, it is not available for free. To keep these projects attractive for its consumers, steady engagement and support is required. That's why it is important to have a strategy for open source contributions in place.
