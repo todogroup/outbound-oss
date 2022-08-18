@@ -115,7 +115,7 @@ During this phase, it is important to consider the legal implications and come u
 
 ### Which license to select
 
-Choosing the license for a new open source project is an important decision. Without a license the code can't be used by anybody, even if the code is publicly available, for example in a GitHub repository. Choosing a license which is not approved by the OSI as an open source license also effectively makes the code proprietary. This will make it harder to get adoption, especially in most corporate setups, where processes are usually built around the well-known standard open source licenses.
+Choosing the license for a new open source project is an important decision. Without a license the code can't be used by anybody, even if the code is publicly available, for example in a GitHub repository. Choosing a license which is not approved by the [Open Source Initiative](https://opensource.org/) (OSI) as an open source license also effectively makes the code proprietary. This will make it harder to get adoption, especially in most corporate setups, where processes are usually built around the well-known standard open source licenses.
 
 Open source licenses vary in the rights and the obligations they give to users. All open source licenses approved by OSI give users the right to use the software without restriction to specific users or use cases. When distributing open source software, and especially when distributing it with modifications, the obligation vary. The spectrum goes from the so-called copyleft licenses such as the GPL, which require to pass on rights given by the license to users, to permissive licenses, such as the Apache or the MIT license, which allow incorporation in proprietary systems.
 
