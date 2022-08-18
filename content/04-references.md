@@ -22,7 +22,6 @@
 - NPM = Node Package Manager
 - OSI = Open Source Initiative
 - OSPO = Open Source Program Office
-- OSS = Open Source Software
 - PyPI = Python Package Index
 
 ## References

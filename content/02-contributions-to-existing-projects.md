@@ -1,4 +1,4 @@
-# How to contribute to OSS projects
+# How to contribute to open source projects
 
 Building better relationships with the open source ecosystem has its own set of challenges, but it becomes easier if you have a clear plan to follow. Here are some guidelines to a number of practices that organizations can adopt.
 
@@ -30,7 +30,7 @@ The procedure described in the following is designed to ensure that the company 
 * Act in compliance with law as well as with internal and external regulations
 * Provide transparency to the decision makers on what and how much of the companies' code and IP will be affected by the publication
 * All the contributions shall be made with the “company” e-mail (similar for the GitHub activity) so that all contributions of the company can be identified easily
-* Respect the rules and customs of the OSS ecosystem and of the target OSS project
+* Respect the rules and customs of the open source ecosystem and of the target open source project
 
 ### Process for expressing company approval for contributions
 
@@ -52,18 +52,18 @@ Secondly, a procedure is required to protect the company’s business interests 
 
 #### Outbound CLA
 
-Some OSS projects as well as some OSS Foundations require a Contributor License Agreement (CLA) before they accept contributions. We know at least two different types of CLAs:
+Some open source projects as well as some open source foundations require a Contributor License Agreement (CLA) before they accept contributions. We know at least two different types of CLAs:
 
 * Corporate Contributor License Agreement (CCLA)
 * Individual Contributor License Agreement (ICLA)
 
-Whether none, one or both are required for contributions is usually described in files like `CONTRIBUTING.md` in the project repositories. The [CCLA](https://www.apache.org/licenses/cla-corporate.pdf) and the [ICLA](https://www.apache.org/licenses/icla.pdf) authored by the Apache Foundation are the de facto standard of CLAs and many OSS projects have adopted either one or both.
+Whether none, one or both are required for contributions is usually described in files like `CONTRIBUTING.md` in the project repositories. The [CCLA](https://www.apache.org/licenses/cla-corporate.pdf) and the [ICLA](https://www.apache.org/licenses/icla.pdf) authored by the Apache Foundation are the de facto standard of CLAs and many open source projects have adopted either one or both.
 
-The purpose of a CLA is to provide confidence to the OSS project that the contributor is entitled to submit the contribution. A Developer Certificate of Origin (DCO) is a an alternative approach and more lightweight compared to a CLA.
+The purpose of a CLA is to provide confidence to the open source project that the contributor is entitled to submit the contribution. A Developer Certificate of Origin (DCO) is a an alternative approach and more lightweight compared to a CLA.
 
 Some CLAs also require to transfer additional rights to the project such as the right to release the code under an additional, often proprietary license. This is an asymmetric setup which puts contributors at a disadvantage. Therefore most companies will not contribute to these kind of projects.
 
-The price of improved confidence for the OSS project is more overhead in the organization the contributor is working for. Especially in case of large corporations with several affiliates the effort of evaluating, signing and maintaining a CCLA shall not be underestimated.
+The price of improved confidence for the open source project is more overhead in the organization the contributor is working for. Especially in case of large corporations with several affiliates the effort of evaluating, signing and maintaining a CCLA shall not be underestimated.
 
 Why is a CCLA causing additional effort in large organizations? Let's briefly look at the CCLA of the Apache Foundation as an example:
 
@@ -73,7 +73,7 @@ Why is a CCLA causing additional effort in large organizations? Let's briefly lo
 * The CCLA includes besides the copyright grant a patent grant. This is fine, nevertheless inside the organization the "IP department" needs to be involved in the evaluation process of the CCLA and for the specific contribution the "IP department" need to sync with all affiliates
 * The CCLA needs to be analyzed by the "Legal department" of the organization.
 
-Some CCLAs require that the copyright of the contributions are assigned to the OSS project/Foundation. Copyright assignment is a topic which causes even more effort and might not be accepted at all.
+Some CCLAs require that the copyright of the contributions are assigned to the open source project/foundation. Copyright assignment is a topic which causes even more effort and might not be accepted at all.
 
 Besides the above-mentioned additional effort the CCLA adds additional "maintenance effort" to the organization, because it requires that the organization nominates all entitled contributors by name to the CCLA requiring party.
 > It is your responsibility to notify the Foundation when any change is required to the list of designated employees authorized to submit Contributions on behalf of the Corporation, or to the Corporation's Point of Contact with the Foundation.
@@ -83,9 +83,9 @@ Besides the above-mentioned additional effort the CCLA adds additional "maintena
 * All affiliates need to be informed and a procedure needs to be defined how the affiliates can nominate/de-nominate contributors working for them. This becomes even more challenging in case an affiliate has no access to the intranet of the signing entity. In this case the signed CCLA or the information about the signed CCLA needs to be sent to the OSPOs of all affiliates, in case an affiliate has no OSPO set up, the information must be routed to the function, which is in charge of software development. All affiliates need to provide the names of nominated contributors or former contributors, who shall not be entitled anymore to do contributions to the OSPO of the signing entity, which then must inform the Foundation/project about the change of the list of contributors.
 * Publishing the list of contributors inside the organization and disclosing it to the Foundation/project might also require the approval of the data protection officers of the involved entities
 
-This additional effort may hold organizations off to contribute small bug fixes or patches or even new features to the upstream OSS projects and puts them to risk of private forks and thus a lot of additional development effort in the long run. Thus the decision not to contribute needs to be taken very carefully.
+This additional effort may hold organizations off to contribute small bug fixes or patches or even new features to the upstream open source projects and puts them to risk of private forks and thus a lot of additional development effort in the long run. Thus the decision not to contribute needs to be taken very carefully.
 
-A DCO in contrast to a CLA is a much more lightweight procedure. It was introduced to enhance the confidence that contributions to the Linux kernel are made "legally correct" by the contributors. The [DCO version 1.1](https://developercertificate.org/) is used by many OSS projects.
+A DCO in contrast to a CLA is a much more lightweight procedure. It was introduced to enhance the confidence that contributions to the Linux kernel are made "legally correct" by the contributors. The [DCO version 1.1](https://developercertificate.org/) is used by many open source projects.
 
 The main difference of a DCO compared to a CLA is, that a DCO is not a contract, it is a kind of attest of the specific contributor that they are entitled to submit a concrete contribution. All the effort which has to be spent to get a CLA signed and maintained is not needed. The only tasks which have to be carried out are:
 
@@ -131,12 +131,12 @@ A change is not trivial if:
 * It is an optimization that more than insignificantly increases performance.
 * It contains a design or an algorithm that wouldn’t be obvious for a software engineer.
 
-This procedure scopes small contributions. It can be implemented for small or trivial contributions following the initial contribution to a particular OSS project or component. The initial contribution has to undergo the entire procedure described above, because CLAs/DCOs etc. have to be checked  and signed in case the particular project requires them.
-After the initial contribution all subsequent small contributions can be contributed directly to the OSS project without the need to follow the defined process no matter which version of the OSS project.
+This procedure scopes small contributions. It can be implemented for small or trivial contributions following the initial contribution to a particular open source project or component. The initial contribution has to undergo the entire procedure described above, because CLAs/DCOs etc. have to be checked  and signed in case the particular project requires them.
+After the initial contribution all subsequent small contributions can be contributed directly to the open source project without the need to follow the defined process no matter which version of the project.
 
 #### Major to major release model
 
-This procedure scopes the release cycle of the OSS project to which contributions shall be made. It has the same “starting point” like any other contribution - the initial contribution must implement the entire procedure in order to check CLAs/DCOs and to have the documented permission to contribute to a specific project. After the initial contribution all subsequent contributions during the development of a new major release can be contributed to the OSS project without the need to go through the approval process. There is no size limitation for contributions. The contributions can range from a trivial bug fix to adding new features, changing interfaces, refactoring and so on. After the release of a major version of the project a new approval procedure has to be kicked off for the first contribution after the major release.
+This procedure scopes the release cycle of the open source project to which contributions shall be made. It has the same “starting point” like any other contribution - the initial contribution must implement the entire procedure in order to check CLAs/DCOs and to have the documented permission to contribute to a specific project. After the initial contribution all subsequent contributions during the development of a new major release can be contributed to the open source project without the need to go through the approval process. There is no size limitation for contributions. The contributions can range from a trivial bug fix to adding new features, changing interfaces, refactoring and so on. After the release of a major version of the project a new approval procedure has to be kicked off for the first contribution after the major release.
 
 #### Full trust model
 
@@ -154,7 +154,7 @@ Prerequisite for such a model is that contributors are qualified to do contribut
 
 ### Spare-time contributions -  also known as "moonlighting"
 
-What to do in case employees wants to contribute to OSS projects in their spare time which do not fall under the corporate context?
+What to do in case employees wants to contribute to open source projects in their spare time which do not fall under the corporate context?
 
 In this case the copyright ownership stays with the developers (assuming they are not developing for another entity). In order to provide clarity the following procedure can be implemented:
 

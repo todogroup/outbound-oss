@@ -4,9 +4,9 @@
 
 There are many good reasons to start own open source projects. See the [introduction](01-introduction.md#motivation-for-open-source-contribution) for some of the motivations for doing this.
 
-Launching a new OSS project is comparable to a product introduction and it is, at first hand, a software development project - there is no difference to an internal software development project concerning planning, budget, staffing, testing etc. - the only difference is that everything happens in the public area. Be aware that publicly available source code is the “business card” of the organization to the software ecosystem, and it is also the “business card” of its maintainers.
+Launching a new open source project is comparable to a product introduction and it is, at first hand, a software development project - there is no difference to an internal software development project concerning planning, budget, staffing, testing etc. - the only difference is that everything happens in the public area. Be aware that publicly available source code is the “business card” of the organization to the software ecosystem, and it is also the “business card” of its maintainers.
 
-When thinking about to start an own OSS project there are several phases you should consider:
+When thinking about to start an own open source project there are several phases you should consider:
 
 ![oss-projcet-process](../img/LaunchinOSSProject.PNG)
 
@@ -27,7 +27,7 @@ This is the starting point of every open source project. It can also be referred
 Before starting a project, it is reasonable to get answers to the key questions:
 
 * Is it possible to join efforts with an existing open source project?
-* Can we launch and maintain the project using the OSS model?
+* Can we launch and maintain the project using the open source model?
 * What constitutes success? How do we measure it?
 * Can we financially sponsor the project? Do we have an internal executive champion?
 * Will the project be able to attract outside enterprise participation (from the start)?

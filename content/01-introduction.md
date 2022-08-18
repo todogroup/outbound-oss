@@ -6,7 +6,7 @@ This guide is about how to contribute to or to launch an open source project (al
 
 ## Maturity levels
 
-Corporate adoption of open source software (OSS) can typically be classified with a model of maturity levels. These levels describe how OSS is used in an increasingly effective fashion to drive value and address business needs. One of the distinguishing factors for the different maturity levels is how outbound open source is handled in an organization. The insight that influencing the open source ecosystem is mainly done by participation in and contributing to open source projects is seen as a critical factor.
+Corporate adoption of open source software can typically be classified with a model of maturity levels. These levels describe how open source software is used in an increasingly effective fashion to drive value and address business needs. One of the distinguishing factors for the different maturity levels is how outbound open source is handled in an organization. The insight that influencing the open source ecosystem is mainly done by participation in and contributing to open source projects is seen as a critical factor.
 
 A typical maturity model of corporate open source adoption looks like this (see for example [Haddad: Open Source Program Offices](https://www.linkedin.com/pulse/open-source-program-offices-primer-organizational-roles-haddad)):
 
@@ -48,11 +48,11 @@ Consuming open source software typically increases the development speed and dec
 
 ### Exercise strategic influence
 
-In addition to the benefits of open source software wrt. development velocity and quality mentioned above, contributing to open source projects can also be important from a strategic point of view. In the open source world, reputation and the ability to influence is typically build up by engaging in the community and by contributing. Thus, contributions to open source projects can help to ...
+In addition to the benefits of open source software wrt. development velocity and quality mentioned above, contributing to open source projects can also be important from a strategic point of view. In the open source world, reputation and the ability to influence is typically build up by engaging in the community and by contributing. Thus, contributions to open source projects can help to:
 
-* influence the direction of upstream open source projects
-* gain (co)copyright on open source software packages
-* access to the creativity of everyone interested in software
+* Influence the direction of upstream open source projects
+* Gain (co)copyright on open source software packages
+* Access to the creativity of everyone interested in software
 
 Companies sometimes have the tendency to use money to exert influence. With open source projects this is not the most effective method. The currency of influence is contributions, because open source projects are usually much more driven by the work of individuals than the decisions of committees. So contributions work much more directly and effectively than being a member in an organization or paying for support or other services.
 
@@ -62,20 +62,20 @@ Open source communities (particularly those run by the big open source foundatio
 
 Software (and therefore also open source software) becomes more and more ubiquitous in many products and areas. Thus, for many companies it is crucial to have a skilled and motivated software development workforce. This is not only true for software or cloud companies, but also for companies from other segments, such as traditional hardware producers who integrate software into their products more and more, or any other company which is becoming more dependent on software due to accelerating digital transformation. An open source strategy including open source contributions and community engagements supports this:
 
-* increase developer satisfaction
-* improve quality and boosts developer skills by peer review of each contribution by core experts
-* make company visible as an attractive employer
-* improve company's reputation, and with it the standing of developers in their communities
+* Increase developer satisfaction
+* Improve quality and boosts developer skills by peer review of each contribution by core experts
+* Make company visible as an attractive employer
+* Improve company's reputation, and with it the standing of developers in their communities
 
 ### Give back and keep open source sustainable
 
 Open source software development is living from its communities. As mentioned above, the consumption of open source software helps to decrease costs and speed up development, but that's only possible because there is the community behind these projects maintaining the software. To keep the open source development model sustainable, each consumer of open source software has therefore the responsibility to think about ways how to support these projects. These are some ways of engagement and support:
 
-* contributions in terms of code, documentation, time, security reviews, testing
-* donating infrastructure resources, e.g. compute resources for CI/CD and testing
-* dedicating a "DevRel" person to the project
-* "marketing support", for instance by featuring a project in company blogs etc.
-* monetary support (some important projects are maintained by developers who do this in their spare time and thus can only invest limited time in the project)
-* hosting hackathons and local community meet-ups
+* Contributions in terms of code, documentation, time, security reviews, testing
+* Donating infrastructure resources, e.g. compute resources for CI/CD and testing
+* Dedicating a "DevRel" person to the project
+* "Marketing support", for instance by featuring a project in company blogs etc.
+* Monetary support (some important projects are maintained by developers who do this in their spare time and thus can only invest limited time in the project)
+* Hosting hackathons and local community meet-ups
 
 It is important to understand that though open source software has no license costs when consuming it, it is not available for free. To keep these projects attractive for its consumers, steady engagement and support is required. That's why it is important to have a strategy for open source contributions in place.
