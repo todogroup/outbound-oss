@@ -4,7 +4,7 @@
 
 There are many good reasons to start own open source projects. See the [introduction](01-introduction.md#motivation-for-open-source-contribution) for some of the motivations for doing this.
 
-Launching a new OSS project is comparable to a product introduction and it is, at first hand, a software development project - there is no difference to an internal software development project concerning planning, budget, staffing, testing etc. - the only difference is that everything happens in the public area. Be aware that publicly available source code is the “business card” of the organization to the software  ecosystem, and it is also the “business card” of its maintainers.
+Launching a new OSS project is comparable to a product introduction and it is, at first hand, a software development project - there is no difference to an internal software development project concerning planning, budget, staffing, testing etc. - the only difference is that everything happens in the public area. Be aware that publicly available source code is the “business card” of the organization to the software ecosystem, and it is also the “business card” of its maintainers.
 
 When thinking about to start an own OSS project there are several phases you should consider:
 
@@ -186,7 +186,7 @@ Creating a welcoming environment where people are safe from harmful behavior by 
 
 A common element in maintaining a healthy community environment is a code of conduct which makes rules for accepted and unaccepted behavior explicit and defines how unacceptable behavior is dealt with. There are examples and templates which can be used as a base for your code of conduct. One popular reusable code of conduct is the [Contributor Covenant](https://www.contributor-covenant.org/) which is used by projects such as Kubernetes, git, Node.js, and many more.
 
-As a company you need to provide a contact email which can be used to report code of conduct violations. You need to make sure that this address is monitored by people who can react in a timely manner and have the competence and ability to initiate adequate actions to address these issues.
+As a company you need to provide a contact e-mail which can be used to report code of conduct violations. You need to make sure that this address is monitored by people who can react in a timely manner and have the competence and ability to initiate adequate actions to address these issues.
 
 ## Technical considerations, tooling and best practices
 
@@ -194,7 +194,7 @@ Appropriate tooling can safe a lot of time and help to automate processes signif
 
 ### User management
 
-Normally, Git providers (GitHub, GitLab, Bitbucket etc.) offer means to define teams of individual users and to define (access) rights on team and on individual level. To be able to use the service of a Git provider, engineers have to create a corresponding account. This account has nothing to do with the company-internal account of an engineer. This imposes some challenges since the access rights of an engineer for an external repository might depend on their role in the company or whether they are still working for the company (let's assume that an engineer got comprehensive rights for external repositories when they were working for your company and that they now left the company - you might want to adjust the access rights). But how to do that since the external account of an engineer at a Git provider is independent from his company-internal user account? Somehow a mapping between both accounts is needed. For GitHub there's the open source tool [opensource-portal](https://github.com/microsoft/opensource-portal) available that can help to create such a mapping. It can also be used to implement a self service for joining of GitHub organizations. As part of the process, the tool creates the mapping between the GitHub.com account and the corresponding company-internal user account. The mapping is stored in a database. Based on this, it is easy to create some tooling that regularly checks if all users that are contained in that database are still employed by your company and trigger some activity if that's not the case.
+Normally, Git providers (GitHub, GitLab, Bitbucket etc.) offer means to define teams of individual users and to define (access) rights on team and on individual level. To be able to use the service of a Git provider, engineers have to create a corresponding account. This account has nothing to do with the company-internal account of an engineer. This imposes some challenges since the access rights of an engineer for an external repository might depend on their role in the company or whether they are still working for the company (let's assume that an engineer got comprehensive rights for external repositories when they were working for your company and that they now left the company - you might want to adjust the access rights). But how to do that since the external account of engineers at a Git provider is independent from their company-internal user account? Somehow a mapping between both accounts is needed. For GitHub there is the open source tool [opensource-portal](https://github.com/microsoft/opensource-portal) available that can help to create such a mapping. It can also be used to implement a self service for joining of GitHub organizations. As part of the process, the tool creates the mapping between the GitHub.com account and the corresponding company-internal user account. The mapping is stored in a database. Based on this, it is easy to create some tooling that regularly checks if all users that are contained in that database are still employed by your company and trigger some activity if that is not the case.
 
 ### Setting up a repository
 
@@ -234,14 +234,14 @@ To make sure that a certain set of health files is always created, there are dif
 
 * One possibility is to use template repositories. These are repositories that contain the required set of initial health files. A new repository can be created/copied from this template repository and thus it contains already the required set of health files. Some Git providers (GitHub, for example) provide [specific means](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file) to create the required health files per default.
 
-* Another possibility is to create repositories with a tool. Such tools create repositories based on some input data via the API's of the Git provider (GitHub.com, GitLab.com, Bitbucket.org etc.). Thus, they can help that repositories are compliant to the company guidelines (contain the required health files **and** team structure, for example). Based on such tools self services for repository creation could be offered that allow development teams creating repositories themselves. Often, companies develop such tools for their specific needs. We (the authors of this document) do not know generic repository creation tools.
+* Another possibility is to create repositories with a tool. Such tools create repositories based on some input data via the API's of the Git provider (GitHub.com, GitLab.com, Bitbucket.org, etc.). Thus, they can help that repositories are compliant to the company guidelines (contain the required health files **and** team structure, for example). Based on such tools self services for repository creation could be offered that allow development teams creating repositories themselves. Often, companies develop such tools for their specific needs. We (the authors of this document) do not know generic repository creation tools.
 
 ### Providing license and copyright information
 
 License and copyright information must be declared properly for an open source project. This is important for consumers of the project as well as for contributors. Furthermore source code often gets copied from one project to another, this makes it mandatory that all files carry license and copyright information
 
 * for the parts of the project that you / your company developed
-* but also for external components (i.e. code developed by external parties) that are part of your repositories
+* but also for external components (i.e., code developed by external parties) that are part of your repositories
 
 Note that a statement like *For license conditions please check LICENSE.txt* is not suited.
 
@@ -249,6 +249,7 @@ The [REUSE tool](https://reuse.software/) from the [Free Software Foundation Eur
 
 * It provides a machine-readable file format for license and copyright information and thus makes it easy for others (scanning tools, for example) to consume that information
 * It provides tooling to:
+
   * add license and copyright information to source code files
   * download and store license texts
   * to lint your repositories to make sure that license and copyright information is available for all files
@@ -257,11 +258,11 @@ The [REUSE tool](https://reuse.software/) from the [Free Software Foundation Eur
 
 If contributors must accept an CLA or DCO before they can submit their contributions, it is beneficial to automate that process as much as possible. The [TODO Group](https://todogroup.org/) provides a [list of tools](https://github.com/todogroup/awesome-ospo#contributor-license-agreements--developer-certificate-of-originis) that support the management and the sign-off of DCOs or CLA documents. As an example, we describe the [CLA Assistant](https://github.com/cla-assistant/cla-assistant) in more detail.
 
-The CLA Assistant implements a workflow that asks contributors to accept/sign-off a document when a contributor submit the first pull request to a certain repository on GitHub.com. Despite the name of the tool ("CLA Assistant"), it can be used for any type of document that companies require contributors to accept before a pull request can be submitted, including CLAs and DCOs. The document text must be provided as gist on GitHub.com. Which document/gist to be used can be configured on organization and on repository level. The CLA Assistant uses a default logic: If for a certain repository no specific document is configured, the document that is configured on organization level is used. When a contributor submits a pull request for a repository for the first time, the CLA Assistant displays the document text and the contributor can only submit the request if they accept the document. The next time, the same contributor submits a pull request, they can do so without having to accept the document again. The information that the contributor accepted the document for that repository is stored in the database of the CLA Assistant and can be retrieved later on. The CLA Assistant is available as hosted offering on https://cla-assistant.io/ or can be self-hosted.
+The CLA Assistant implements a workflow that asks contributors to accept/sign-off a document when a contributor submit the first pull request to a certain repository on GitHub.com. Despite the name of the tool ("CLA Assistant"), it can be used for any type of document that companies require contributors to accept before a pull request can be submitted, including CLAs and DCOs. The document text must be provided as gist on GitHub.com. Which document/gist to be used can be configured on organization and on repository level. The CLA Assistant uses a default logic: If for a certain repository no specific document is configured, the document that is configured on organization level is used. When a contributor submits a pull request for a repository for the first time, the CLA Assistant displays the document text and the contributor can only submit the request if they accept the document. The next time, the same contributor submits a pull request, they can do so without having to accept the document again. The information that the contributor accepted the document for that repository is stored in the database of the CLA Assistant and can be retrieved later on. The CLA Assistant is available as hosted offering on [cla-assistant.io](https://cla-assistant.io/) or can be self-hosted.
 
 ### Credential scanning
 
-Even if open source policies and guidelines explicitly require that credentials such as password, access tokens or other secrets have to be removed from code before it is published, it happens from time to time that unintentionally such important and sensitive data is pushed to public repositories. To detect such situations as quickly as possible (and thus to be able to revoke the published secret and remove that data from public repositories), it is advisable to regularly execute credential scans for such repositories. Luckily, all well-known code hosting platforms (GitHub.com, GitLab.com etc.) provide such scanning services as part of their offering. We strongly recommend to use that services.
+Even if open source policies and guidelines explicitly require that credentials such as password, access tokens or other secrets have to be removed from code before it is published, it happens from time to time that unintentionally such important and sensitive data is pushed to public repositories. To detect such situations as quickly as possible (and thus to be able to revoke the published secret and remove that data from public repositories), it is advisable to regularly execute credential scans for such repositories. Luckily, all well-known code hosting platforms (GitHub.com, GitLab.com, etc.) provide such scanning services as part of their offering. We strongly recommend to use them.
 
 ### Quality criteria / CII Best Practices Badge Program
 
@@ -284,7 +285,7 @@ Repository linters are tools that check in an automated way if repositories adhe
 * Repository team structure (a certain team structure might be required - at least two administrators, for example)
 * Configuration of the repository (are vulnerability alerts activated?, for example)
 
-However, which criteria they check is company-specific and thus, they normally provide the possibility to configure rules (as JSON file, for example, as the [repolinter of the TODO Group](https://github.com/todogroup/repolinter) does). To retrieve the necessary data to execute these checks, the APIs of the Git provider (GitHub.com, GitLab.com, Bitbucket.org etc.) is used. The result of the check is typically provided in a UI. Another option is to automatically create issues in the corresponding repository if checks fail. Typical usage scenarios for such a linter include:
+However, which criteria they check is company-specific and thus, they normally provide the possibility to configure rules (as JSON file, for example, as the [repolinter of the TODO Group](https://github.com/todogroup/repolinter) does). To retrieve the necessary data to execute these checks, the APIs of the Git provider (GitHub.com, GitLab.com, Bitbucket.org, etc.) is used. The result of the check is typically provided in a UI. Another option is to automatically create issues in the corresponding repository if checks fail. Typical usage scenarios for such a linter include:
 
 * Check for guideline compliance before a repository is published
 * Regular checks after publication
@@ -295,7 +296,7 @@ Once you have established the goals, procedures, and tools for your company's ou
 
 Before thinking about which tool should be used to track project health, a good alternative on how to do this is to establish a full metrics strategy following the goal-question-metrics approach. This approach is used in communities focused on community health analytics metrics standards and software, such as [CHAOSS](https://chaoss.community), one of the projects under the Linux Foundation umbrella.
 
-**Defining community health goals**
+### Defining community health goals
 
 Sometimes it is better to start small and define two or three main goals first before getting overwhelmed by metrics. If you don't know where to start, CHAOSS offers a set of metrics based on different focus-areas and goals when measuring project health that can help you get started in measuring the health of the open-source projects that matter to your organization:
 
@@ -306,7 +307,7 @@ Sometimes it is better to start small and define two or three main goals first b
 * Value
 * App Ecosystem
 
-**Creating questions and building metrics around**
+### Creating questions and building metrics around
 
 Metrics should be answering specific questions that are aligned with the previous goals established.
 

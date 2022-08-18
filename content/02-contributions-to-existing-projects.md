@@ -21,15 +21,15 @@ The procedure described in the following is designed to ensure that the company 
 
 #### Lean procedure
 
-* The tasks to be carried out by the developer should be clear, simple, and cause as little effort as possible
-* The potential complexity of the “backend tasks” should not be visible to the developer. The current status of the request shall be visible to the developer
+* The tasks to be carried out by the developers should be clear, simple, and cause as little effort as possible
+* The potential complexity of the “backend tasks” should not be visible to the developer. The current status of the request shall be visible to the developers
 
 #### Boundary conditions
 
 * Protect our employees and our business interests
 * Act in compliance with law as well as with internal and external regulations
 * Provide transparency to the decision makers on what and how much of the companies' code and IP will be affected by the publication
-* All the contributions shall be made with the “company”-email (similar for the GitHub activity) so that all contributions of the company can be identified easily
+* All the contributions shall be made with the “company” e-mail (similar for the GitHub activity) so that all contributions of the company can be identified easily
 * Respect the rules and customs of the OSS ecosystem and of the target OSS project
 
 ### Process for expressing company approval for contributions
@@ -42,13 +42,13 @@ First of all, the copyright law requires it.
 
 For example, the German copyright act states in Section 69b:
 Authors in employment or service relationships
-> (1) Where a computer program is created by an employee in the execution of his duties or following the instructions of his employer, the employer exclusively shall be entitled to exercise all economic rights in the computer program, unless otherwise agreed.
+> (1) Where a computer program is created by employees in the execution of their duties or following the instructions of their employer, the employers exclusively shall be entitled to exercise all economic rights in the computer program, unless otherwise agreed.
 
 Source: [German Copyright Act](https://dejure.org/gesetze/UrhG/69b.html)
 
-This means that all the software developed in this context is the property of the employer - i.e., the company the developer is working for. At least the German copyright act does not limit the proprietorship to code developed during working hours or within the company IT infrastructure, it only scopes the context.
+This means that all the software developed in this context is the property of the employers - i.e., the company the developers are working for. At least the German copyright act does not limit the proprietorship to code developed during working hours or within the company IT infrastructure, it only scopes the context.
 
-Secondly, a procedure is required to protect the company’s business interests as well as to protect the employee. Finally public code is like the business card of a company as well as of the developer who has written the code.
+Secondly, a procedure is required to protect the company’s business interests as well as to protect the employees. Finally, public code is like the business card of a company as well as of the developers who have written the code.
 
 #### Outbound CLA
 
@@ -140,7 +140,7 @@ This procedure scopes the release cycle of the OSS project to which contribution
 
 #### Full trust model
 
-The full trust model can be applied to developers who have already successfully worked under the major to major release model. It is an incentive for the employee and a sign of trust of the employer towards the employee. Basically it is the permission for the developer to work “upstream” without any approval procedure. Since this model shall only be applied after the developer worked successfully under the major to major release model, there is no need for an “initial” contribution with the entire approval procedure, although it makes sense in order to have it documented.
+The full trust model can be applied for developers who have already successfully worked under the major to major release model. It is an incentive for the employees and a sign of trust of the employer towards the employees. Basically, it is the permission for the developers to work “upstream” without any approval procedure. Since this model shall only be applied after the developers worked successfully under the major to major release model, there is no need for an “initial” contribution with the entire approval procedure, although it makes sense in order to have it documented.
 
 The major to major release model as well as the full trust model shall only be executed by senior developers, who are specially trained in copyright principles, have a good understanding of the business interests of the company they are working for, practice “an ownership culture” and have already deep experience in the open source ecosystem.
 
@@ -154,11 +154,11 @@ Prerequisite for such a model is that contributors are qualified to do contribut
 
 ### Spare-time contributions -  also known as "moonlighting"
 
-What to do in case an employee wants to contribute to OSS projects in their spare time which do not fall under the corporate context?
+What to do in case employees wants to contribute to OSS projects in their spare time which do not fall under the corporate context?
 
-In this case the copyright ownership stays with the developer (assuming they are not developing for another entity). In order to provide clarity the following procedure can be implemented:
+In this case the copyright ownership stays with the developers (assuming they are not developing for another entity). In order to provide clarity the following procedure can be implemented:
 
-The developer informs his or her manager about the intention to contribute to a certain project (which is out of scope of section 69b German Copyright Act). In case the manager has no objections he/she draft a small note with, at least, the following content:
+The developers informs their managers about the intention to contribute to a certain project (which is out of scope of section 69b German Copyright Act). In case the manager has no objections he/she draft a small note with, at least, the following content:
 
 * Date of the meeting
 * Project(s) the employee wants to contribute to
@@ -167,14 +167,14 @@ The developer informs his or her manager about the intention to contribute to a 
 * Signature of the developer
 * Signature of the manager
 
-The note can be sent to the HR department to keep it in the personnel record of the employee.
+The note can be sent to the HR department to keep it in the personnel record of the employees.
 
 This procedure provides transparency especially in the context of large enterprises, acting in many different software technology areas.
 
 The example below shall illustrate why such a procedure makes sense:
 
-A developer may, for example, implement Linux kernel drivers according to his duties. Another area of interest of the developer is for example AI and the developer wants to contribute to an AI project during his spare time.
-Given that the AI project has nothing to do with Linux kernel driver development, the developer holds copyright on his contributions and the copyright ownership is not transferred to the employer. The developer can contribute code without the need of an approval by his employer.
+A developer may, for example, implement Linux kernel drivers according to her duties. Another area of interest of the developer is for example AI and the developer wants to contribute to an AI project during his spare time.
+Given that the AI project has nothing to do with Linux kernel driver development, the developer holds copyright on his contributions and the copyright ownership is not transferred to the employer. The developer can contribute code without the need of an approval by her employer.
 
 But what about when the developer decides to move to another department inside the company, which develops AI. All of a sudden the former "moonlighting" is now covered by section 69b of the copyright act and the copyright owner now is the employer.
 
