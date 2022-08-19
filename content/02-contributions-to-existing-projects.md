@@ -135,7 +135,7 @@ The following approaches are suited for such developers:
 
 #### Small contributions model or trivial contributions
 
-A small or trivial contribution is a rather small and simple change to already existing open source software. Typical cases found in this category are bug fixes with no or low intellectual property value. Companies can implement such a model if they want to ensure that the number of private forks inside the organization is very low and to ensure that the upstream projects remain the reference source.
+A small or trivial contribution is a rather small and simple change to already existing open source software. Typical cases found in this category are bug fixes with no or low intellectual property value. 
 
 A change is not trivial if:
 
@@ -144,8 +144,10 @@ A change is not trivial if:
 * It is an optimization that more than insignificantly increases performance.
 * It contains a design or an algorithm that wouldn’t be obvious for a software engineer.
 
-This procedure scopes small contributions. It can be implemented for small or trivial contributions following the initial contribution to a particular OSS project or component. The initial contribution has to undergo the entire procedure described above, because CLAs/DCOs etc. have to be checked  and signed in case the particular project requires them.
+It can be implemented for small or trivial contributions following the initial contribution to a particular OSS project or component. The initial contribution has to undergo the entire procedure described above, because CLAs/DCOs etc. have to be checked  and signed in case the particular project requires them.
 After the initial contribution all subsequent small contributions can be contributed directly to the OSS project without the need to follow the defined process no matter which version of the OSS project.
+
+Companies can implement such a model if they want to ensure that the number of private forks inside the organization is very low and to ensure that the upstream projects remain the reference source.
 
 #### Major to major release model
 
@@ -157,7 +159,7 @@ This model can be applied to projects, which are of higher importance for the co
 
 The full trust model can be applied for developers who have already successfully worked under the major to major release model. It is an incentive for the employees and a sign of trust of the employer towards the employees. Basically, it is the permission for the developers to work “upstream” without any approval procedure. Since this model shall only be applied after the developers worked successfully under the major to major release model, there is no need for an “initial” contribution with the entire approval procedure, although it makes sense in order to have it documented.
 
-Implementiing this model makes sense when developers want to contribute to vibrant projects, which are of high or even strategic relevance for the company.
+Implementing this model makes sense when developers want to contribute to vibrant projects, which are of high or even strategic relevance for the company.
 
 The major to major release model as well as the full trust model shall only be executed by senior developers, who are specially trained in copyright principles, have a good understanding of the business interests of the company they are working for, practice “an ownership culture” and have already deep experience in the open source ecosystem.
 
@@ -166,6 +168,7 @@ In order to track all the contributions the developers shall contribute with the
 ### Approving projects for contributions
 
 Another model is to provide approval for specific projects. These projects are checked, e.g. by the OSPO, and if everything is in place to allow for contributions, they are cleared for contributions by employees. Then there is no individual approval for each specific contribution required. But if the general conditions of the project change, such as the license or introduction of a CLA, etc. the project needs to be cleared again by the OSPO.
+
 This approach can be taken for example for projects, which are necessary for the company to develop products but there is no business interest of the company, like developement tools or other software infrastructure.
 
 Prerequisite for such a model is that contributors are qualified to do contributions autonomously. This can be achieved by making sure contributors have received training and/or tracking and approving who can contribute to which repository.
