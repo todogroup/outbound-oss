@@ -29,6 +29,7 @@ The procedure described in the following is designed to ensure that the company 
 * Protect our employees and our business interests
 * Act in compliance with law as well as with internal and external regulations
 * Provide transparency to the decision makers on what and how much of the companies' code and IP will be affected by the publication
+* The contributions shall not harm the business strategy of other parts of the company
 * All the contributions shall be made with the “company” e-mail (similar for the GitHub activity) so that all contributions of the company can be identified easily
 * Respect the rules and customs of the OSS ecosystem and of the target OSS project
 
@@ -48,7 +49,16 @@ Source: [German Copyright Act](https://dejure.org/gesetze/UrhG/69b.html)
 
 This means that all the software developed in this context is the property of the employers - i.e., the company the developers are working for. At least the German copyright act does not limit the proprietorship to code developed during working hours or within the company IT infrastructure, it only scopes the context.
 
-Secondly, a procedure is required to protect the company’s business interests as well as to protect the employees. Finally, public code is like the business card of a company as well as of the developers who have written the code.
+Secondly, a procedure is required to protect the company’s business interests as well as to protect the employees. In the context of contributions several aspects can harm the business interests of a company, like (the following list is not a complete list):
+* Accidently contributing intellectual property, which shall not leave the company (core IP)
+* Contributing code which is not anymore state of the art
+* Accidently contributing company internal credentials or other sensible data like personal data
+
+Similar to the protection of business interests, the protection of the employees has several aspects:
+* Employees who contribute material, which was created in the scope of Section 69b, without an offical approval make themselves liable to prosecution
+* Contributions which are not inline with the projects' rules and practices, might harm the employees reputation
+
+Finally, public code is like the business card of a company as well as of the developers who have written the code.
 
 #### Outbound CLA
 
@@ -108,6 +118,8 @@ Abbreviations used:
 * ECC = Export Control and Customs
 * IP  = Intellectual Property
 
+The open source officers play a central role in the contribution process. They are the link between the contributors and the stakeholders, to be involved in the "backend tasks", to decide on the contribution. Furthermore the open source officers of the different units of a large organization need to have an overview of the business strategies of the other units to be able to determine whether a contributions conflicts with the business strategy of another unit.
+
 The procedure shown above is not suited for frequent contributors and/or contributors who are working “upstream” in their daily work. For these developers different procedures need to be established in order to avoid loading them with “unproductive” work. Different contribution models can be established in an organization to serve different needs.
 
 ### Contribution models
@@ -117,12 +129,13 @@ The following approaches are suited for such developers:
 * Small contributions model
 * Major to major release model
 * Full trust model
+* Approving projects for contributions
 
 ![small-contributions](../img/small-contributions.png)
 
 #### Small contributions model or trivial contributions
 
-A small or trivial contribution is a rather small and simple change to already existing open source software. Typical cases found in this category are bug fixes with no or low Intellectual Property value.
+A small or trivial contribution is a rather small and simple change to already existing open source software. Typical cases found in this category are bug fixes with no or low intellectual property value. Companies can implement such a model if they want to ensure that the number of private forks inside the organization is very low and to ensure that the upstream projects remain the reference source.
 
 A change is not trivial if:
 
@@ -138,9 +151,13 @@ After the initial contribution all subsequent small contributions can be contrib
 
 This procedure scopes the release cycle of the OSS project to which contributions shall be made. It has the same “starting point” like any other contribution - the initial contribution must implement the entire procedure in order to check CLAs/DCOs and to have the documented permission to contribute to a specific project. After the initial contribution all subsequent contributions during the development of a new major release can be contributed to the OSS project without the need to go through the approval process. There is no size limitation for contributions. The contributions can range from a trivial bug fix to adding new features, changing interfaces, refactoring and so on. After the release of a major version of the project a new approval procedure has to be kicked off for the first contribution after the major release.
 
+This model can be applied to projects, which are of higher importance for the company. This might be the case for projects which are either part of "core" products or of many products of the organization. On the one hand side it off loads developers from repeatedly going through the approval process and on the other hand there is still a certain level of control. Furthermore license changes, if they happen, are often done with a new major release (see OpenSSL for example), with this approach all stakeholders (Legal department, IP, ECC, etc.) are involved and can decide on whether the developer is still allowed to contribute or not.
+
 #### Full trust model
 
 The full trust model can be applied for developers who have already successfully worked under the major to major release model. It is an incentive for the employees and a sign of trust of the employer towards the employees. Basically, it is the permission for the developers to work “upstream” without any approval procedure. Since this model shall only be applied after the developers worked successfully under the major to major release model, there is no need for an “initial” contribution with the entire approval procedure, although it makes sense in order to have it documented.
+
+Implementiing this model makes sense when developers want to contribute to vibrant projects, which are of high or even strategic relevance for the company.
 
 The major to major release model as well as the full trust model shall only be executed by senior developers, who are specially trained in copyright principles, have a good understanding of the business interests of the company they are working for, practice “an ownership culture” and have already deep experience in the open source ecosystem.
 
@@ -148,7 +165,8 @@ In order to track all the contributions the developers shall contribute with the
 
 ### Approving projects for contributions
 
-Another model is to provide approval for specific projects. These projects are checked, e.g. by the OSPO, and if everything is in place to allow contributions, they are cleared for contributions by employees. Then there is no individual approval for each specific contribution required. But if the general conditions of the project change, such as license or introduction of a CLA, etc. the project needs to be cleared again by the OSPO
+Another model is to provide approval for specific projects. These projects are checked, e.g. by the OSPO, and if everything is in place to allow for contributions, they are cleared for contributions by employees. Then there is no individual approval for each specific contribution required. But if the general conditions of the project change, such as the license or introduction of a CLA, etc. the project needs to be cleared again by the OSPO.
+This approach can be taken for example for projects, which are necessary for the company to develop products but there is no business interest of the company, like developement tools or other software infrastructure.
 
 Prerequisite for such a model is that contributors are qualified to do contributions autonomously. This can be achieved by making sure contributors have received training and/or tracking and approving who can contribute to which repository.
 
