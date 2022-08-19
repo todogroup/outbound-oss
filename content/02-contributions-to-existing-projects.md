@@ -29,7 +29,7 @@ The procedure described in the following is designed to ensure that the company 
 * Protect our employees and our business interests
 * Act in compliance with law as well as with internal and external regulations
 * Provide transparency to the decision makers on what and how much of the companies' code and IP will be affected by the publication
-* All the contributions shall be made with the “company” e-mail (similar for the GitHub activity) so that all contributions of the company can be identified easily
+* All the contributions (i.e., the corresponding commits) shall be made with the “company” e-mail so that all contributions of the company can be identified easily
 * Respect the rules and customs of the open source ecosystem and of the target open source project
 
 ### Process for expressing company approval for contributions
@@ -100,13 +100,6 @@ Since the DCO version 1.1 is the "standard" the "Legal"- and "IP department" onl
 The more complex the business environment in which the code to publish was developed, the more stakeholders need to be involved. The picture below shows a procedure that involves all functions, even in a complex setup.
 
 ![contributions](../img/template-contribs.png)
-
-Abbreviations used:
-
-* CLA = Contributor License Agreement
-* DCO = Developers Certificate of Origin
-* ECC = Export Control and Customs
-* IP  = Intellectual Property
 
 The procedure shown above is not suited for frequent contributors and/or contributors who are working “upstream” in their daily work. For these developers different procedures need to be established in order to avoid loading them with “unproductive” work. Different contribution models can be established in an organization to serve different needs.
 
