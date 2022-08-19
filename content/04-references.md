@@ -2,6 +2,7 @@
 
 ## Abbreviations
 
+* AI = Artificial Intelligence
 * API = Application Programming Interface
 * CII = [Core Infrastructure Initiative](https://www.coreinfrastructure.org/)
 * CLA = Contributor License Agreement
@@ -36,5 +37,6 @@
 * [How to measure the health of an open source community](https://opensource.com/article/19/8/measure-project)
 * [Marketing open source projects (LF TODO Group)](https://todogroup.org/guides/marketing-open-source-projects/)
 * [Open Source Archetypes: A Framework for Purposeful Open Source (Mozilla)](https://blog.mozilla.org/wp-content/uploads/2018/05/MZOTS_OS_Archetypes_report_ext_scr.pdf)
+* [OSPO Landscape of the TODO Group](https://github.com/todogroup/ospolandscape/blob/master/guide.md#ospo-glossary) - contains a glossary and other useful information
 * [Shutting down an open source project (LF TODO Group)](https://todogroup.org/guides/shutting-down/)
 * [Starting an open source project (LF TODO Group)](https://todogroup.org/guides/starting/)
