@@ -55,7 +55,7 @@ Secondly, a procedure is required to protect the company’s business interests 
 * Accidently contributing company internal credentials or other sensible data like personal data
 
 Similar to the protection of business interests, the protection of the employees has several aspects:
-* Employees who contribute material, which was created in the scope of Section 69b, without an offical approval make themselves liable to prosecution
+* Employees who contribute material, which was created in the scope of Section 69b without an official approval, may be hold liable for any negative consequences to the company or face repercussions in context of their work contract
 * Contributions which are not inline with the projects' rules and practices, might harm the employees reputation
 
 Finally, public code is like the business card of a company as well as of the developers who have written the code.
