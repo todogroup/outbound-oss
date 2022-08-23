@@ -131,7 +131,7 @@ The following approaches are suited for such developers:
 * Full trust model
 * Approving projects for contributions
 
-![small-contributions](../img/small-contributions.png)
+![small-contributions](../img/contrbutions-all-models.png)
 
 #### Small contributions model or trivial contributions
 
