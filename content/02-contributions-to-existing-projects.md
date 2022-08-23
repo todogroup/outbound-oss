@@ -50,11 +50,13 @@ Source: [German Copyright Act](https://dejure.org/gesetze/UrhG/69b.html)
 This means that all the software developed in this context is the property of the employers - i.e., the company the developers are working for. At least the German copyright act does not limit the proprietorship to code developed during working hours or within the company IT infrastructure, it only scopes the context.
 
 Secondly, a procedure is required to protect the company’s business interests as well as to protect the employees. In the context of contributions several aspects can harm the business interests of a company, like (the following list is not a complete list):
+
 * Accidently contributing intellectual property, which shall not leave the company (core IP)
 * Contributing code which is not anymore state of the art
 * Accidently contributing company internal credentials or other sensible data like personal data
 
 Similar to the protection of business interests, the protection of the employees has several aspects:
+
 * Employees who contribute material, which was created in the scope of Section 69b without an official approval, may be hold liable for any negative consequences to the company or face repercussions in context of their work contract
 * Contributions which are not inline with the projects' rules and practices, might harm the employees reputation
 
@@ -128,7 +130,7 @@ The following approaches are suited for such developers:
 
 #### Small contributions model or trivial contributions
 
-A small or trivial contribution is a rather small and simple change to already existing open source software. Typical cases found in this category are bug fixes with no or low intellectual property value. 
+A small or trivial contribution is a rather small and simple change to already existing open source software. Typical cases found in this category are bug fixes with no or low intellectual property value.
 
 A change is not trivial if:
 
