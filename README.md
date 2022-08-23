@@ -1,4 +1,4 @@
-# Outbound OSS - Guide
+# Outbound Open Source - Guide
 
 ## What is this repo about?
 

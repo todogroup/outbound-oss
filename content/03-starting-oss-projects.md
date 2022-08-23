@@ -4,9 +4,9 @@
 
 There are many good reasons to start own open source projects. See the [introduction](01-introduction.md#motivation-for-open-source-contribution) for some of the motivations for doing this.
 
-Launching a new OSS project is comparable to a product introduction and it is, at first hand, a software development project - there is no difference to an internal software development project concerning planning, budget, staffing, testing etc. - the only difference is that everything happens in the public area. Be aware that publicly available source code is the “business card” of the organization to the software ecosystem, and it is also the “business card” of its maintainers.
+Launching a new open source project is comparable to a product introduction and it is, at first hand, a software development project - there is no difference to an internal software development project concerning planning, budget, staffing, testing etc. - the only difference is that everything happens in the public area. Be aware that publicly available source code is the “business card” of the organization to the software ecosystem, and it is also the “business card” of its maintainers.
 
-When thinking about to start an own OSS project there are several phases you should consider:
+When thinking about to start an own open source project there are several phases you should consider:
 
 ![oss-projcet-process](../img/LaunchinOSSProject.PNG)
 
@@ -27,7 +27,7 @@ This is the starting point of every open source project. It can also be referred
 Before starting a project, it is reasonable to get answers to the key questions:
 
 * Is it possible to join efforts with an existing open source project?
-* Can we launch and maintain the project using the OSS model?
+* Can we launch and maintain the project using the open source model?
 * What constitutes success? How do we measure it?
 * Can we financially sponsor the project? Do we have an internal executive champion?
 * Will the project be able to attract outside enterprise participation (from the start)?
@@ -115,7 +115,7 @@ During this phase, it is important to consider the legal implications and come u
 
 ### Which license to select
 
-Choosing the license for a new open source project is an important decision. Without a license the code can't be used by anybody, even if the code is publicly available, for example in a GitHub repository. Choosing a license which is not approved by the OSI as an open source license also effectively makes the code proprietary. This will make it harder to get adoption, especially in most corporate setups, where processes are usually built around the well-known standard open source licenses.
+Choosing the license for a new open source project is an important decision. Without a license the code can't be used by anybody, even if the code is publicly available, for example in a public repository at a code hosting platform. Choosing a license which is not approved by the [Open Source Initiative](https://opensource.org/) (OSI) as an open source license also effectively makes the code proprietary. This will make it harder to get adoption, especially in most corporate setups, where processes are usually built around the well-known standard open source licenses.
 
 Open source licenses vary in the rights and the obligations they give to users. All open source licenses approved by OSI give users the right to use the software without restriction to specific users or use cases. When distributing open source software, and especially when distributing it with modifications, the obligation vary. The spectrum goes from the so-called copyleft licenses such as the GPL, which require to pass on rights given by the license to users, to permissive licenses, such as the Apache or the MIT license, which allow incorporation in proprietary systems.
 
@@ -194,7 +194,7 @@ Appropriate tooling can safe a lot of time and help to automate processes signif
 
 ### User management
 
-Normally, Git providers (GitHub, GitLab, Bitbucket etc.) offer means to define teams of individual users and to define (access) rights on team and on individual level. To be able to use the service of a Git provider, engineers have to create a corresponding account. This account has nothing to do with the company-internal account of an engineer. This imposes some challenges since the access rights of an engineer for an external repository might depend on their role in the company or whether they are still working for the company (let's assume that an engineer got comprehensive rights for external repositories when they were working for your company and that they now left the company - you might want to adjust the access rights). But how to do that since the external account of engineers at a Git provider is independent from their company-internal user account? Somehow a mapping between both accounts is needed. For GitHub there is the open source tool [opensource-portal](https://github.com/microsoft/opensource-portal) available that can help to create such a mapping. It can also be used to implement a self service for joining of GitHub organizations. As part of the process, the tool creates the mapping between the GitHub.com account and the corresponding company-internal user account. The mapping is stored in a database. Based on this, it is easy to create some tooling that regularly checks if all users that are contained in that database are still employed by your company and trigger some activity if that is not the case.
+Normally, code hosting platforms offer means to define teams of individual users and to define (access) rights on team and on individual level. To be able to use the service of a Git provider, engineers have to create a corresponding account. This account has nothing to do with the company-internal account of an engineer. This imposes some challenges since the access rights of an engineer for an external repository might depend on their role in the company or whether they are still working for the company (let's assume that an engineer got comprehensive rights for external repositories when they were working for your company and that they now left the company - you might want to adjust the access rights). But how to do that since the external account of engineers at a Git provider is independent from their company-internal user account? Somehow a mapping between both accounts is needed. For GitHub there is the open source tool [opensource-portal](https://github.com/microsoft/opensource-portal) available that can help to create such a mapping. It can also be used to implement a self service for joining of GitHub organizations. As part of the process, the tool creates the mapping between the GitHub.com account and the corresponding company-internal user account. The mapping is stored in a database. Based on this, it is easy to create some tooling that regularly checks if all users that are contained in that database are still employed by your company and trigger some activity if that is not the case.
 
 ### Setting up a repository
 
@@ -232,9 +232,9 @@ The *README.md* and the license text file should be there for all repositories. 
 
 To make sure that a certain set of health files is always created, there are different possibilities:
 
-* One possibility is to use template repositories. These are repositories that contain the required set of initial health files. A new repository can be created/copied from this template repository and thus it contains already the required set of health files. Some Git providers (GitHub, for example) provide [specific means](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file) to create the required health files per default.
+* One possibility is to use template repositories. These are repositories that contain the required set of initial health files. A new repository can be created/copied from this template repository and thus it contains already the required set of health files. Some code hosting platforms (GitHub, for example) provide [specific means](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file) to create the required health files per default.
 
-* Another possibility is to create repositories with a tool. Such tools create repositories based on some input data via the API's of the Git provider (GitHub.com, GitLab.com, Bitbucket.org, etc.). Thus, they can help that repositories are compliant to the company guidelines (contain the required health files **and** team structure, for example). Based on such tools self services for repository creation could be offered that allow development teams creating repositories themselves. Often, companies develop such tools for their specific needs. We (the authors of this document) do not know generic repository creation tools.
+* Another possibility is to create repositories with a tool. Such tools create repositories based on some input data via the API's that code hosting platforms typically offer. Thus, they can help that repositories are compliant to the company guidelines (contain the required health files **and** team structure, for example). Based on such tools self services for repository creation could be offered that allow development teams creating repositories themselves. Often, companies develop such tools for their specific needs. We (the authors of this document) do not know generic repository creation tools.
 
 ### Providing license and copyright information
 
@@ -262,13 +262,13 @@ The CLA Assistant implements a workflow that asks contributors to accept/sign-of
 
 ### Credential scanning
 
-Even if open source policies and guidelines explicitly require that credentials such as password, access tokens or other secrets have to be removed from code before it is published, it happens from time to time that unintentionally such important and sensitive data is pushed to public repositories. To detect such situations as quickly as possible (and thus to be able to revoke the published secret and remove that data from public repositories), it is advisable to regularly execute credential scans for such repositories. Luckily, all well-known code hosting platforms (GitHub.com, GitLab.com, etc.) provide such scanning services as part of their offering. We strongly recommend to use them.
+Even if open source policies and guidelines explicitly require that credentials such as password, access tokens or other secrets have to be removed from code before it is published, it happens from time to time that unintentionally such important and sensitive data is pushed to public repositories. To detect such situations as quickly as possible (and thus to be able to revoke the published secret and remove that data from public repositories), it is advisable to regularly execute credential scans for such repositories. Luckily, all well-known code hosting platforms provide such scanning services as part of their offering. We strongly recommend to use them.
 
 ### Quality criteria / CII Best Practices Badge Program
 
 The [Core Infrastructure Initiative](https://www.coreinfrastructure.org/) (CII) created the [CII Best Practices Badge Program](https://bestpractices.coreinfrastructure.org/en). It is now continued by the [Open Source Security Foundation](https://openssf.org/). As part of the program, best practices for open source software is defined and a badge system is implemented. Via a [web app](https://bestpractices.coreinfrastructure.org/en/projects), projects can self-certify that they meet the criteria and show a corresponding badge on their website. As of today (May 2022), more than 4724 projects did the assessment.
 
-The CII system consists of three levels (*Passing*, *Silver* and *Gold*). They are building on each other (i.e. the *Silver* level contains all criteria of the *Passing* level plus additional ones). The criteria are structured in clusters such as *Basics*, *Change Control*, *Reporting*, *Quality*, *Security* and *Analytics*.
+The CII system consists of three levels (*Passing*, *Silver* and *Gold*). They are building on each other (i.e., the *Silver* level contains all criteria of the *Passing* level plus additional ones). The criteria are structured in clusters such as *Basics*, *Change Control*, *Reporting*, *Quality*, *Security* and *Analytics*.
 
 The CII Best Practices Badge community is [open for contributions](https://github.com/coreinfrastructure/best-practices-badge/blob/main/CONTRIBUTING.md) (additional criteria, for example).
 
@@ -285,7 +285,7 @@ Repository linters are tools that check in an automated way if repositories adhe
 * Repository team structure (a certain team structure might be required - at least two administrators, for example)
 * Configuration of the repository (are vulnerability alerts activated?, for example)
 
-However, which criteria they check is company-specific and thus, they normally provide the possibility to configure rules (as JSON file, for example, as the [repolinter of the TODO Group](https://github.com/todogroup/repolinter) does). To retrieve the necessary data to execute these checks, the APIs of the Git provider (GitHub.com, GitLab.com, Bitbucket.org, etc.) is used. The result of the check is typically provided in a UI. Another option is to automatically create issues in the corresponding repository if checks fail. Typical usage scenarios for such a linter include:
+However, which criteria they check is company-specific and thus, they normally provide the possibility to configure rules (as JSON file, for example, as the [repolinter of the TODO Group](https://github.com/todogroup/repolinter) does). To retrieve the necessary data to execute these checks, the API's are used that are typically provided by code hosting platforms. The result of the check is typically provided in a UI. Another option is to automatically create issues in the corresponding repository if checks fail. Typical usage scenarios for such a linter include:
 
 * Check for guideline compliance before a repository is published
 * Regular checks after publication
