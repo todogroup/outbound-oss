@@ -11,7 +11,8 @@ src_files = [
     "01-introduction.md",
     "02-contributions-to-existing-projects.md",
     "03-starting-oss-projects.md",
-    "04-references.md"
+    "04-references.md",
+    "05-appendix.md"
 ]
 
 toc = "# Outbound Open Source: Leveraging open source ecosystems\n\n"
