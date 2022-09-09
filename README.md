@@ -1,6 +1,6 @@
 # Outbound Open Source - Guide
 
-## What is this repo about (TL;DR)?
+## What is this repo about? - TL;DR
 
 Contributing to or starting own open source projects (also called *outbound open source*) can support your open source strategy. If you did only consume open source software so far, outbound open source can be the next step of your open source journey.
 
