@@ -1,10 +1,16 @@
 # Outbound Open Source - Guide
 
-## What is this repo about?
+## What is this repo about (TL;DR)?
 
-This repo contains documentation and guidance about how to contribute to and/or to launch an open source project (also called *outbound open source*) in organizations. It aims to describe a complete and lean process, that can be implemented in companies of any size (large but also small or medium sized organizations)
+Contributing to or starting own open source projects (also called *outbound open source*) can support your open source strategy. If you did only consume open source software so far, outbound open source can be the next step of your open source journey.
 
-Please note that the initial contributors from this guide comes from corporate environments. Due to this limited scope, this guide cannot properly be applied for noncorporate entities. We welcome contributors from noncorporate sectors and other areas to expand the scope of the guide in a future via community contributions.
+This guide contains comprehensive information about how to start contributions to open source projects. It mentions the most important topics that you should take care of and describes different contributions models and procedures, that can be implemented in companies of any size. Finally, you learn how spare-time contributions can be handled.
+
+Starting open source projects is another part of the guide. It describes the typical lifecycle of such projects and explains why starting such projects can make sense for your company. Legal aspects such as IP and licensing are covered, as well as administrative and technical topics such as repository management and recommendable tools. Finally, the guide goes into project promotion, community management and touches on project analytics and open source metrics.
+
+## What is the scope of this guide?
+
+Please note that the initial contributors from this guide come from corporate environments. Due to this limited scope, this guide cannot properly be applied for noncorporate entities. We welcome contributors from non-corporate sectors and other areas to expand the scope of the guide in a future via community contributions.
 
 ## How can people contribute to this repo?
 
