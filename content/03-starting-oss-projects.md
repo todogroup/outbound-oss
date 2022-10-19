@@ -22,7 +22,7 @@ This is the starting point of every open source project. It can also be referred
 
 * The problem that the project intends to solve has been clearly defined
 * There is either no source code available yet or the source code is only internally available. In the first case, the project only exists as idea; in the second case, the project may have been started as an company-internal project and has not been published yet
-* Possibly, the idea has been already shared with the community to get feedback. However, note that approval would be required before sharing the idea with others outside the company.
+* Possibly, the idea has been already shared with the community to get feedback. However, note that sharing such ideas that have only been discussed company-internally requires approval in advance.
 
 Before starting a project, it is reasonable to get answers to the key questions:
 
