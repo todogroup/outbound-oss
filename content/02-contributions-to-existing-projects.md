@@ -71,7 +71,7 @@ Some open source projects as well as some open source foundations require a Cont
 
 Whether none, one or both are required for contributions is usually described in files like `CONTRIBUTING.md` in the project repositories. The [CCLA](https://www.apache.org/licenses/cla-corporate.pdf) and the [ICLA](https://www.apache.org/licenses/icla.pdf) authored by the Apache Foundation are the de facto standard of CLAs and many open source projects have adopted either one or both.
 
-The purpose of a CLA is to provide confidence to the open source project that the contributor is entitled to submit the contribution. A Developer Certificate of Origin (DCO) is a an alternative approach and more lightweight compared to a CLA.
+The purpose of a CLA is to provide confidence to the open source project that the contributor is entitled to submit the contribution. A Developer Certificate of Origin (DCO) is an alternative approach and more lightweight compared to a CLA.
 
 Some CLAs also require to transfer additional rights to the project such as the right to release the code under an additional, often proprietary license. This is an asymmetric setup which puts contributors at a disadvantage. Therefore most companies will not contribute to these kind of projects.
 
